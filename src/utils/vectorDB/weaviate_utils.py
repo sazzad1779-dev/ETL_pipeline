@@ -38,6 +38,28 @@ class WeaviateUtils:
             print("Distance:", obj.metadata.distance)
             print("---")
 
+    def run_query_hybrid(self, query_text, limit=5):
+        """Execute a near_text query and print results."""
+        print(f"\n🔍 Querying for: {query_text}\n")
+        # response = self.collection.query.near_text(
+        #     query=query_text,
+        #     limit=limit,
+        #     return_metadata=MetadataQuery(distance=True)
+        # )
+        response = self.collection.query.hybrid(
+            query=query_text,
+            limit=limit,
+            alpha=0.3,
+            return_properties=["content", "source", "image_urls", "youtube_urls"],
+            return_metadata=MetadataQuery(distance=True),
+        )
+        for i, obj in enumerate(response.objects, start=1):
+            print(f"Result #{i}:")
+            for prop in obj.properties:
+                print(f"{prop}:", obj.properties.get(prop))
+            print("Distance:", obj.metadata.distance)
+            print("---")
+
     def delete_by_source(self, file_source: str):
         """Delete objects by 'source' property."""
         print(f"🗑️ Deleting objects with source: {file_source}")

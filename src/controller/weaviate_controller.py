@@ -77,6 +77,9 @@ class WeaviateController:
     # --- Methods calling utils ---
     def query_data(self, query_text, limit=5):
         self.weaviate_utils.run_query(query_text, limit)
+
+    def query_data_hybrid(self, query_text, limit=5):
+        self.weaviate_utils.run_query_hybrid(query_text, limit)
     
     def retrieve_data_by_field(self, field_list:list, limit:int=5):
         """Retrieve data using a near_text query."""

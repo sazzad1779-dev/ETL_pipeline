@@ -4,11 +4,11 @@ from src.schemas.weaviate import Product_collection_property_config, Product_col
 from dotenv import load_dotenv
 load_dotenv()
 weaviate_client = WeaviateController(
-            collection_name="Product_collection_demo",
+            collection_name="Regulation_data",
             embedding_provider="openai",
             #collection_delete=True
         )
 
-weaviate_client.retrieve_data_by_field(["content"], 25)
-weaviate_client.query_data("レーザー冷却とは原子に特定の波長のレ", limit=1)
+# weaviate_client.retrieve_data_by_field(["source"], 125)
+weaviate_client.query_data("に車輌の整備に心がけ、定期点検を怠", limit=1)
 

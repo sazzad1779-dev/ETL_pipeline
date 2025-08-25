@@ -110,8 +110,8 @@ class DoclingController:
                 print("Full Text :", ser_text)
                 print("\n\nchunk size :", len(text_chunks))
                 print("*" * 20)
-            else:
-                break
+            # else:
+            #     break
         self.logger.info(f"Total time taken: {time.time() - start_time:.2f} seconds")
         return texts, sources
 

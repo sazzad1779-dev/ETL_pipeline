@@ -26,7 +26,6 @@ class DocumentController:
         
     def process_document(self):
         if self.product:
-            print("product is working ")
             self.processor = ProductsDataController()
         else:
             self.processor = DoclingController()
@@ -45,6 +44,7 @@ class DocumentController:
             youtube_urls=youtube_urls_list,
             level=level
         )
+
     def insert_into_weaviate(self):
         """Process, chunk, and insert data into Weaviate."""
         print("start to processing....")
@@ -75,6 +75,11 @@ class DocumentController:
     def retrieve_data_by_field(self, field_list, limit=5):
         """Retrieve data from Weaviate by specified fields."""
         self.weaviate_client.retrieve_data_by_field(field_list, limit)
+    def query_data(self, query_text, limit=5):
+        self.weaviate_client.query_data(query_text=query_text,limit=limit)
+    def query_data_hybrid(self,query_text,limit=5):
+        self.weaviate_client.query_data_hybrid(query_text=query_text,limit=limit)
+        
 
 if __name__ == "__main__":
     processor = DocumentController()

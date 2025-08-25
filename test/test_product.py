@@ -7,11 +7,16 @@ load_dotenv()
 # dirs=["Sevensix_dropbox/機密レベル2/企画管理本部/社内規程・就業規則"]
 # dirs=["Sevensix_dropbox/機密レベル2/営業本部/論文データ"]
 
-processor = DocumentController(level=1,collection_name="Product_data",properties=Product_collection_property_config,collection_delete=False,product=True)
+processor = DocumentController(level=1,collection_name="Product_data1",properties=Product_collection_property_config,collection_delete=True,product=True)
 
 processor.run()
 processor.retrieve_data_by_field(
-    field_list=["content", "source","level"],
-    limit=5
+    field_list=["content", "source","level","source","image_urls","youtube_urls"],
+    limit=10
 )
+print("*"*50)
+processor.query_data("Koheras")
+print("*"*50)
+processor.query_data_hybrid("Koheras")
+
 

@@ -26,7 +26,7 @@ class ProductContentCleaner:
                 wp_postmeta AS pm ON p.ID = pm.post_id
             WHERE
                 p.post_type = 'products'
-                AND pm.meta_key = 'cfp_fname_1' limit 10 ;
+                AND pm.meta_key = 'cfp_fname_1' limit 20 ;
         """)
 
         with self.engine.connect() as connection:
@@ -68,3 +68,47 @@ class ProductContentCleaner:
             clean_text = soup.get_text(separator=' ', strip=True)
 
         return clean_text, list(set(image_urls)), list(set(youtube_urls))
+
+    # @staticmethod
+    # def clean_and_extract(html_content):
+    #     """Strips HTML tags and extracts image and YouTube URLs. 
+    #     Replaces <img> tags with just their src URL in text.
+    #     """
+    #     clean_text = ""
+    #     image_urls = []
+    #     youtube_urls = []
+
+    #     if html_content:
+    #         soup = BeautifulSoup(html_content, 'html.parser')
+
+    #         # Extract image URLs
+    #         image_urls = [img['src'] for img in soup.find_all('img', src=True)]
+
+    #         # Replace <img> with only its src (remove the tag itself and any other attrs)
+    #         for img in soup.find_all('img', src=True):
+    #             img.replace_with(img['src'])
+
+    #         # Extract YouTube URLs from iframes
+    #         youtube_urls += [
+    #             iframe['src'] for iframe in soup.find_all('iframe', src=True)
+    #             if 'youtube.com' in iframe['src']
+    #         ]
+
+    #         # Extract YouTube URLs from <div class="wp-block-embed__wrapper">
+    #         youtube_urls += [
+    #             div.get_text(strip=True)
+    #             for div in soup.find_all('div', class_='wp-block-embed__wrapper')
+    #             if 'youtube.com' in div.get_text(strip=True)
+    #         ]
+
+    #         # Extract YouTube URLs from <a> tags
+    #         youtube_urls += [
+    #             a['href'] for a in soup.find_all('a', href=True)
+    #             if 'youtube.com' in a['href']
+    #         ]
+
+    #         # Final clean text
+    #         clean_text = soup.get_text(separator=' ', strip=True)
+
+    #     return clean_text, list(set(image_urls)), list(set(youtube_urls))
+
