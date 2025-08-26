@@ -1,8 +1,8 @@
 from pathlib import Path
 from src.utils.structToDB.process import StructToProcess
 
-class StructuredToPGController:
-    def __init__(self, files_dir: list = None, use_dask: bool = False, threshold_mb: int = 100,skip_row:int=0):
+class StructuredDataController:
+    def __init__(self, files_dir: list = None, collection_name:str=None, use_dask: bool = False, threshold_mb: int = 100,skip_row:int=0):
         """
         db_url: PostgreSQL connection string (e.g. "postgresql+psycopg2://user:password@localhost:5432/mydb")
         
@@ -51,7 +51,7 @@ class StructuredToPGController:
 
 if __name__ == "__main__":
 
-    loader = StructuredToPGController(
+    loader = StructuredDataController(
     files_dir=["Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/Innolight Price List.xlsx","Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polatis(Huber + Shuner)/Polatis光SW価格表.xlsx"],
     use_dask=False,
     )

@@ -1,7 +1,7 @@
 from src.controller.docling_controller import DoclingController
 from src.controller.product_controller import ProductsDataController
 from src.controller.weaviate_controller import WeaviateController
-from src.schemas.weaviate import  default_schema
+from src.schemas.weaviate import  DEFAULT_SCHEMA
 from src.utils.file_loader import FileLoader
 # from src.schemas.file_loader import DirectoryConfig
 from dotenv import load_dotenv
@@ -9,7 +9,7 @@ load_dotenv(override=True)
 
 class DocumentController:
     """Processes WordPress data and inserts it into Weaviate."""
-    def __init__(self,dir_path:list=[],level:str = 1,collection_name:str="default", embedding:str="openai",properties=default_schema,collection_delete:bool=False,product:bool=False,allowed_extensions:list=[".pdf", ".docx", ".txt"]):
+    def __init__(self,dir_path:list=[],collection_name:str="default",level:str = "1",origin:str="s3_bucket", embedding:str="openai",properties=DEFAULT_SCHEMA,collection_delete:bool=False,product:bool=False,allowed_extensions:list=[".pdf", ".docx", ".txt"]):
         self.weaviate_client = WeaviateController(
             collection_name=collection_name,
             embedding_provider=embedding,
@@ -17,7 +17,7 @@ class DocumentController:
             collection_delete=collection_delete
         )
         self.level = level
-        
+        self.origin = origin
         self.processor = None
 
         self.product=product
@@ -35,14 +35,16 @@ class DocumentController:
         print("start to processing....")
         content, sources, image_urls_list, youtube_urls_list= self.processor.process()
         level = [self.level]* len(sources)
-        print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {self.level}")
+        origin = [self.origin]* len(sources)
+        print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {type(self.level)}")
         print(f"Content length: {len(content)}", f"Sources length: {len(sources)}")
         self.weaviate_client.insert_data_from_lists(
             content=content,
             source=sources,
             image_urls=image_urls_list, 
             youtube_urls=youtube_urls_list,
-            level=level
+            level=level,
+            origin=origin
         )
 
     def insert_into_weaviate(self):
@@ -52,12 +54,14 @@ class DocumentController:
             input_paths=self.file_loader.load_files()
         )
         level = [self.level]* len(sources)
+        origin = [self.origin]* len(sources)
         print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {self.level}")
         print(f"Content length: {len(content)}", f"Sources length: {len(sources)}")
         self.weaviate_client.insert_data_from_lists(
             content=content,
             source=sources,
-            level= level
+            level=level,
+            origin=origin
         )
 
     def run(self):
@@ -80,11 +84,3 @@ class DocumentController:
     def query_data_hybrid(self,query_text,limit=5):
         self.weaviate_client.query_data_hybrid(query_text=query_text,limit=limit)
         
-
-if __name__ == "__main__":
-    processor = DocumentController()
-    processor.run()
-    processor.retrieve_data_by_field(
-        field_list=["content", "source"],
-        limit=5
-    )

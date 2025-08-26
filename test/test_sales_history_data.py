@@ -2,15 +2,15 @@ from src.controller.structured_data_controller import StructuredDataController
 from src.controller.postgres_controller import PostgresController
 
 psql = PostgresController()
-source_dir = "Sevensix_dropbox/機密レベル2/営業本部/営業活動/名刺データ"
+source_dir = "Sevensix_dropbox/機密レベル3/企画管理本部/業務推進部/売上台帳"
 
 controller = StructuredDataController(
     files_dir=[source_dir],
-    allowed_extensions=[".csv"],
+    allowed_extensions=[".xlsx",".xlsm",".csv"],
     use_dask=False,
-    level="2",
+    level="3",
     origin="s3_bucket",
-    skip_files = []
+    skip_files = ["18期_売上_納期管理台帳.xlsx","19期_売上_納期管理台帳（マクロ）.xlsm"]
 )
 processed_data = controller.process_files()
 
@@ -26,4 +26,4 @@ for table_name, df in processed_data.items():
     # Force everything to string to avoid type mismatch
     df_aligned = df_aligned.astype(str)
     # Insert into sales_history
-    psql.insert_df(df_aligned, "person_data", index=True)
+    psql.insert_df(df_aligned, "sales_history", index=True)

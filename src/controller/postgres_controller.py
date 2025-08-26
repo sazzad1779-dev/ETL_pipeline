@@ -47,9 +47,9 @@ class PostgresController:
         """Insert data into the specified table."""
         return self.utils.insert_data(data, model_schema)
     
-    def insert_df(self,df:DataFrame,table_name:str):
+    def insert_df(self,df:DataFrame,table_name:str,index:bool=False):
         try:
-            df.to_sql(table_name, self.engine, if_exists="append", index=False)
+            df.to_sql(table_name, self.engine, if_exists="append", index=index)
         except Exception as e:
             print(f"❌ Error in df insertion : {e}")
 

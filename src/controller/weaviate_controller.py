@@ -5,7 +5,6 @@ from weaviate.classes.config import Configure, Property
 # from src.config import property_config
 from src.schemas.weaviate import property_config
 from src.utils.vectorDB.weaviate_utils import WeaviateUtils
-
 class WeaviateController:
     def __init__(
         self,
@@ -41,13 +40,16 @@ class WeaviateController:
             return Configure.Vectors.text2vec_jinaai(
                 name="text_vector",
                 model=self.embedding_model or "jina-embeddings-v3",
-                source_properties=vectorize_props
+                source_properties=vectorize_props,
             )
         elif self.embedding_provider == "openai":
             return Configure.Vectors.text2vec_openai(
                 name="text_vector",
                 model=self.embedding_model or "text-embedding-3-small",
-                source_properties=vectorize_props
+                source_properties=vectorize_props,
+                vector_index_config=Configure.VectorIndex.hnsw(
+                    vector_cache_max_objects=0
+                )
             )
         raise ValueError(f"Unsupported embedding provider: {self.embedding_provider}")
 
@@ -58,15 +60,29 @@ class WeaviateController:
 
         if self.collection_name in self.client.collections.list_all():
             print(f"Collection '{self.collection_name}' already exists. Using existing collection.")
-            return self.client.collections.get(self.collection_name)
+            collection  = self.client.collections.get(self.collection_name)
+            return collection
+        # collection.config.update(
+
+        #         vectorizer_config=Reconfigure.Vectors.vector_index_config()
+        #         # VectorIndex.hnsw(
+        #         #     # ef_construction=300,
+                    
+        #         #     # add other parameters as needed
+        #         # ),
+        #     )
+            #  collection.config.update(vector_config)
+            
 
         print(f"Creating collection '{self.collection_name}'...")
         properties_list = [Property(**prop) for prop in self.properties_config]
+        print("getting the collection")
         collection = self.client.collections.create(
             self.collection_name,
             vector_config=self._vector_config(),
             properties=properties_list
         )
+        # collection.config.update(vector_index_config=Reconfigure.VectorIndex.hnsw(vector_cache_max_objects=0))
         if self.tenancy_list:
             collection.tenants.create(self.tenancy_list)
             print(f"Tenant information: {collection.tenants.get()}")

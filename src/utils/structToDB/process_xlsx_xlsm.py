@@ -176,7 +176,7 @@ class ExcelDataExtractor:
             print(f"❌ Save failed: {e}")
 
     
-    def batch_process(self, files: List[str], output_dir: str = "outputs", table_name="extracted_reports"):
+    def batch_process(self, files: List[str],level:str="1",origin:str="s3_bucket" ,output_dir: str = "outputs"):
         Path(output_dir).mkdir(exist_ok=True)
         all_results = []
 
@@ -187,23 +187,17 @@ class ExcelDataExtractor:
             
             if result and "data" in result:
                 # Save JSON as before
-                self.save_results(result, str(Path(output_dir) / f"{Path(file).stem}_extracted.json"))
-
-                # Append flattened row
+                #self.save_results(result, str(Path(output_dir) / f"{Path(file).stem}_extracted.json"))
                 row = result["data"].copy()
-                row["file_path"] = result["file_info"]["filename"]
-                # row["worksheet"] = result["file_info"]["worksheet"]
-                # row["dimensions"] = result["file_info"]["dimensions"]
+                row["file_path"] = file
+                row["level"]=level
+                row["origin"]=origin
                 all_results.append(row)
-
         # Save all results to combined JSON
-        self.save_results({"extractions": all_results}, str(Path(output_dir) / "all_extractions.json"))
+        #self.save_results({"extractions": all_results}, str(Path(output_dir) / "all_extractions.json"))
 
         # ✅ Convert all to DataFrame
         df = pd.DataFrame(all_results)
-
-        # ✅ Insert into Postgres
-        # df.to_sql(table_name, self.pg_engine, if_exists="append", index=False)
 
         return df
     
