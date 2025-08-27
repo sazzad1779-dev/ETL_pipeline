@@ -1,6 +1,8 @@
+from dotenv import load_dotenv
+load_dotenv(override=True)
+
 from src.controller.structured_data_controller import StructuredDataController
 from src.controller.postgres_controller import PostgresController
-
 psql = PostgresController()
 source_dir = "Sevensix_dropbox/機密レベル3/企画管理本部/業務推進部/売上台帳"
 

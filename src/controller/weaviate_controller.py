@@ -5,6 +5,7 @@ from weaviate.classes.config import Configure, Property
 # from src.config import property_config
 from src.schemas.weaviate import property_config
 from src.utils.vectorDB.weaviate_utils import WeaviateUtils
+
 class WeaviateController:
     def __init__(
         self,
@@ -32,7 +33,13 @@ class WeaviateController:
             headers["X-JinaAI-Api-Key"] = os.getenv("JINAAI_API_KEY")
         elif self.embedding_provider == "openai":
             headers["X-OpenAI-Api-Key"] = os.getenv("OPENAI_API_KEY")
-        return weaviate.connect_to_local(headers=headers)
+        client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host="sevensix-etl-nlb-weaviate-pg-2e724b12a987f351.elb.ap-northeast-1.amazonaws.com",grpc_port=50051, auth_credentials=None, skip_init_checks=True,grpc_secure=False,)
+
+        if client.is_ready():
+            print("Connected to Weaviate")
+        else:
+            print("Connection failed")
+        return client #weaviate.connect_to_local(headers=headers,)
 
     def _vector_config(self):
         vectorize_props = [p["name"] for p in self.properties_config if p.get("vectorize_property")]
@@ -62,16 +69,6 @@ class WeaviateController:
             print(f"Collection '{self.collection_name}' already exists. Using existing collection.")
             collection  = self.client.collections.get(self.collection_name)
             return collection
-        # collection.config.update(
-
-        #         vectorizer_config=Reconfigure.Vectors.vector_index_config()
-        #         # VectorIndex.hnsw(
-        #         #     # ef_construction=300,
-                    
-        #         #     # add other parameters as needed
-        #         # ),
-        #     )
-            #  collection.config.update(vector_config)
             
 
         print(f"Creating collection '{self.collection_name}'...")

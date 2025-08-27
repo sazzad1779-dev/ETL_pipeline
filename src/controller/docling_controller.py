@@ -31,7 +31,7 @@ class DoclingController:
         
         self.logger = setup_logger("etl_app")
         self.doc_converter = self._build_converter()
-        self.chunker = TextChunker( chunk_size=1000, chunk_overlap=200)
+        self.chunker = TextChunker( chunk_size=400, chunk_overlap=50)
         
     def _build_converter(self) -> DocumentConverter:
         pipeline_options = PdfPipelineOptions()

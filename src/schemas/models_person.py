@@ -12,6 +12,9 @@ class Person(Base):
     career_history = Column(Text)
     current_activities = Column(Text)
     publications = Column(Text)
+    source = Column(Text)
+    origin = Column(Text)
+    level = Column(Text)
     organization_id = Column(Integer, ForeignKey("organizations.id", ondelete="SET NULL"))
 
     organization = relationship("Organization", back_populates="person")

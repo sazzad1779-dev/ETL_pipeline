@@ -32,13 +32,21 @@ class DBUtils:
             return data.dict()
         raise TypeError("Data must be a dict or have dict()/model_dump() method")
     
-    def insert_organization_with_person(self, data: Union[dict, object]) -> int:
+    def insert_organization_with_person(self, data: Union[dict, object],level:str="1",source:str="",origin:str="s3_bucket") -> int:
         data = self._to_dict(data)
         person_data = data.pop("representative_persons", None)
 
         with self.SessionLocal() as session:
             # Create organization first
             org = Organization(**data)
+            if isinstance(org, dict):
+                org["origin"] = origin
+                org["source"] = source
+                org["level"] = level
+            else:  # SQLAlchemy ORM object
+                org.origin = origin
+                org.source = source
+                org.level = level
             session.add(org)
             session.flush()  # This assigns the ID to org
             if person_data:
@@ -46,6 +54,9 @@ class DBUtils:
                 person_data.pop("organization", None)
                 # Set the foreign key to link person to organization
                 person_data['organization_id'] = org.id
+                person_data['origin'] = origin
+                person_data["source"] = source
+                person_data["level"] = level
                 person = Person(**person_data)
                 session.add(person)
             session.commit()

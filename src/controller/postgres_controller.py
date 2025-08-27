@@ -29,9 +29,9 @@ class PostgresController:
         """Get all table names and details from the database."""
         return self.utils.get_tables_info()
     
-    def insert_organization_person(self, data: Union[dict, object]) -> int:
+    def insert_organization_person(self, data: Union[dict, object],level:str="1",source:str="",origin:str="s3_bucket") -> int:
         """Insert organization and its representative person into the database."""
-        return self.utils.insert_organization_with_person(data)
+        return self.utils.insert_organization_with_person(data,source=source,origin=origin,level=level)
     
     def get_table_view(self,model_schema, limit: int = 5) :
         """Fetch organizations using proper session management."""

@@ -17,6 +17,9 @@ class Organization(Base):
     president_message = Column(Text)
     interview_articles = Column(Text)
     past_transactions = Column(Text)
+    source = Column(Text)
+    origin = Column(Text)
+    level = Column(Text)
 
     # One-to-one or one-to-many depending on your requirement
     person = relationship("Person", back_populates="organization", uselist=False)

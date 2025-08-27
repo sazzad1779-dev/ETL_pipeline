@@ -1,11 +1,11 @@
 from src.controller.docling_controller import DoclingController
 from src.controller.product_controller import ProductsDataController
 from src.controller.weaviate_controller import WeaviateController
+
 from src.schemas.weaviate import  DEFAULT_SCHEMA
 from src.utils.file_loader import FileLoader
 # from src.schemas.file_loader import DirectoryConfig
-from dotenv import load_dotenv
-load_dotenv(override=True)
+
 
 class DocumentController:
     """Processes WordPress data and inserts it into Weaviate."""
