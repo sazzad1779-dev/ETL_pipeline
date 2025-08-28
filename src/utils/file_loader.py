@@ -47,5 +47,5 @@ class FileLoader:
 
             except Exception as e:
                 print(f"❌ Error while scanning directory {directory}: {e}")
-
+        
         return matched_files

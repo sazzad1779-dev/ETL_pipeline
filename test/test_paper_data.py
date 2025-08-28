@@ -13,7 +13,7 @@ processor.retrieve_data_by_field(
     field_list=["content", "source"],
     limit=5
 )
-# print(" near searach\n"," *"*50)
-# processor.query_data("対象サイズ")
-# print(" hybrid search\n"," *"*50)
-# processor.query_data_hybrid("対象サイズ")
+print(" near searach\n"," *"*50)
+processor.query_data("10.4 bits/s/Hz.")
+print(" hybrid search\n"," *"*50)
+processor.query_data_hybrid("10.4 bits/s/Hz.")

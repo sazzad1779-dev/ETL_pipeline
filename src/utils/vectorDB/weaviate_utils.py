@@ -41,16 +41,11 @@ class WeaviateUtils:
     def run_query_hybrid(self, query_text, limit=5):
         """Execute a near_text query and print results."""
         print(f"\n🔍 Querying for: {query_text}\n")
-        # response = self.collection.query.near_text(
-        #     query=query_text,
-        #     limit=limit,
-        #     return_metadata=MetadataQuery(distance=True)
-        # )
         response = self.collection.query.hybrid(
             query=query_text,
             limit=limit,
             alpha=0.3,
-            return_properties=["content", "source", "image_urls", "youtube_urls"],
+            return_properties=["content", "source"],
             return_metadata=MetadataQuery(distance=True),
         )
         for i, obj in enumerate(response.objects, start=1):

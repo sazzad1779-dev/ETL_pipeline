@@ -8,7 +8,7 @@ from docling.datamodel.base_models import InputFormat
 from docling.document_converter import (
     DocumentConverter,
     PdfFormatOption,
-    WordFormatOption,
+    WordFormatOption
 )
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.pipeline.simple_pipeline import SimplePipeline
@@ -18,6 +18,11 @@ from src.utils.extractor.docling_utils import saving_file
 from src.utils.chunker import TextChunker
 import re
 
+
+import PIL.Image
+from PIL import Image
+PIL.Image.MAX_IMAGE_PIXELS = None
+Image.MAX_IMAGE_PIXELS = None
 def clean_text(text: str) -> str:
     # Remove <!-- image -->
     text = re.sub(r'<!--\s*image\s*-->', '', text)
@@ -71,6 +76,9 @@ class DoclingController:
                 InputFormat.DOCX: WordFormatOption(
                     pipeline_cls=SimplePipeline,
                 ),
+                # InputFormat.PPTX: PowerpointFormatOption(
+
+                # )
             },
         )
 
@@ -88,6 +96,7 @@ class DoclingController:
         texts = []
         sources = []
         for i,res in enumerate(conv_results):
+            print(input_paths[i])
             if table_extraction:
                 self.table_extraction(res,output_dir)
             self.logger.info(f"✅ Document converted: {res.input.file.name}")
@@ -112,6 +121,57 @@ class DoclingController:
                 print("*" * 20)
             # else:
             #     break
+        self.logger.info(f"Total time taken: {time.time() - start_time:.2f} seconds")
+        return texts, sources
+    def process_product_spec(
+        self,
+        input_paths,
+        output_dir=Path("scratch"),
+        table_extraction=False,
+        save_format_list=[],#,".md", ".txt", ".yaml", ".json"
+    ):
+        start_time = time.time()
+        print("Total file found :",len(input_paths))
+        print(input_paths)
+        texts, sources = [], []
+        i=0
+        for file_path in input_paths:
+            # file_path = 
+            # skip dot-underscore / hidden files
+            if Path(file_path).name.startswith("._"):
+                print(f"⚠️ Skipping macOS metadata file: {file_path}")
+                continue
+            try:
+                conv_results = self.doc_converter.convert_all([file_path])
+            except Exception as e:
+                self.logger.error(f"❌ Skipping {file_path} due to error: {e}")
+                continue  # skip just this file
+            i+=1
+            print(i)
+            for res in conv_results:
+                self.logger.info(f"✅ Document converted: {res.input.file.name}")
+                serializer = MarkdownDocSerializer(doc=res.document)
+                ser_result = serializer.serialize()
+                ser_text = clean_text(ser_result.text)
+                text_chunks = self.chunker.split_texts(ser_text)
+
+                texts.extend(text_chunks)
+                sources.extend([file_path] * len(text_chunks))
+
+                if len(save_format_list) > 0:
+                    saving_file(
+                        res=res,
+                        output_dir=output_dir,
+                        save_format_list=save_format_list,
+                        table_extraction=table_extraction)
+                if i<5:
+                    print("document number: ",i)
+                    print("Full Text :", ser_text)
+                    print("\n\nchunk size :", len(text_chunks))
+                    print("*" * 20)
+            # if i>5:
+            #     break
+                
         self.logger.info(f"Total time taken: {time.time() - start_time:.2f} seconds")
         return texts, sources
 
@@ -141,14 +201,3 @@ class DoclingController:
             self.logger.info(f"Saving CSV table to {element_csv_filename}")
             table_df.to_csv(element_csv_filename)
 
-# Example usage
-if __name__ == "__main__":
-    docling = DoclingConverter()
-    docling.convert_documents(
-        input_paths=["example.pdf"],  # Replace with your file paths
-        output_dir=Path("scratch"),
-        save_markdown=True,
-        save_yaml=False,
-        save_text=False,
-        save_json=False
-    )

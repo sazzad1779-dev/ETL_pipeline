@@ -5,7 +5,7 @@ from src.controller.weaviate_controller import WeaviateController
 from src.schemas.weaviate import  DEFAULT_SCHEMA
 from src.utils.file_loader import FileLoader
 # from src.schemas.file_loader import DirectoryConfig
-
+import os
 
 class DocumentController:
     """Processes WordPress data and inserts it into Weaviate."""
@@ -64,13 +64,106 @@ class DocumentController:
             origin=origin
         )
 
+    # def insert_into_weaviate_prod_spec(self):
+    #     """Process, chunk, and insert data into Weaviate."""
+    #     print("start to processing....")
+    #     content, sources = self.processor.process_product_spec(
+    #         input_paths=self.file_loader.load_files()
+    #     )
+    #     level = [self.level]* len(sources)
+    #     origin = [self.origin]* len(sources)
+    #     print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {self.level}")
+    #     print(f"Content length: {len(content)}", f"Sources length: {len(sources)}")
+    #     self.weaviate_client.insert_data_from_lists(
+    #         content=content,
+    #         source=sources,
+    #         level=level,
+    #         origin=origin
+    #     )
+    import os
+
+    def insert_into_weaviate_prod_spec(self, batch_size=30, log_file="processed_files.txt", max_file_size_mb=10):
+        """Process files in batches, skip files >10MB, insert into Weaviate, and log each batch."""
+        print("Start processing...")
+
+        # Load all files
+        all_files = self.file_loader.load_files()
+
+        # Read already processed files from log (if exists)
+        try:
+            with open(log_file, "r", encoding="utf-8") as f:
+                processed_files = set(line.strip() for line in f.readlines())
+        except FileNotFoundError:
+            processed_files = set()
+
+        # Filter out files that are already processed
+        files_to_process = [f for f in all_files if f not in processed_files]
+
+        # Filter out files larger than max_file_size_mb
+        filtered_files = []
+        for f in files_to_process:
+            try:
+                size_mb = os.path.getsize(f) / (1024 * 1024)
+                if size_mb <= max_file_size_mb:
+                    filtered_files.append(f)
+                else:
+                    print(f"Skipping large file (> {max_file_size_mb}MB): {f}")
+            except FileNotFoundError:
+                print(f"File not found, skipping: {f}")
+
+        total_files = len(filtered_files)
+        print(f"Total files to process (<= {max_file_size_mb}MB): {total_files}")
+
+        # Process in batches
+        for i in range(0, total_files, batch_size):
+            batch_files = filtered_files[i:i + batch_size]
+            print(f"\nProcessing batch {i // batch_size + 1}: {batch_files}")
+
+            # Process the batch
+            content, sources = self.processor.process_product_spec(input_paths=batch_files)
+
+            # Record the batch file names for each content piece
+            source_with_file = []
+            for idx, src in enumerate(sources):
+                file_index = idx % len(batch_files)  # Map content to corresponding file
+                source_with_file.append(f"{batch_files[file_index]}::{src}")
+
+            # Prepare level and origin
+            level_list = [self.level] * len(content)
+            origin_list = [self.origin] * len(content)
+
+            # Insert into Weaviate
+            self.weaviate_client.insert_data_from_lists(
+                content=content,
+                source=source_with_file,
+                level=level_list,
+                origin=origin_list
+            )
+
+            # Log the processed batch immediately
+            with open(log_file, "a", encoding="utf-8") as f_log:
+                for file_path in batch_files:
+                    f_log.write(file_path + "\n")
+                    processed_files.add(file_path)  # Update in-memory set
+
+            print(f"Batch {i // batch_size + 1} inserted and logged successfully!")
+
+        print("\nAll batches processed and logged successfully!")
+
+
+
+
+
     def run(self):
         """Main execution method."""
         if self.product:
             self.insert_product_into_weaviate()
         else:
             self.insert_into_weaviate()
-    
+        
+    def run_product_spec(self):
+        """Main execution method."""
+        self.insert_into_weaviate_prod_spec()
 
     def print_collection_info(self):
         """Print information about the Weaviate collection."""

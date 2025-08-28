@@ -90,5 +90,6 @@ sales_activity_dir = "Sevensix_dropbox/機密レベル2/営業本部/営業活�
 person_data_dir = "Sevensix_dropbox/機密レベル2/営業本部/営業活動/名刺データ"
 # main.sales_activity(sales_activity_dir,level="2",origin="s3_bucket")
 # main.sales_history(sales_history_dir,level="3",origin="s3_bucket")
-main.person_data(person_data_dir,level="2",origin="s3_bucket")
+# main.person_data(person_data_dir,level="2",origin="s3_bucket")
+main.business_data(business_data_dir,level="3",origin="s3_bucket")
 
