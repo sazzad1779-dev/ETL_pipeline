@@ -33,13 +33,14 @@ class WeaviateController:
             headers["X-JinaAI-Api-Key"] = os.getenv("JINAAI_API_KEY")
         elif self.embedding_provider == "openai":
             headers["X-OpenAI-Api-Key"] = os.getenv("OPENAI_API_KEY")
-        client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host="sevensix-etl-nlb-weaviate-pg-2e724b12a987f351.elb.ap-northeast-1.amazonaws.com",grpc_port=50051, auth_credentials=None, skip_init_checks=True,grpc_secure=False,)
-
+        
+        # client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host="sevensix-etl-nlb-weaviate-pg-2e724b12a987f351.elb.ap-northeast-1.amazonaws.com",grpc_port=50051, auth_credentials=None, skip_init_checks=True,grpc_secure=False,)
+        client = weaviate.connect_to_local(headers=headers,)
         if client.is_ready():
             print("Connected to Weaviate")
         else:
             print("Connection failed")
-        return client #weaviate.connect_to_local(headers=headers,)
+        return client 
 
     def _vector_config(self):
         vectorize_props = [p["name"] for p in self.properties_config if p.get("vectorize_property")]

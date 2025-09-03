@@ -27,7 +27,10 @@ share/python-wheels/
 MANIFEST
 Sevensix_dropbox/
 outputs/
-
+weaviate_data/
+grafana-storage/
+data/
+prometheus/
 # alembic/
 postgres_data
 # PyInstaller

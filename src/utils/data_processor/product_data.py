@@ -26,7 +26,7 @@ class ProductContentCleaner:
                 wp_postmeta AS pm ON p.ID = pm.post_id
             WHERE
                 p.post_type = 'products'
-                AND pm.meta_key = 'cfp_fname_1' limit 50 ;
+                AND pm.meta_key = 'cfp_fname_1' ;
         """)
 
         with self.engine.connect() as connection:

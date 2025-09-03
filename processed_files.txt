@@ -118,3 +118,655 @@ Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術�
 Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DP4CNL-N00 (QSFP-DD 4x 100G LR GN3) Datasheet Rev1.0.pdf
 Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-GQ4CNT-N00 (QSFP112 FR4) Datasheet Rev1.2.pdf
 Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DP8CNT-N00 QSFP-DD800 DR8+ Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DP8CNT-N00 (QSFP-DD800 DR8+) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-FX4FNS-N00 (QSFP56 SR4) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DQ8FNS-N00（QSFP-DD SR8 ）datasheet .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OS8CNS-N00 (OSFP SR8 2xMPO-12 Connector) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OS8CNS-N00 (OSFP SR8 2xMPO-12 Connector) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DP4CNL-N00 (QSFP-DD 4x100G LR1 GEN3 Sipho version) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-RS4CNT-N00 (OSFP112 DR4+) Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/TR-ZC13T-N00(100G QSFP28 FR GEN2 Single Lambda) Datasheet Rev1.0(1).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OH8CNT-N00 (OSFP DR8+ 2xMPO-12 Connector) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/TR-ZC13L-N00(100G QSFP28 LR GN2 Single Lambda)Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-RS4CNH-N00 (OSFP112 DR4) datasheet rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DQ4CNL-N00 (QSFP-DD LR4 GN2) Datasheet Rev3.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DQ4CNS-N00 (QSFP-DD SR4) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OP8CNT-N00 (OSFP DR8+) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DP4CNH-N00 (QSFP-DD DR4) Datasheet Rev3.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OS4CNT-N00 (OSFP SiPh FR4) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OP8CNH-N00 (OSFP DR8) datasheet rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DQ8FNS-N00 (QSFP-DD SR8) Datasheet Rev1.3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-DQ4CNT-N00 (QSFP-DD FR4) Datasheet Rev3.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-OP8CNH-N00 (OSFP DR8) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/400G,200G,Single Lamda/T-GP4CNH-N00(QSFP112 DR4) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent 100G QSFP-DD DCO Preliminary Product Specification 20211218 .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent 400G ZR QSFP-DD DCO Product Specification 20220220.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent High TX Power 400G OpenZR+ QSFP-DD DCO Product Preliminary Specification 20230210.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent High TX Power 400G ZR QSFP-DD DCO Product Preliminary Specification 20230210.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent Multi-Rate OpenZR+ QSFP-DD DCO Product Specification 20220905 .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent 400G OpenZR+ QSFP-DD DCO Product Specification 20220514.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/DCO/Coherent 100G OpenZR+ QSFP-DD DCO Product Specification 20230316.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-PY85S-R00(SFP28 SR) Datasheet Rev1.0 Preliminary.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-PX13L-N00(SFP+ LR) Datasheet Rev2.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-FC13T-N00(QSFP28 CWDM4) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TP-VC13Txxxx-N00(QSFP28 IR4 PSM Pigtail) Datasheet Rev1.3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-FC85S-N00(QSFP28 SR4) Datasheet Rev2.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-FC13R-N00(QSFP28 LR4 Ethernet) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-VC13T-N00(QSFP28 IR4 PSM) Datasheet Rev1.4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolight/技術資料/100G,25G,10G/TR-PY13L-N00(SFP28 LR) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Eblana/Eblana_Photonics_Pricelist_Sevensix_September2014.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Eblana/COMPANY & PRODUCTS OVERVIEW 2022/Eblana Photonics Presentation 2022.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/製品ラインナップ.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/HIPA-L3030 レーザー精密加工システム.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/脆弱材料製品説明資料.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/UU_JPT-HiPA_200914SS.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/脆性材料システムソリューション.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/日本JPT会社概要.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/JPT会社概要.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/バッテリー向けレーザー溶接.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/JPT-HiPA_marker220426.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/CL100PNH210528s.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/LTCCマイクロホールレーザドリル装置.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/JPT/JPT発振器価格表20240201USD.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Innolume/Innolume General Feb 2020 _ out.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/DiCon/Datasheet/SCD-0425C (Generic, 96x96 SINGLEMODE OPTICAL SWICHTING SYSTEM (OSS)).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/DiCon/Datasheet/SCD-0431B (Generic, GP800 SM Matrix Optical Switch) (2).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Ibsen Photonics/Ibsen Annual Report 2021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Ibsen Photonics/2307_Ibsen_Photonics.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HITRONICS/Hitronics  Introduction  OPIE.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/MY polymers/フジクラ様向け My Polymers 単価表 16.12.15.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/MY polymers/New Price List July 2021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/MY polymers/Customers Survey.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/04_取引基本契約/Basic Purchasing Agreement_3Coptics.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/TR-FC13T-N00(QSFP28-CWDM4)-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/TR-FC13R-N00(QSFP28 LR4 Ethernet) Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/TR-PX13L-N00(SFP+ LR) .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/TR-FC85S-N00(100G QSFP28 SR4) Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/40G QSFP+ LR4/TR-QQ13L-N00(40G QSFP+ LR4) Pull-Tab Version Datasheet .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/25G DAC/Supplier's Application_sevensix-format.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/25G DAC/25G SFP28 Reliability Test Report.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/25G DAC/10G 25G SFP28 Direct Attach Cable(DAC).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/1.25G SFP LX/1.25G-SFP-LX.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/400G QSFP-DD/400GQSFP-DD-FR4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/400G QSFP-DD/400GQSFP-DD-SR8.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/400G QSFP-DD/400GQSFP-DD-DR8.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/400G QSFP-DD/400GQSFP-DD-LR4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/40G QSFP+ SR4/TR-QQ85S-N00(40G QSFP SR4) Ethernet Datasheet .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/100G QSFP28 ER4 lite/TR-FC13D-N00(QSFP28 ER4 Lite) Datasheet Rev1.3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/100G QSFP28 CWDM4(Supplier B)/MTBF Report-QSFP28-100G-CWDM4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/100G QSFP28 CWDM4(Supplier B)/QSFP28-100G-CWDM4 Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/100G QSFP28 CWDM4(Supplier B)/Supplier's Application-B-11.30.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/100G QSFP28 CWDM4(Supplier B)/QSFP28-100G-CWDM4-Reliability Test Report.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/01_品質管理関連/The other/1.25G SFP Copper/SFP-1G-T.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/03_販促用資料/3Coptics社のご紹介_Sevensix.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/02_会社情報/3C Cloud data center solution.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/02_会社情報/Supplier's Application-3Coptics.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/3Coptics/02_会社情報/3Coptics Company Profile 20210929.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ID Photonics/DataSheet_IDPhotonics_CoBrite_Series.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/RIO/RIO 2014 DIST PMF Price List Sept 20131203.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/RIO/Rio Part Number Chart20131203.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/CELLシステム/価格表.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/BWT/BWT_Billing(2018.07.23).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/BWT/BWT_Billing(2018.11.22).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Ⅱ-Ⅵ(Original)/AOM/fiber-coupled-acousto-optic-modulator-ds.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Ⅱ-Ⅵ(Original)/AOM/For Sevensix AO Introduction 202312.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Ⅱ-Ⅵ(Original)/AOM/1550nm 80MHz FAOM.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/8Photonics/8photonics Product Pricelist for Sevensix v06-27-2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/RFOptic/RFOptic-Corp-Brochure.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/RFOptic/DATASHEET_ RFoF-6.0GHz.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/RFOptic/DATASHEET_ RFoF-20GHz-LN-HSFDR-L-series.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/RFOptic/20250519 社内説明 by KAGA/参考見積/お見積り(RfOptc)セブンシック様250217.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/TeraXion CDC products presentation.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/Sevensix-TeraXion 2021 - Virtual Meeting 2021-02-24.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/TeraXion_CDE_202403.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/teraxion-clearspectrum-tdcmb-specsheet.pdf#view=Fit.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/Searcy ECOC'19 - Statistical evaluation of 4TBs PAM4 DCI system with slo....pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/MKT-MANUEL-CS-TDCMB-2.9.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Teraxion/SPECS - TDCMB-C000-OE-BF01.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/代理店向けDimension社製品価格表2021(セブンシックス様)202111.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/ROME標準価格表（202004）.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/光コネクタクリーナ価格表【セブンシックス】.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/【NTT-AT】FA_V溝用接着剤データシート-240314 2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/200210-セフ゛ンシックス様御見積.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/[2021-10567]セブンシックス様向け据置型光コネクタ端面検査機シリーズの御見積(20211101).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/03_打合せ資料/2020年3月18日打合せ資料/200317　セブンシックス様向けクリーナ紹介.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/03_打合せ資料/2020年4月23日ROME勉強会/ROMEのご紹介_202004.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/【NTT-AT】Adhesives for FA_V-groove Fixing Datasheet_240325.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/NTT-AT記事.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/02_光コネクタ端面観察機販促資料セット/日本語版_EasyGetWiFi_rev2.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/01_光コネクタクリーナ販促資料セット/光コネクタクリーナ価格表【セブンシックス】.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/01_光コネクタクリーナ販促資料セット/【NTT-AT】光クリーナ総合カタログ.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/03_端面研磨機販促資料セット/prd_00303TipsHandheldProbes.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/紹介資料_光配線切替のリモート制御環境を実現ROMEのご紹介.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/紹介資料_光配線切替ロボットROMEのご紹介.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/ROME_マトリクス補足資料.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/紹介資料_ROMEのご紹介.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/技術資料/Administrator's Manual.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/技術資料/Datasheet_ROME MAX.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/技術資料/CLI_Manual_W2W_062019.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/技術資料/Datasheet_ROMEmini.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/01_販促用資料/04_ROME/技術資料/Datasheet_ROME500 to 1280.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/24°_セブンシックス様向け光学接着剤価格表.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/セブンシックス様POP-311シリーズ価格表(20240328).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/代理店様向け_可搬型端面観察機価格表.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/POP-311シリーズ価格表_20250325_セブンシックス様向け.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/2025年度_クリーナ製品価格表_代理店様.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/2024年度_クリーナ製品価格表_代理店様.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/【NTT-AT光学樹脂】価格改定について_2406.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/Dimension社製　据置型端面検査機価格表.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/プライスリスト/2025年度_可搬型端面観察機価格表_代理店様向け.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/99_過去資料/代理店向けDimension社製品価格表2020(セブンシックス様)20200526.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/99_過去資料/セブンシックス様向けクリーナ価格表2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/02_キャンペーン/2020年度/告知用資料/総合カタログ_NTTAT_光コネクタ・クリーナ.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/02_キャンペーン/2020年度/告知用資料/キャンペーン価格表_光クリーナ_再延長.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/02_キャンペーン/2020年度/告知用資料/キャンペーン価格表_光クリーナ_延長.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/NTT-AT/02_キャンペーン/2020年度/告知用資料/キャンペーン価格表_光クリーナ.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/iPRONICS/IPRONICS ONE DATASHEET_FR4_COMPATIBLE_v1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/iPRONICS/iPronics-Product-Overview.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/iPRONICS/iPronics_Technology Introduction_Sevensix.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/アルネア/アルネア価格表【2009年9月3日】.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/アルネア/Spectrolight/International Price List (Complete) 3-12-18.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/2024Q3_PriceList_Partners.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/2024-07 Polariton Technologies Presentation.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/Datasheets/POL-MZM-P110-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/Datasheets/POL-IQM-C145-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/Datasheets/POL-MZM-C145-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/Datasheets/POL-IQM-P80-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/Datasheets/POL-RRM-C110-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Polariton/Datasheets/POL-RRM-P70-Datasheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/Framework Agreement template-2020V2.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/744 Supp 4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/HiSilicon Products Leaflets-jp-20240620.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/00  HiSilicon Optoelectronics Introduction_Executive.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/会社紹介/00  Introduction to HiSilicon Optoelectrical Products in All Scenarios V1.2 202109.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/会社紹介/00  HiSilicon Optoelectronics Introduction_Executive.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/Operation Procedure and Files for Test at JPIX 20221021/CMIS5p0[1].pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/Operation Procedure and Files for Test at JPIX 20221021/Suggestions on Operation Procedure 20221021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/LightBox/LightBox Operation Guide V2.1_new.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/LightBox/LightBox Operation Guide V2.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/予算関連/代理店様への期待.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/予算関連/Sevensixビジネスレビュ20230118.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Wireless Optical Module Product Introduction0523 V1 FOR partners.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/ECOC 2022 - Presentation V 1.0(1).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/LightBox Operation Guide V2.1_new.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/EN--ECOC 2023_V1.5_benchmark revised 202401.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Introduction of telecom IP module V1.1 FOR Partners with Confidencial Information.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/HiSilicon Products Portfolio & Roadmap-2024-en.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/PON optical modules Introduction FOR partners.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Introduction of telecom IP module V1.1 FOR Partners.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/00-en-HiSilicon Products Portfolio & Roadmap-2025.3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/DVT,Reliability,MTBF etc/OM3358LX100 Reliability Report Rev 2.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/DVT,Reliability,MTBF etc/OM9558LDX00 serise DVT Report.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/DVT,Reliability,MTBF etc/OM3559CX100 DVT Report Rev 2.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/DVT,Reliability,MTBF etc/OM9558LSx00 serise DVT Report.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/DVT,Reliability,MTBF etc/OM3660FX102 Module MTBF Calculation Report.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/DVT,Reliability,MTBF etc/OM3538SX101 DVT Report Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/WSS関連/Twin 1x32 WSS(C120+MT+26Pin) Datasheet Rev1.0-en.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/WSS関連/Single 1x9 WSS(C96+LC+26Pin) Datasheet Rev1.0-en.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/WSS関連/Twin 1x20 WSS(C120+MT+26Pin) Datasheet Rev1.0-en.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/MTBF/OM3660FX102 Module MTBF Calculation Report Rev3.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 ER4-Lite (OM9558TS100) Datasheet Rev1.4_20210209.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400GE LR4 10km (OM3658LS100) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 LR4 10km (OM9558LS100) Datasheet Rev2.6_20210209.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/TSFP+ 10G DWDM 40km (OM6253EX201) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/25G-SFP28-20KM (OM6363TX102) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/TSFP+ 10G DWDM 80km (OM6253ZX201) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/SFP+ 9953M(Tx)9953M&2488M(Rx)&2488M(Tx)1244M(Rx) XGS-PON&GPON OLT Class C+ 20km(OM5270SY201) Datasheet Draft.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/25G-BIDI SFP28-LR-10KM (OM6363LX103&OM6363LX104) Datasheet Rev1.4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/TSFP+ 10G DWDM 80km (OM6253ZX300) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 4WDM-40 40 km (OM3558ES100) Datasheet Rev1.6.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/25G-SFP28-LR-300M (OM6363LX101) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/10km 25G LR CWDM SFP28LR (OM6363CX101_106) Datasheet Rev1.4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 4WDM-40 40km (OM3558ES100) Datasheet Rev1.5_20210209.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 ZR4 80km (OM9558ZS105) Datasheet Rev1.2_20210209.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE SR4 100m(OM3538SX101) Datasheet Rev1.21.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400GE DR4+ 2km(OM3660DX103) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 ER4 40km (OM9558ES100) Datasheet Rev1.6.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400G ER8 40km (OM9660ES100) Datasheet Rev1.7.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE CWDM4 2km(OM3559CX100) Datasheet Rev2.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/25G-TSFP28-10KM (OM6353LX201) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE LR4 10km (OM9558LS121) Datasheet Draft.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 LR4 20km (OM9558BS100) Datasheet Rev1.0_20210324.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100G CFP Coherent 3000km (OM8568XX100) Datasheet Rev1.32.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/TSFP+ 10G DWDM 40km (OM6253EX200) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400GE DR4 500m (OM3660DX102) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP56 200GE FR4 2km (OM3758FX102) Datasheet Rev2.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100G CFP Coherent 3000km (OM8568XX100) Datasheet Rev1.32[1].pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE&OTU4 LR4 10km (OM9558LD121) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/400ZR Coherent QSFP-DD (OM876AXX100) Product Specification Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE LR4 10km (OM9558LS121) Datasheet Draft[1].pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 LR4 10km (OM9558LS120) Datasheet Rev1.0_20210325.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/400ZR Coherent QSFP-DD (OM876AXX100) Datasheet Rev1.3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE LR4 10km (OM9558LD120) Datasheet Rev1.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400GE SR8 100m (OM3680SX200) Datasheet Rev1.4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE FR1 2km(OM3558FX102) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 200G LR4 10km (OM9758LS100) Datasheet Rev1.3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400GE FR4 2km(OM3660FX102) Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/200G CFP2 Coherent 1000km (OM8669XX100) Datasheet Rev2.0 (2).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/100GE QSFP28 ZR4 80km (OM9558ZS100) Datasheet Rev1.8_20210209.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE DR1 500m(OM3558DX102)Datasheet Rev1.2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/TSFP+ 10G DWDM 80km (OM6253ZX200) Datasheet Draft.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP-DD 400G LR8 10km (OM9660LS100) Datasheet Rev1.7.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/HiSilicon/技術資料/Datasheet/QSFP28 100GE ZR4 80km (OM9558ZS107) Datasheet Rev1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Taclink/202412_Taclink Profile.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Taclink/Presentation of DCO EDFA.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Taclink/Taclink pluggble OA-3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Anoison/00 プライスリスト/20230420付参考価格表/社外秘資料_Anoison Test Cable Y2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Anoison/01 営業活動用情報/Anoison May_ 2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Anoison/01 営業活動用情報/社外秘資料_Anoison Test Cable Y2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Anoison/10 客先に提出用カタログ/2023年4月現在/VNA-Series-Test-Cables.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Anoison/10 客先に提出用カタログ/2023年4月現在/PT-Series-Precision-Test-Cables.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Eoptolink/EOLO-164HG-02-46 V1.b.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Eoptolink/Eoptolink Introduction 2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Eoptolink/EOLO-164HG-10-46 V2.b.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/京セミ/【200512_配信用_京セミプレゼン資料】.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/FormericaOE/FormericaOE_Immersion Cooling Cables (s) 20240902.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/FormericaOE/FormericaOE_High Speed Transceivers & Cables (s) 20240830.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/TFLN 65GHz Intensity Modulator.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/Introduction of Hyperlight.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/カタログ用DS集.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/2024-6-19 Flyers for Sevensix ComNext_v2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/TFLN 110GHz IQ Modulator.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/2025-04-01 Product card.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/MPWマテリアル/HyperLight Active MPW Design Rule Manual.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1310-110-W-revC.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1310-65-V-REG.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/40GHz_PM_C-band_specs_sheet_revA_full.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IQ-1550-110-LV.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1310-65-V-LV-CRYO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1550-110-W-revC.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1550-65-V-REG.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/UltraLow Vpi TFLN-G2-1550-ULV-V_revC.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1310-65-V-LV-revC.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/Chip_110GHz_C-band_IQ_REG_specs_sheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1550-65-V-LV-CRYO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/1550nm_chip.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-PM-1550-110-REG.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1550-65-V-LV-revC.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-PM-1550-110-LV.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/Chip_110GHz_C-band_IQ_LV_specs_sheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1310-110-W-LV.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IQ-1550-110-REG.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/TFLN-G2-IM-1550-110-W-LV.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/バイアスコントローラ関係/HyperLight Packaged EOM Operation Manual 110GHz.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/old datasheet/65GHz_C-band_specs_sheet_LowVpi.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/old datasheet/DS集_Hyperlight.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/old datasheet/HyperLight Packaged EOM Operation Manual 110GHz.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/old datasheet/Packaged EOM IM C-band Specs.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/old datasheet/Packaged EOM IM O-band Specs.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Hyperlight/データシート/old datasheet/Ultralow_Vpi_C-band_specs_sheet.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Coractive/202405 CorActive 会社概要/Presentation Corpo 2023_R3.4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Coractive/202405 CorActive 会社概要/Presentation Corpo -DRAFT- 2024_R1.0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Coractive/202405 ファイバ製品カタログ/Coractive Complete Offering.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/Coractive/Price List - 202106/Coractive_fiber_laser_Pricelist_20210517.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2024年 定例会/2024年10月代理店会議資料.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/Disti Mtg_76.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年5月代理店会議資料【20190513】 .pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/Optical-frequency-comb_datasheet_OFCG-PS-1550_JP.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2019年12月Ⅱ-Ⅵプレゼン資料.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2020年1月_レーザー学会年次大会/C000198_Nishiura.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2018年12月_光波センシング技術研究会/1_Program62.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2018年12月_光波センシング技術研究会/LST62_Nishiura_proceeding.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2019年12月_OPJ2019/OPJ_Optical comb_Nishiura_20191020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2020年2月_Photonics West/Wavelength tunable fiber laser_Finisar_20191007.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2019年 定例会/2019年12月Ⅱ-Ⅵプレゼン/2019年11月_レーザー学会/ファイバレーザー技術_20191018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2023年 定例会/FY23総括_FY24活動計画.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2018年 定例会/リカバリ・プラン2018/(告知)WaveShaper年末特割キャンペーン(2018)Rev2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2018年 定例会/リカバリ・プラン2018/(告知)WaveShaper年末特割キャンペーン(2018).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2018年 定例会/リカバリ・プラン2018/(告知)WaveShaper年末特割キャンペーン(2018)Rev3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2018年 定例会/リカバリ・プラン2018/(告知)WaveShaper年末特割キャンペーン(2018)Rev1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2018年 定例会/リカバリ・プラン2018/顧客告知用資料/(告知)WaveShaper年末特割キャンペーン(2018).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2018年 定例会/リカバリ・プラン2018/顧客告知用資料/finisar_waveanalyzer_100s_compact-osa_03_17.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2021年 定例会/総代理店交渉/2021年11月 Instruments製品の総代理店化のご提案_jp.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/07. 代理店会議資料/2021年 定例会/総代理店交渉/2021年11月 Instruments製品の総代理店化のご提案_en.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/17. アクセサリ情報(EVA)/XPRVシリーズ/COHR_Manual XPRV2325A_A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/17. アクセサリ情報(EVA)/XPRVシリーズ/COHR_Manual EVA-XPRV2x25A_A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/17. アクセサリ情報(EVA)/XPRVシリーズ/COHR_DS XPRV2325A_30_GHz Linear Photoreceiver A05.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/17. アクセサリ情報(EVA)/XPRVシリーズ/COHR_DS EVA-XPRV2X25A A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/17. アクセサリ情報(EVA)/BPDVシリーズ/DS PPS-03-xx A04.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/17. アクセサリ情報(EVA)/BPDVシリーズ/DS Eva-BPDVxxxx_Rev_A03.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/12. Letter, PCN, EOL, new release etc/Finisar Customer Letter_110918_Final.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/12. Letter, PCN, EOL, new release etc/II-VI_SWDM Transceiver-PCN-1358419_VCSEL-PD-manufacturing-location-change__II-VI Zurich-VCSEL-alternate-source-qualification_08Jun20.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/12. Letter, PCN, EOL, new release etc/product_line_management_responsibility_13may2019 (1).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/12. Letter, PCN, EOL, new release etc/II-VI_Transceiver-EOL_CXP-Cwire-Gen1_ 23Dec20_EOL-20.028.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/12. Letter, PCN, EOL, new release etc/(Dear Valued Customer) Letter for day1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/国立大学法人大阪大学_代理店証明書.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/定価証明書 - 東京大学②(S634 WaveShaper案件用).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/国立大学法人九州大学_代理店証明書.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/定価証明書 - 東京大学①(S457 WaveAnalyzer案件用).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/代理店証明書_II-VI_NICT.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/国立大学法人大阪大学_代理店証明書_211104.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/20200131_212852.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/Finisar 代理店契約書.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/国立大学法人東京大学_代理店証明書_012121.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/05. 代理店証明書/代理店証明書【Finisar】.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/10_Finisar Product Training/II-VI Japan Sales Meeting 25G-400G_Rev B.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/10_Finisar Product Training/product_line_management_responsibility_14jun2018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/10_Finisar Product Training/II-VI Japan Sales Meeting Tunable+Coherent_Rev B.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/Special Sales 4CQ2020_extended.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/旧プライスリスト/u2t/2013-08 u2t Pricelist SevenSix-1v1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/旧プライスリスト/u2t/過去のプライスリスト/2012-05 u2t Pricelist SevenSix.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/旧プライスリスト/u2t/過去のプライスリスト/2013-08 u2t Pricelist SevenSix.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/CONFIDENTIAL_Coherent_Instrument_Pricing_April_2025.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/FinisarWSS Price Book Jan23.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_April_2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_January_2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_October_2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_December_2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Finisar_Instrument_Pricing_July_2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Finisar_Instrument_Pricing_January_2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_October_2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_January_2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Coherent_Instrument_Pricing_March_2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_II-VI_Instrument_Pricing_January_2022.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Finisar_Instrument_Pricing_Japan_Nov_2013.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_II-VI_Instrument_Pricing_June_2021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_II-VI_Instrument_Pricing_September_2022.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Finisar_Instrument_Pricing_April_2017.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/02. プライスリスト/【WaveAnalyzer & WaveShaper】関連資料/過去のプライスリスト/CONFIDENTIAL_Finisar_Instrument_Pricing_Sep_2016.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/99. etc/NDA-2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/99. etc/NDA.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/13. Ⅱ-Ⅵジャパン情報/ツーシック信用調査.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/13. Ⅱ-Ⅵジャパン情報/II-VI Introduction Presentation_EMT.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/CTC_COHRERENT_overview_Short_20250120.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/Coherent Instrumentation News Autumn 2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/Optical Communications Products for telecom and datacom networks_v4 (1).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/04_OCM/flexgrid_high_resolution_ocm_pb_web.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/04_OCM/1278246_a00-speccustpsdhrocmfocm01fxc1mlfocm01fxc1mnfocm01fxc1mh-demo.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/._Finisar VCSEL Introduction 76 Aug162018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/._Finisar VCSEL Training 76.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/Finisar VCSEL Training 76.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/an-2109_high_power_vcsel_for_gesture_recognition-master-RGB-web.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/FINISAR Part number Decoder July252018　[1].pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/._FINISAR Part number Decoder July252018　[1].pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/05_3D VCSEL/Finisar VCSEL Introduction 76 Aug162018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/fiber_optics_for_military_apps_solution_guide_web_0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/finisar_datacom_telecom_diagram_05.18.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/finisar_swdm_white_paper_oct2017c.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/[NDA needed]DCO Pluggable Transceiver Portfolio & Roadmap OFC 2025.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/Coherent^2 Module Update.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/finisar_wireless_reference_guide_may2015.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/FTLC1156SDPL_IIVI Format Product Spec Rev A2.1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/August 2024 TBU NPI Tables.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/fiber_optics_for_industrial_apps_solution_guide_web.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/optics_products_for_the_data_center_englweb.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/finisar_optical_transceiver_transponder_activecable_guide_02_2018_web.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/200521 TBU+COBU NPI Tables_NDA_v5.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/fdb-1051_prod_spec_revb.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/カタログ_Finisar_5G用光トランシーバ.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/Coherent^2 Module Portfolio & Roadmap OFC 2024 customer presentation.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/[NDA needed]FTCE4517E1PxM 800G DR8 OSFP Product Spec RevA6.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/FTCE4527E1PxA 800G DR8+ OSFP Dual MPO12 Product Spec RevB1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/[non-NDA]FTCE4517E1PxM 800G DR8 OSFP Product Spec RevA6.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/2024-02 - 800G Pluggable Optical Transceivers.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/FTCE4517E1PxM 800G DR8 OSFP Product Spec RevB2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/[non-NDA]FTCE4527E1PxM 800G DR8+ OSFP Product Spec RevA8.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/March 2024 Datacom Transceiver BU NPI Tables.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/[NDA needed]FTCE33x6R1PCL 800G QSFP-DD-DCO ZR+ vA01.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/FTCE4527E1PxM 800G DR8+ OSFP Product Spec RevB2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/CDRH Sup 495_FTCE4527E1PCA family.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/[non-NDA]FTCE33x6R1PCL 800G QSFP-DD-DCO ZR+ vA01.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/FTCE4517E1PxA 800G 2x400 DR4 OSFP Dual MPO12 Product Spec RevB1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/800G Optics/[NDA needed]FTCE4527E1PxM 800G DR8+ OSFP Product Spec RevA8.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/CFP2 DCO/FTCC3311M1BCL 200G CFP2-DCO vA01.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/CFP2 DCO/FTCD3312O1BCL 400G CFP2-DCO OpenROADM vA00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/CFP2 DCO/FTCC3311O1BCL 200G CFP2-DCO vA02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/400G FR4 Gen2 QSFP-DD Preliminary Product Spec RevB4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/400G SR8 QSFP-DD FTCD8613E1PCM Product Spec RevB0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/400G QSFP-DD AOC FCBx850QE1Cyy Product Spec RevB0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/400g_lr8_qsfp-dd_product_spec_reva9_0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTCD4523E3PCM 400G DR4 QSFP-DD  Product Spec RevB2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4352RHPL (DR)_IIVI Format_Product Spec Rev B1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4352RJPL (FR)_IIVI Format_Product Spec Rev B1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/II-VI 100G QSFP28 CWDM4 Roadmap Slide 2020831.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/Coherent Transceiver datasheet, 400G-FR4, QSFP-DD, FTCD4313E3PxL Rev B1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/1352293A00 FDB-1061 Prod Spec.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTCD4323E1PCL 400G-LR4-10 Datasheet Rev B1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4351RHPL (DR)_IIVI Format_Product Spec Rev B2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/400g_fr8_qsfp-dd_product_spec_reva6.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTCD4523E2PxM 400G DR4 QSFP-DD Product Spec RevC2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4351RJPL (FR)_IIVI Format_Product Spec Rev B3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4352RJPL (FR)_IIVI Format_Preliminary Product Spec Rev A3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTCD4533E3PCM 400G DR4+ QSFP-DD Product Spec RevB4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTCD4323E2PCL 400G-LR4-10 Datasheet Rev A1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4351RJPL (FR)_IIVI Format_Product Spec Rev B2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/Technology Overview_Sep,21.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/Coherent Transceiver datasheet, 400G-LR4-10, QSFP-DD, FTCD4323E3PCL Rev B1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTCD4543E3PCM 400G 4x100LR QSFP-DD Datasheet Rev B2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/400G FR4 QSFP-DD Product Spec RevB5.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G Optics/FTLC4352RKPL (LR)_IIVI Format_Product Spec Rev B1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/AN-2202 QSFP-DD-DCO EVB GUI App Note RevD0_23-04-04.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/FTCD3323R1PCL 400G QSFP-DD-DCO ZR+ Product Brief.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/[non-NDA]FTCD3313E1PCL 400G QSFP-DD-DCO ZR -10dBm vA00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/AN-2201 QSFP-DD-DCO EVB App Note RevB_22-06-20.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/FTCD3323E1PCL 400G QSFP-DD-DCO ZR Product Brief.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/FTCD3313E1PCL 400G QSFP-DD-DCO ZR -10dBm vA00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/400G QSFP-DD ZR+/【社外提出不可】FTCD3323R1PCL 400G QSFP-DD-DCO ZR+ vB00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/100GBASE-ZR DCO/[社外提出不可]100G ZR DCO Update 07162024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/100GBASE-ZR DCO/AN-2207 QSFP28-DCO EVB GUI App Note RevC0_24-01-24 (2).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/100GBASE-ZR DCO/AN-2208 QSFP28-DCO EVB App Note RevA0_23-09-22 (2).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/100GBASE-ZR DCO/AN-2208 QSFP28-DCO EVB App Note RevC0_23-12-13.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/06_transceiver/100GBASE-ZR DCO/Coherent 100G ZR QSFP28-DCO Product Brief.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/Finisar Japan visit NICT v2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/FinisarWSS_RoadmapUpdate_Sep23_FINAL.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/FinisarWSS_Single_Wavelength_Selective_Switch_ProductBrief_Jun2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/FinisarWSS_Dual_Wavelength_Selective_Switch_ProductBrief_Jul2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/II-VI Short NDA 19 Nov 2018_FINAL_US-Global_with header_with year filled-in_Fillable Form.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/FWS0120BSCFAL.pdf_ext=.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/10THz WSS/[Confidential]Finisar WSS Virtual Roadshow, Oct20.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/10THz WSS/FinisarWSS_Dual_Wavelength_Selective_Switch_ProductBrief_Jul2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/競合情報/NSP00905-00_Twin_1x32_Molex_Generic.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/競合情報/Molex(Nistica)_Eval_Kit_Instructions_1607.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/競合情報/FFAPI-3.2.1-Programmers-Manual.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/競合情報/FFAPI-4.0-Addendum-r3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/競合情報/Nistica_Eval_Kit_Instructions_1607.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/競合情報/Molex(Nistica)NSP00746-00-Twin 1x20 L-Band WSS.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1422208_B00-SPEC,CUST,EVAL KIT,WSS,QUICK START GUIDE.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1137630_Rev-C00 -- MANUAL- EVALUATION KIT QUICK START GUIDE (DWP).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1397470_A00-MANUAL,EVALUATION KIT,DLP,QUICK START GUIDE.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1422208_A00-SPEC,CUST,EVAL KIT,WSS,QUICK START GUIDE.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1352783_B00-SPEC,CUST,PSD,DLP3,EXT-C-BAND,FWS0132BNEFDX-00-DEMO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1282718_B00-MANUAL,EVALUATION_KIT,QUICK_START_GUIDE,SINGLE_LOW_PROFILE.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/1438273_A00-SPEC,CUST,PSD,DLP3,EXT-L-BAND,FWS0132BNWFDX-00-DEMO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/DWP 1x20 10WSAA20FLL Specs pack 20200824/1163747_A00 Spec, Connector Interface (E), CLP-140-02-S-D, WSS, Finisar.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/DWP 1x20 10WSAA20FLL Specs pack 20200824/1152365_C00 Spec, Cust, Electrical Interface (3.1), WSS, Finisar.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/DWP 1x20 10WSAA20FLL Specs pack 20200824/1182731_B03 -SPEC, CUST, PSD, DWP-HPC,10WSAA20FLL - DEMO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/DWP 1x20 10WSAA20FLL Specs pack 20200824/1163122_E00 SPEC, CUST, SOFTWARE INTERFACE, SERIAL (1.4), WSS, FINISAR.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/DWP 1x20 10WSAA20FLL Specs pack 20200824/1183334_C00.PDF
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0333BNUFDL-00_20220530/05-MECHANICAL-1379040_A00.PDF
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0333BNUFDL-00_20220530/03-ELECTRICAL INTERFACE-1397298_B00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0333BNUFDL-00_20220530/01-PRODUCT SPECIFICATION DOCUMENT-1378413_B00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0333BNUFDL-00_20220530/04-CONNECTOR INTERFACE UART-1405421_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0333BNUFDL-00_20220530/02-SOFTWARE-1185137_M00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09FLL - spec pack 30-Jan-2020/1178236_C00.PDF
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09FLL - spec pack 30-Jan-2020/1163747_A00 Spec, Connector Interface (E), CLP-140-02-S-D, WSS, Finisar.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09FLL - spec pack 30-Jan-2020/1182730_ B02-SPEC, CUST, PSD, DWP50, 10WSAA09FLL - DEMO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09FLL - spec pack 30-Jan-2020/1152365_C00 Spec, Cust, Electrical Interface (3.1), WSS, Finisar.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09FLL - spec pack 30-Jan-2020/1163122_E00 SPEC, CUST, SOFTWARE INTERFACE, SERIAL (1.4), WSS, FINISAR.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09LFL - spec pack 28-Feb-2020/1178236_C00.PDF
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09LFL - spec pack 28-Feb-2020/1163747_A00 Spec, Connector Interface (E), CLP-140-02-S-D, WSS, Finisar.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09LFL - spec pack 28-Feb-2020/1237086_Rev-B00,SPEC,CUST,DWP9F,9-PORT,FLEXGRID,L-BAND - DEMO.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09LFL - spec pack 28-Feb-2020/1137630_Rev-C00 -- MANUAL- EVALUATION KIT QUICK START GUIDE (DWP).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09LFL - spec pack 28-Feb-2020/1152365_C00 Spec, Cust, Electrical Interface (3.1), WSS, Finisar.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/10WSAA09LFL - spec pack 28-Feb-2020/1163122_E00 SPEC, CUST, SOFTWARE INTERFACE, SERIAL (1.4), WSS, FINISAR.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0132BNCFDX-00_20201006/03-ELECTRICAL INTERFACE-1258833_B00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0132BNCFDX-00_20201006/05-MECHANICAL-1341016_C00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0132BNCFDX-00_20201006/02-SOFTWARE-1185137_M00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0132BNCFDX-00_20201006/04-CONNECTOR INTERFACE UART-1258137_D00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0132BNCFDX-00_20201006/01-PRODUCT SPECIFICATION DOCUMENT-1340488_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLLFDL-00_20210326/01-PRODUCT SPECIFICATION DOCUMENT-1349168_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLLFDL-00_20210326/03-ELECTRICAL INTERFACE-1258833_B00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLLFDL-00_20210326/05-MECHANICAL-1285843_C00.PDF
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLLFDL-00_20210326/02-SOFTWARE-1185137_M00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLLFDL-00_20210326/04-CONNECTOR INTERFACE UART-1258137_D00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0148BNCFDL-00_20211018/05-MECHANICAL-1379584_PRE07.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0148BNCFDL-00_20211018/03-ELECTRICAL INTERFACE-1400257_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0148BNCFDL-00_20211018/02-SOFTWARE-1185137_M00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0148BNCFDL-00_20211018/04-CONNECTOR INTERFACE UART-1258137_D00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0148BNCFDL-00_20211018/01-PRODUCT SPECIFICATION DOCUMENT-1380213_A00draft02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLCFDL-00_20210326/03-ELECTRICAL INTERFACE-1258833_B00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLCFDL-00_20210326/05-MECHANICAL-1285843_C00.PDF
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLCFDL-00_20210326/02-SOFTWARE-1185137_M00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLCFDL-00_20210326/04-CONNECTOR INTERFACE UART-1258137_D00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/03_WSS/仕様書/Finisar_FWS0120BLCFDL-00_20210326/01-PRODUCT SPECIFICATION DOCUMENT-1327672_B00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/07_DCO/PROC CFP2 - DCO CUSTOMER EVB SYSTEM QUICK START GUIDE.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/07_BOA/2022-09 - Performance Fabrics Interconnect Solutions.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/Finisar Japan visit NICT v2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/20240311_wavemaker-4000A-A4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20230918_waveshaper-1000B-4000B_A4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/User Manual_WaveShaper A-Series.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/waveshaper-family-br.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveanalyzer-family_.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/100B_Specification.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveshaper-family_Oct2019.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/WaveShaper-1000A_SP-A4-06_22.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveshaper-family_Sep2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveanalyzer L-band_Feb2019.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/4000B-XL_Specification.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveanalyzer 200A_2019.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20240105_WaveShaper-A-Series.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/User Manual_Waveanalyzer 200A(A5 Booklet - ex API).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20240311_wavemaker-4000A-A4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/II-VI WaveShaper Quick Start Guide.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveanalyzer 100s_Mar2017.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20230330_waveshaper-1000B-4000B.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20240909_WaveMaker.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_WaveShaper-1000A_SP_Apr2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20240105_WaveShaper-B-Series.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/WA200A Quick Start Guide.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/高分解能光スペクトルアナライザ WaveAnalyzer.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Coherent Instrumentation News Autumn 2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/WaveShaper_1000A OEM drawing.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20230217_WaveAnalyzer-family.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveshaper-family_Mar2021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveanalyzer-family_Jun2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveshaper-family_May2021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/WaveAnalyzer 100S User Manual.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20250314_WaveAnalyzer-Family.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/WA200A Battery Installation Guide.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/Brochure_Waveshaper-family_Jun2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/1405379_A00,QUICK START GUIDE,WAVESHAPER SERIES A,OEM MODULES II-VI.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/1406910_B00 WaveAnalyzer 1500S 400A User Manual.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/500B_Specification2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/waveshaper-b-series-ds.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/WaveShaper-Help.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20240909_Waveshaper-B-Series.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/01_カタログ・取説/20230918_wavemaker-4000A-A4.pdf#view=Fit.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/02_Product Update Information/2020_06_12_WS_4000A-X-Specifications.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/02_Product Update Information/ii-vi_instrumentation_news_autumn_2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/02_Product Update Information/2020_06_NTT_Labs_WaveShaper_update.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/02_Product Update Information/Finisar Instrumentation News Spring 2019.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/202101_WaveAnalyzer割引キャンペーン/高分解能光スペクトルアナライザ期間限定割引キャンペーン価格表.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/アサイン顧客へのアプローチ/NEC参考情報/210512_02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/アサイン顧客へのアプローチ/NEC参考情報/220428_01.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/アサイン顧客へのアプローチ/NEC参考情報/etsuran.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/202302_Instrumentation News Spring/Coherent Instrumentation News Spring 2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/202302_Instrumentation News Spring/20230330_waveshaper-1000B-4000B.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/05_キャンペーン/202302_Instrumentation News Spring/20230217_WaveAnalyzer-family.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/WaveAnalyzerカタログ集.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/製品保証期間について.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/II-VI Instrumentation News Autumn_2022_final.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/223 APEX  22 Spectrum analyzer 21806.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/WaveAnalyzer 200A ソフトウェアアップデート_2019年10月.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/User Manual_Waveanalyzer 200A(A5 Booklet - ex API).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/WA200A Quick Start Guide.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/Brochure_Waveanalyzer-family_Jun2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/Number of Average 説明資料.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/競合情報/BOSA-Catalog-2019-A4_JP_web.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/200A/競合情報/223 APEX  22 Spectrum analyzer 21806.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/03_WaveAnalyzer/400A/WaveAnalyzer 400A Brochure A4 090122 Online.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/US7787720B2_Original_document_20210804100643.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/WaveShaper 説明資料_2020.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/競合情報/Santec_OTF-980-C-J-v1.51812.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/ソフトウェア開発関連/WF_WAF_ver3_20241011/WF_WAF_ver3_20241011/SAF_マニュアル_20241011.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/ソフトウェア開発関連/MATLABベース/WaveShaperソフトウェア概要_20210805.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/S帯long-L帯WaveShaper/WaveShaper_update_2020_0615.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/7x1x3 multi-port/2023_12_NICT_WaveShaper_32002B_Preliminary_Product_Flyer.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/7x1x3 multi-port/WS_28002B_Specifications.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/WaveShaper-1000A_SP-A4-06_22.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/WaveShaper 1000A_SP update brochure.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/waveshaper_double_pulse_generation.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/waveshaper-pulse-burst-generation-nov-2018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/WaveShaper-1000A_SP-brochure_JP.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/WaveShaper-1000A_SP-brochure-for-Review-V3.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/2022_06_II-VI_Sevensix_WaveShaper_Laser_Pulse_Shaping_Training2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/waveshaper-short-pulse-shaping-nov-2018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/1um WaveShaper/xbanner_g10.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/4000B/II-VI Instrumentation News Spring 2021.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/4000B/WaveShaper-1000B-4000B-brochure-letter_06_21.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/O-band WaveShaper/2021_09_O-band_WaveShaper.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/O-band WaveShaper/WaveShaper_O-Band_Preliminary_Product_Flyer.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/4871_whitepaperprogrammablenarrowbandfiltering.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/4870_whitepaperdispersiontrimming.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/white_paper_waveshaper_dispersion_trimming.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/s41467-020-16265-x.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/white_paper_waveshaper_basics.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/white_paper_waveshaper_filter_bandwidth_definition.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/waveshaper-short-pulse-shaping-nov-2018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/04_WaveShaper/論文・White Paper/an_waveshaper_pulse_burst_generation.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/06_WaveMaker/1458878_B00EXTERNALQUICK START GUIDEWAVEMAKER A-SERIESBENCHTOP.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/06_WaveMaker/20230918_wavemaker-4000A-A4.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/01_Instruments(WaveShaper,WaveAnalyzer)/06_WaveMaker/1458878_A00EXTERNALQUICK START GUIDEWAVEMAKER A-SERIESBENCHTOP.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/08_Optical Switch/CTC_COHRERENT_overview_Short_20250120.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/Manual_CPRV2xxx.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/05_競合比較/Module_Data_W3#0260.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/05_競合比較/Specification of Fraunhofer HHI.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/05_競合比較/20191121_100GHz-Balanced-Photodetector-Module.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/05_競合比較/finisar_bpdv412x_02_march_2018.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/05_競合比較/mp2110a-j11100.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS BPDV21x0R_43_GHz Balanced Photodetector_A07.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/Coherent optics for LEO satellites communication present, next and beyond Sept. 24th 2024 Final.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_Manual XPRV2325A_A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS BPDV3320R_70_GHz Dual Window Balanced Photodetector_A05.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_Manual EVA-XPRV2x25A_A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR PB AO-TCOAx_Analog optical Tx 32GHz_1v2b.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR PB AO-RCOAx_Analog optical Rx 32GHz_1v2b.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/DVT XPDV4121R O-Band Behavior 1v0.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS XPDV3x20R_70_GHz Photodetector_A08.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS EVA-VPDV_A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS VPDV2120_20_GHz Ultra-High-Power Photodetector_A08.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS BPDV3120R_70_GHz Balanced Photodetector_A07.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/DVT Report XPRV2325A_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/DVT REPORT XPRV2324A_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR PB AO-Link_Analog optical 32GHz_1v1.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS BPDV412xR_100_GHz Balanced Photodetector A04.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS XPRV2325A_30_GHz Linear Photoreceiver A05.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_TR 70_100GHz Photodetectors behavior in O-Band 1v2.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS EVA-XPRV2X25A A02.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/COHR_DS XPDV2xx0R(A)_50_GHz Photodetector_A09.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/BPD用電源周り資料/COHR_Manual Balanced Photodetector series BPDV_A01.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/BPD用電源周り資料/Manual_BPDV21x0R_BPDV31x0R_A00.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/BPD用電源周り資料/DS PPS-03-xx A04.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/06_技術資料/BPD用電源周り資料/DS Eva-BPDVxxxx_Rev_A03.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/DS BPDV422x_100_GHz_Balanced_Photodetector_OEM RevA03.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/II-VI HSD PL presentation 2021-04-29 Sales Training handout.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/II-VI HSD PL presentation cust 2021-09.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/COHR HSD PL presentation 2023-06.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/II-VI HSD PL presentation 2021-04-29 Sales Training handout red boxes.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/Finisar_High Speed Detectors Product Line 1v8 Sep 2019.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/IIVI_HSD Customer Newsletter_2021-09-24.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/II-VI HSD PL presentation 2020-03-20.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/02_Product update information/COHR HSD PL presentation 2024-01-22 short.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/01_カタログ/coherent-advanced-photodetectors_receivers-ds.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/01_カタログ/Brochure_Coherent and advanced Photodetectors and Receivers.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/01_カタログ/総合カタログ_Finisar_PD.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/01_カタログ/ii-vi_receivers-photodetectors-02202020-web.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/03_キャンペーン/Ⅱ-Ⅵ PDキャンペーン価格表.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/03_キャンペーン/Ⅱ-Ⅵ PDキャンペーン価格表_延長.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/08. 販促資料/02_High speed PD/03_キャンペーン/Finisarセール/Special Sales 4CQ2020_pulished_updated.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/14. Salesforce/RMA Process Reps Update 03_20_2023.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/finisar/14. Salesforce/II-VI Okta Activation Guide for Salesforce External Partners.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/FormeriaOE/Formerica Profile 20240115 SMP_Mar 2024.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/オフィール/製品価格改定のご案内.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/オフィール/2019.11.1価格表(SPIRICON).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/オフィール/2019.11.1価格表(OPHIR).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/オフィール/2019.11.1価格表(PHOTON).pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/古い/WAKA見積書 SMK.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/定例会資料(w川西先生)/2022年度委嘱状/2022年度委嘱状.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/定例会資料(w川西先生)/2023年度委嘱状/2023年度委嘱状.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/定例会資料(w川西先生)/2025年度委嘱状/2025年度委嘱状.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/定例会資料(w川西先生)/技術顧問契約書/技術顧問契約書.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/定例会資料(w川西先生)/技術顧問契約書/技術顧問契約書（川西哲也）.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/ワカ製作所/定例会資料(w川西先生)/技術顧問契約書/顧問継続契約書_川西先生【案】.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/光伸光学/【価格表】2022改定.pdf
+Sevensix_dropbox/機密レベル3/営業本部/メーカー別/光伸光学/光源校正価格表.pdf
