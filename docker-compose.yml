@@ -30,6 +30,7 @@ services:
 
   postgres:
     image: postgres:15
+    container_name: postgres_db
     restart: always
     environment:
       POSTGRES_USER: postgres
@@ -39,7 +40,34 @@ services:
       - "5432:5432"
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
-    command: ["postgres", "-c", "max_connections=200"]
+    # command: ["postgres", "-c", "max_connections=200"]
+    command: >
+      postgres -c logging_collector=on
+             -c max_connections=200
+             -c log_directory=/var/lib/postgresql/data/log
+             -c log_filename=postgresql.log
+             -c log_connections=on
+             -c log_disconnections=on
+             -c log_duration=on
+             -c log_min_messages=info
+
+  pgbouncer:
+    image: edoburu/pgbouncer:latest
+    container_name: pgbouncer
+    restart: always
+    depends_on:
+      - postgres
+    ports:
+      - "6432:6432"
+    environment:
+      DATABASE_URL: postgres://postgres:2244@postgres:5432/sevensix_dev_1
+      POOL_MODE: transaction   # or session
+      MAX_CLIENT_CONN: 1000    # max client connections allowed to PgBouncer
+      DEFAULT_POOL_SIZE: 20    # actual connections PgBouncer keeps to Postgres
+    volumes:
+      - ./pgbouncer.ini:/etc/pgbouncer/pgbouncer.ini
+      - ./userlist.txt:/etc/pgbouncer/userlist.txt
+      - ./pgbouncer.log:/var/log/pgbouncer/pgbouncer.log
 
   prometheus:
     image: prom/prometheus:latest

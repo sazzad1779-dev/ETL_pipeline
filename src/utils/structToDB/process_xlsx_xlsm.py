@@ -189,7 +189,7 @@ class ExcelDataExtractor:
                 # Save JSON as before
                 #self.save_results(result, str(Path(output_dir) / f"{Path(file).stem}_extracted.json"))
                 row = result["data"].copy()
-                row["file_path"] = file
+                row["source"] = file
                 row["level"]=level
                 row["origin"]=origin
                 all_results.append(row)
