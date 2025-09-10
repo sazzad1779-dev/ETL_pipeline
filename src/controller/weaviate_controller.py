@@ -1,9 +1,7 @@
 import os
 import weaviate
 from weaviate.classes.config import Configure, Property
-# from src.utils.vectorDB.weaviate_utils import run_query, delete_by_source, print_collection_info,retrieve_by_field
-# from src.config import property_config
-from src.schemas.weaviate import property_config
+from src.schemas.weaviate import DEFAULT_SCHEMA
 from src.utils.vectorDB.weaviate_utils import WeaviateUtils
 
 class WeaviateController:
@@ -20,7 +18,7 @@ class WeaviateController:
         self.embedding_provider = embedding_provider.lower()
         self.embedding_model = embedding_model
         self.collection_delete = collection_delete
-        self.properties_config = properties or property_config
+        self.properties_config = properties or DEFAULT_SCHEMA
         self.tenancy_list = tenancy_list or []
         self.client = self._connect()
         self.collection = self._create_collection()
@@ -33,9 +31,13 @@ class WeaviateController:
             headers["X-JinaAI-Api-Key"] = os.getenv("JINAAI_API_KEY")
         elif self.embedding_provider == "openai":
             headers["X-OpenAI-Api-Key"] = os.getenv("OPENAI_API_KEY")
+        if os.getenv("WEAVIATE_URL")=="localhost":
+            print("Connecting to local Weaviate instance...")
+            client = weaviate.connect_to_local(headers=headers,)
+        else:
+            print(f"Connecting to Weaviate at {os.getenv('WEAVIATE_URL')}...")
+            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host="sevensix-etl-nlb-weaviate-pg-2e724b12a987f351.elb.ap-northeast-1.amazonaws.com",grpc_port=50051, auth_credentials=None, skip_init_checks=True,grpc_secure=False,)
         
-        # client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host="sevensix-etl-nlb-weaviate-pg-2e724b12a987f351.elb.ap-northeast-1.amazonaws.com",grpc_port=50051, auth_credentials=None, skip_init_checks=True,grpc_secure=False,)
-        client = weaviate.connect_to_local(headers=headers,)
         if client.is_ready():
             print("Connected to Weaviate")
         else:
@@ -92,12 +94,12 @@ class WeaviateController:
     def query_data(self, query_text, limit=5):
         self.weaviate_utils.run_query(query_text, limit)
 
-    def query_data_hybrid(self, query_text, limit=5):
-        self.weaviate_utils.run_query_hybrid(query_text, limit)
+    def query_data_hybrid(self, query_text, limit=5,index_range=50):
+        self.weaviate_utils.run_query_hybrid(query_text, limit,index_range=index_range)
     
-    def retrieve_data_by_field(self, field_list:list, limit:int=5):
+    def retrieve_data_by_field(self, field_list:list, limit:int=5,fileters=None):
         """Retrieve data using a near_text query."""
-        self.weaviate_utils.retrieve_by_field(field_list, limit)
+        self.weaviate_utils.retrieve_by_field(field_list, limit,fileters)
 
     def delete_data_by_source(self, file_source: str):
         """Delete data by source."""

@@ -93,8 +93,7 @@ class DoclingController:
         print("Total file found :",len(input_paths))
         print(input_paths)
         conv_results = self.doc_converter.convert_all(input_paths)
-        texts = []
-        sources = []
+        contents,chunk_indexes, sources = [],[],[]
         for i,res in enumerate(conv_results):
             print(input_paths[i])
             if table_extraction:
@@ -104,9 +103,10 @@ class DoclingController:
             serializer = MarkdownDocSerializer(doc=res.document)
             ser_result = serializer.serialize()
             ser_text = clean_text(ser_result.text)
-            text_chunks = self.chunker.split_texts(ser_text)
+            text_chunks,chunk_index = self.chunker.split_texts(ser_text)
             
-            texts.extend(text_chunks)
+            contents.extend(text_chunks)
+            chunk_indexes.extend(chunk_index)
             sources.extend([input_paths[i]]* len(text_chunks))
             if len(save_format_list) > 0:
                 saving_file(
@@ -122,7 +122,7 @@ class DoclingController:
             # else:
             #     break
         self.logger.info(f"Total time taken: {time.time() - start_time:.2f} seconds")
-        return texts, sources
+        return contents,chunk_indexes, sources
     def process_product_spec(
         self,
         input_paths,
@@ -131,9 +131,7 @@ class DoclingController:
         save_format_list=[],#,".md", ".txt", ".yaml", ".json"
     ):
         start_time = time.time()
-        print("Total file found :",len(input_paths))
-        print(input_paths)
-        texts, sources = [], []
+        contents, sources, chunk_indexes = [], [], []
         i=0
         for file_path in input_paths:
             # file_path = 
@@ -147,15 +145,15 @@ class DoclingController:
                 self.logger.error(f"❌ Skipping {file_path} due to error: {e}")
                 continue  # skip just this file
             i+=1
-            print(i)
             for res in conv_results:
                 self.logger.info(f"✅ Document converted: {res.input.file.name}")
                 serializer = MarkdownDocSerializer(doc=res.document)
                 ser_result = serializer.serialize()
                 ser_text = clean_text(ser_result.text)
-                text_chunks = self.chunker.split_texts(ser_text)
+                text_chunks,chunk_index = self.chunker.split_texts(ser_text)
 
-                texts.extend(text_chunks)
+                contents.extend(text_chunks)
+                chunk_indexes.extend(chunk_index)
                 sources.extend([file_path] * len(text_chunks))
 
                 if len(save_format_list) > 0:
@@ -163,6 +161,7 @@ class DoclingController:
                         res=res,
                         output_dir=output_dir,
                         save_format_list=save_format_list,
+                        
                         table_extraction=table_extraction)
                 if i<5:
                     print("document number: ",i)
@@ -173,7 +172,7 @@ class DoclingController:
             #     break
                 
         self.logger.info(f"Total time taken: {time.time() - start_time:.2f} seconds")
-        return texts, sources
+        return contents,chunk_indexes, sources
 
     def table_extraction(self, res, output_dir):
         """

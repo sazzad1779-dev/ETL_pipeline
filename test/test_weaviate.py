@@ -1,5 +1,4 @@
 from src.controller.weaviate_controller import WeaviateController
-from src.schemas.weaviate import Product_collection_property_config, Product_collection_tenancy_list
 # from src
 from dotenv import load_dotenv
 load_dotenv()

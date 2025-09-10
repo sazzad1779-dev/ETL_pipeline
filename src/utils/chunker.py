@@ -18,9 +18,14 @@ class TextChunker:
         if isinstance(texts, str):
             texts = [texts]
         
-        split_texts = []
-        for text in texts:
-            split_texts.extend(self.text_splitter.split_text(text))
+        split_text_list = []
+        chunk_index = []
+        for i,text in enumerate(texts):
+            split_text_list.extend(self.text_splitter.split_text(text))
+            num_chunks = len(self.text_splitter.split_text(text))
+            chunk_index.extend([j for j in range(num_chunks)])
+            
         
-        return split_texts
+        return split_text_list,chunk_index
+
 

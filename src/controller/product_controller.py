@@ -11,10 +11,7 @@ class ProductsDataController:
     def process(self):
         """Fetch, clean, and chunk WordPress product data."""
         rows = self.cleaner.fetch_products()
-        chunked_texts = []
-        source_urls_list = []
-        image_urls_list = []
-        youtube_urls_list = []
+        chunked_texts,chunk_indexes, source_urls_list, image_urls_list, youtube_urls_list = [],[],[],[],[]
 
         for row in rows:
             cleaned_content, image_urls, youtube_urls = self.cleaner.clean_and_extract(row.post_content)
@@ -23,14 +20,15 @@ class ProductsDataController:
             youtube_urls_str = "\n".join(youtube_urls) if youtube_urls else ""
 
             full_text = f"Title: {row.post_title}\nSummary:{row.post_summary} \nDesciption: {cleaned_content}"
-            text_chunks = self.chunker.split_texts(full_text)
+            text_chunks,chunk_index = self.chunker.split_texts(full_text)
 
             chunked_texts.extend(text_chunks)
+            chunk_indexes.extend(chunk_index)
             source_urls_list.extend([f"https://www.sevensix.co.jp/products/{row.post_sub_url}"] * len(text_chunks))
             image_urls_list.extend([image_urls_str] * len(text_chunks))
             youtube_urls_list.extend([youtube_urls_str] * len(text_chunks))
 
-        return chunked_texts, source_urls_list, image_urls_list, youtube_urls_list
+        return chunked_texts,chunk_indexes, source_urls_list, image_urls_list, youtube_urls_list
 
 if __name__ == "__main__":
     processor = ProductsDataController()

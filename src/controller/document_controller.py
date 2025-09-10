@@ -33,7 +33,7 @@ class DocumentController:
     def insert_product_into_weaviate(self):
         """Process, chunk, and insert data into Weaviate."""
         print("start to processing....")
-        content, sources, image_urls_list, youtube_urls_list= self.processor.process()
+        content,chunk_indexes, sources, image_urls_list, youtube_urls_list= self.processor.process()
         level = [self.level]* len(sources)
         origin = [self.origin]* len(sources)
         print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {type(self.level)}")
@@ -44,13 +44,14 @@ class DocumentController:
             image_urls=image_urls_list, 
             youtube_urls=youtube_urls_list,
             level=level,
-            origin=origin
+            origin=origin,
+            chunk_index=chunk_indexes
         )
 
     def insert_into_weaviate(self):
         """Process, chunk, and insert data into Weaviate."""
         print("start to processing....")
-        content, sources = self.processor.process(
+        content,chunk_indexes, sources = self.processor.process(
             input_paths=self.file_loader.load_files()
         )
         level = [self.level]* len(sources)
@@ -61,7 +62,8 @@ class DocumentController:
             content=content,
             source=sources,
             level=level,
-            origin=origin
+            origin=origin,
+            chunk_index=chunk_indexes
         )
 
     # def insert_into_weaviate_prod_spec(self):
@@ -120,7 +122,7 @@ class DocumentController:
             print(f"\nProcessing batch {i // batch_size + 1}: {batch_files}")
 
             # Process the batch
-            content, sources = self.processor.process_product_spec(input_paths=batch_files)
+            content,chunk_indexes, sources = self.processor.process_product_spec(input_paths=batch_files)
 
             # Record the batch file names for each content piece
             source_with_file = []
@@ -137,7 +139,8 @@ class DocumentController:
                 content=content,
                 source=source_with_file,
                 level=level_list,
-                origin=origin_list
+                origin=origin_list,
+                chunk_index=chunk_indexes
             )
 
             # Log the processed batch immediately
@@ -169,11 +172,11 @@ class DocumentController:
         """Print information about the Weaviate collection."""
         self.weaviate_client.print_collection_info()
         
-    def retrieve_data_by_field(self, field_list, limit=5):
+    def retrieve_data_by_field(self, field_list, limit=5,filters=None):
         """Retrieve data from Weaviate by specified fields."""
-        self.weaviate_client.retrieve_data_by_field(field_list, limit)
+        self.weaviate_client.retrieve_data_by_field(field_list, limit,filters)
     def query_data(self, query_text, limit=5):
         self.weaviate_client.query_data(query_text=query_text,limit=limit)
-    def query_data_hybrid(self,query_text,limit=5):
-        self.weaviate_client.query_data_hybrid(query_text=query_text,limit=limit)
+    def query_data_hybrid(self,query_text,limit=5,index_range=50):
+        self.weaviate_client.query_data_hybrid(query_text=query_text,limit=limit,index_range=index_range)
         
