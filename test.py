@@ -1,23 +1,15 @@
+import weaviate
+from weaviate.auth import AuthApiKey
 import os
+from dotenv import load_dotenv
+load_dotenv(override=True)
+client = weaviate.Client(
+    url=f"http://{os.getenv('WEAVIATE_URL')}:8080",
+    auth_client_secret=AuthApiKey(os.getenv("WEAVIATE_API_KEY")),
+    timeout_config=(5, 15)
+)
 
-def list_directories(base_path):
-    dir_paths = []
-    dir_names = []
-
-    for root, dirs, files in os.walk(base_path):
-        for d in dirs:
-            dir_path = os.path.join(root, d)
-            dir_paths.append(dir_path)   # full path
-            dir_names.append(d)          # directory name only
-
-    return dir_paths, dir_names
-
-# Example usage
-base_path = "Sevensix_dropbox/機密レベル3/営業本部/メーカー別"
-all_paths, all_names = list_directories(base_path)
-
-print("Directory Paths:")
-print(all_paths)
-
-print("\nDirectory Names:")
-print(all_names)
+if client.is_ready():
+    print("✅ Weaviate is reachable and ready!")
+else:
+    print("❌ Weaviate is not ready or unreachable.")

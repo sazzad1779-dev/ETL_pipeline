@@ -3,7 +3,7 @@ import weaviate
 from weaviate.classes.config import Configure, Property
 from src.schemas.weaviate import DEFAULT_SCHEMA
 from src.utils.vectorDB.weaviate_utils import WeaviateUtils
-
+from weaviate.classes.init import Auth
 class WeaviateController:
     def __init__(
         self,
@@ -27,16 +27,17 @@ class WeaviateController:
 
     def _connect(self):
         headers = {}
+        weaviate_api_key = os.environ["WEAVIATE_API_KEY"]
         if self.embedding_provider == "jina":
             headers["X-JinaAI-Api-Key"] = os.getenv("JINAAI_API_KEY")
         elif self.embedding_provider == "openai":
             headers["X-OpenAI-Api-Key"] = os.getenv("OPENAI_API_KEY")
         if os.getenv("WEAVIATE_URL")=="localhost":
             print("Connecting to local Weaviate instance...")
-            client = weaviate.connect_to_local(headers=headers,)
+            client = weaviate.connect_to_local(headers=headers,auth_credentials=Auth.api_key(weaviate_api_key))
         else:
             print(f"Connecting to Weaviate at {os.getenv('WEAVIATE_URL')}...")
-            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host="sevensix-etl-nlb-weaviate-pg-2e724b12a987f351.elb.ap-northeast-1.amazonaws.com",grpc_port=50051, auth_credentials=None, skip_init_checks=True,grpc_secure=False,)
+            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host=os.getenv("WEAVIATE_URL"),grpc_port=50051, auth_credentials=Auth.api_key(weaviate_api_key), skip_init_checks=True,grpc_secure=False,)
         
         if client.is_ready():
             print("Connected to Weaviate")

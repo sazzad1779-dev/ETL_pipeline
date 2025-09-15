@@ -1,0 +1,41 @@
+
+[
+  {
+    "name": "Product",
+    "dir_path": null,
+    "level": "1",
+    "collection_name": "Product_data",
+    "collection_delete": false,
+    "properties": "PRODUCT_SCHEMA",
+    "product": true,
+    "filters": {"field": "source", "value": "https://www.sevensix.co.jp/products/superk-fianium"},
+    "hybrid_query": "tell me about facial recognation",
+    "hybrid_limit": 50,
+    "hybrid_index_range": 5,
+    "retrieve_fields": ["content", "source", "level", "image_urls", "youtube_urls", "origin", "chunk_index"],
+    "retrieve_limit": 20
+  },
+  {
+    "name": "Regulation",
+    "dir_path": ["Sevensix_dropbox/機密レベル2/企画管理本部/社内規程・就業規則/4_規程_経理"],
+    "level": "2",
+    "collection_name": "Regulation_data",
+    "collection_delete": false,
+    "properties": "DEFAULT_SCHEMA",
+    "origin": "s3_bucket",
+    "query": "計単位は",
+    "retrieve_fields": ["content", "source","level"],
+    "retrieve_limit": 5
+  },
+  {
+    "name": "Paper",
+    "dir_path": ["Sevensix_dropbox/機密レベル2/営業本部/論文データ"],
+    "level": "2",
+    "collection_name": "Paper_data",
+    "collection_delete": false,
+    "properties": "DEFAULT_SCHEMA",
+    "retrieve_fields": ["content", "source","level"],
+    "retrieve_limit": 5,
+    "query": "10.4 bits/s/Hz."
+  }
+]

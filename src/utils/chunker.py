@@ -12,7 +12,7 @@ class TextChunker:
     def split_texts(self, texts):
         """Splits texts into smaller chunks."""
         if not texts:
-            return []
+            return [], []
         
         # Ensure texts is a list of strings
         if isinstance(texts, str):

@@ -9,11 +9,11 @@ processor = DocumentController(dir_path=dirs,
                                collection_delete=False)
 
 # processor.run()
-processor.retrieve_data_by_field(
-    field_list=["content", "source"],
-    limit=5
-)
-print(" near searach\n"," *"*50)
-processor.query_data("10.4 bits/s/Hz.")
+# processor.retrieve_data_by_field(
+#     field_list=["content", "source", "level", "origin", "chunk_index"],
+#     limit=5
+# )
+# print(" near searach\n"," *"*50)
+# processor.query_data("10.4 bits/s/Hz.")
 print(" hybrid search\n"," *"*50)
-processor.query_data_hybrid("10.4 bits/s/Hz.")
+processor.query_data_hybrid("CMOS industry fabrication",index_range=2,limit=2)

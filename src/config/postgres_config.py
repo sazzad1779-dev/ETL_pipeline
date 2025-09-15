@@ -10,7 +10,6 @@ Base = declarative_base()
 # PG_DB_URL = "postgresql+psycopg2://postgres:2244@localhost/xyz?client_encoding=utf8"
 
 PG_DB_URL = os.environ.get(
-    "PG_DB_URL",
-    "postgresql+psycopg2://postgres:2244@localhost/sevensix_dev_1?client_encoding=utf8"
+    "PG_DB_URL",None
 )
 print("PG_DB_URL: ",PG_DB_URL)

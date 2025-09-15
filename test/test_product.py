@@ -10,5 +10,6 @@ processor.retrieve_data_by_field(
     limit=20,
     filters=Filter.by_property("source").equal("https://www.sevensix.co.jp/products/superk-fianium"),
 )
+
 print(" hybrid search\n"," *"*50)
 processor.query_data_hybrid("tell me about facial recognation ", limit=50,index_range=5)

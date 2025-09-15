@@ -103,7 +103,11 @@ class DoclingController:
             serializer = MarkdownDocSerializer(doc=res.document)
             ser_result = serializer.serialize()
             ser_text = clean_text(ser_result.text)
+
             text_chunks,chunk_index = self.chunker.split_texts(ser_text)
+            if not text_chunks:
+                self.logger.warning(f"No text extracted from {res.input.file.name}, skipping.")
+                continue
             
             contents.extend(text_chunks)
             chunk_indexes.extend(chunk_index)

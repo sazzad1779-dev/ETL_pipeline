@@ -114,9 +114,20 @@ class WeaviateUtils:
                         & Filter.by_property("chunk_index").greater_or_equal(start_index)
                         & Filter.by_property("chunk_index").less_or_equal(end_index)
                     )
+            # Always fetch the common fields
+            base_props = ["content", "source", "chunk_index"]
+
+            # Add optional fields only if they exist in the schema
+            optional_props = []
+            schema_props = [p.name for p in self.collection.config.get().properties]
+
+            if "image_urls" in schema_props:
+                optional_props.append("image_urls")
+            if "youtube_urls" in schema_props:
+                optional_props.append("youtube_urls")
 
             response = self.collection.query.fetch_objects(
-                return_properties=["content", "source", "chunk_index","image_urls","youtube_urls"],
+                return_properties=base_props + optional_props,
                 filters=filters,
                 limit=limit,
             )
@@ -132,22 +143,36 @@ class WeaviateUtils:
                 contents += f"{obj.properties['content']}\n"
             contents += "\n"
             # contents += self.extract_sources(response.objects[0])
-            obj = response.objects[0]
-            image_urls = (
-                obj.properties.get("image_urls", "").split("\n")
-                if obj.properties.get("image_urls")
-                else []
-            )
-            youtube_urls = (
-                obj.properties.get("youtube_urls", "").split("\n")
-                if obj.properties.get("youtube_urls")
-                else []
-            )
-            # Clean up URLs
-            image_urls = [url.strip() for url in image_urls if url.strip()]
-            youtube_urls = [url.strip() for url in youtube_urls if url.strip()]
-            source = obj.properties.get("source", "Unknown Product")
             score=.5
+            obj = response.objects[0]
+            source = obj.properties.get("source", "Unknown Product")
+            if obj.properties.get("image_urls", None) or obj.properties.get("youtube_urls", None):
+                image_urls = (
+                    obj.properties.get("image_urls", "").split("\n")
+                    if obj.properties.get("image_urls")
+                    else []
+                )
+                youtube_urls = (
+                    obj.properties.get("youtube_urls", "").split("\n")
+                    if obj.properties.get("youtube_urls")
+                    else []
+                )
+                # Clean up URLs
+                image_urls = [url.strip() for url in image_urls if url.strip()]
+                youtube_urls = [url.strip() for url in youtube_urls if url.strip()]
+                # Add image sources
+
+                for i, img_url in enumerate(image_urls[:3]):
+                    sources_list.append(
+                        Source(name=f"Product Image {i + 1}", url=img_url, score=None)
+                    )
+
+                # Add video sources
+                for i, video_url in enumerate(youtube_urls[:2]):
+                    sources_list.append(
+                        Source(name=f"Product Video {i + 1}", url=video_url, score=None)
+                    )
+            
             # Add main product source
             if source.startswith(("http://", "https://")):
                 sources_list.append(
@@ -157,49 +182,11 @@ class WeaviateUtils:
                         score=score,
                     )
                 )
-
-            # Add image sources
-            for i, img_url in enumerate(image_urls[:3]):
-                sources_list.append(
-                    Source(name=f"Product Image {i + 1}", url=img_url, score=None)
-                )
-
-            # Add video sources
-            for i, video_url in enumerate(youtube_urls[:2]):
-                sources_list.append(
-                    Source(name=f"Product Video {i + 1}", url=video_url, score=None)
-                )
-
-            # Format result text
-            result_text = f"Product: {source}\n\n"
-            # if len(content) > 500:
-            #     result_text += f"{content[:500]}...\n\n"
-            # else:
-            result_text += f"{contents}\n\n"
-
-            # Add resources section
-            resources = []
-            if source.startswith(("http://", "https://")):
-                resources.append(f"Product Page: {source}")
-
-            if youtube_urls:
-                for url in youtube_urls[:2]:
-                    resources.append(f"Video: {url}")
-
-            if image_urls:
-                for url in image_urls[:3]:
-                    resources.append(f"Image: {url}")
-
-            if resources:
-                result_text += "Available Resources:\n" + "\n".join(
-                    f"- {r}" for r in resources
-                )
-
-            results.append(result_text)
+            results.append(contents)
             
         formatted_content = "\n\n" + ("\n" + "=" * 50 + "\n\n").join(results)
         print({"content": formatted_content, "sources": sources_list})
-        # return all_objects
+        
 
 
     def run_query_hybrid(self, query_text, limit=5,index_range=50):
@@ -208,7 +195,7 @@ class WeaviateUtils:
         response = self.collection.query.hybrid(
             query=query_text,
             limit=limit,
-            alpha=0.5,
+            alpha=0.7,
             return_properties=["content", "source","chunk_index"],
             return_metadata=MetadataQuery(score=True),
             fusion_type = HybridFusion.RELATIVE_SCORE,

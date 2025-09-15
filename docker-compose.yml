@@ -16,17 +16,44 @@ services:
       - 2112:2112
     restart: on-failure:0
     environment:
-      ENABLE_MODULES: "text2vec-openai"
-      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
-      PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+      QUERY_DEFAULTS_LIMIT: 40 #maximum number of objects Weaviate returns for a query
+      ENABLE_MODULES: "backup-s3,text2vec-openai"
       ENABLE_API_BASED_MODULES: "true"
+      
       CLUSTER_HOSTNAME: "node1"
+
+      ## Monitoring configuration
       PROMETHEUS_MONITORING_ENABLED: "true"
+      PROMETHEUS_MONITORING_PORT: 2112  #defaultexpose the metrics at <hostname>:2112/metrics
+
+      ## authentication configuration
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "false"
+      AUTHENTICATION_APIKEY_ENABLED: "true"
+      AUTHENTICATION_APIKEY_ALLOWED_KEYS: "jbc_admin,jbc_dev"
+      AUTHENTICATION_APIKEY_USERS: "admin,user"
+
+
+      ## backup configuration
+      # ENABLE_MODULES: "backup-filesystem" # Enable the filesystem backup module
+      # BACKUP_FILESYSTEM_PATH: "/var/lib/weaviate/backups" # Set backup location (e.g. within a Docker container or on a Kubernetes pod)
+
+      ## s3 backup configuration
+      BACKUP_S3_ENDPOINT: s3.amazonaws.com
+      BACKUP_S3_BUCKET: vectordb.backup
+      BACKUP_S3_PATH: weaviate/prod
+      BACKUP_S3_REGION: ap-northeast-1
+      # AWS credentials from .env
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+
+      PERSISTENCE_DATA_PATH: "/var/lib/weaviate" #storage location inside the container
+
+      DISABLE_TELEMETRY: "true" # Disable telemetry to avoid data being sent to Weaviate
 
     depends_on:
       - postgres
     volumes:
-      - ./weaviate_data:/var/lib/weaviate
+      - ./weaviate:/var/lib/weaviate #to store the data on the local machine
 
   postgres:
     image: postgres:15
@@ -39,7 +66,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./postgres_data:/var/lib/postgresql/data
+      - ./postgres_data1:/var/lib/postgresql/data
     # command: ["postgres", "-c", "max_connections=200"]
     command: >
       postgres -c logging_collector=on
