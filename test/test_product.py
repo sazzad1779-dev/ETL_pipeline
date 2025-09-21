@@ -3,8 +3,8 @@ from src.schemas.weaviate import  PRODUCT_SCHEMA
 from weaviate.classes.query import Filter
 from dotenv import load_dotenv
 load_dotenv(override=True)
-processor = DocumentController(level="1",collection_name="Product_data",properties=PRODUCT_SCHEMA,collection_delete=True,product=True)
-processor.run()
+processor = DocumentController(level="1",collection_name="Product_data",properties=PRODUCT_SCHEMA,collection_delete=False,product=True)
+# processor.run()
 processor.retrieve_data_by_field(
     field_list=["content", "source", "level", "image_urls", "youtube_urls", "origin", "chunk_index"],
     limit=20,
