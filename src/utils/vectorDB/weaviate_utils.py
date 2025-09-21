@@ -4,6 +4,8 @@ from typing import Dict
 from weaviate.classes.query import HybridFusion
 from pydantic import BaseModel, Field
 from typing import List, Optional
+import weaviate.classes as wvc
+from weaviate.util import generate_uuid5  # Generate a deterministic ID
 class Source(BaseModel):
     """Source information for guideline responses"""
 
@@ -17,22 +19,51 @@ class WeaviateUtils:
     def __init__(self, collection):
         self.collection = collection
 
+    # def insert_data(self, **kwargs):
+    #     """Insert a single object into the collection."""
+    #     try:
+    #         lengths = {len(v) for v in kwargs.values()}
+    #         if len(lengths) != 1:
+    #             raise ValueError("All property lists must have the same length.")
+    #         data = [dict(zip(kwargs.keys(), vals)) for vals in zip(*kwargs.values())]
+    #         print(f"📥 Inserting {len(data)} items...")
+    #         response = self.collection.data.insert_many(data)
+    #         if response.has_errors:
+    #             print("❌ Insert Errors:", response.errors)
+    #         else:
+    #             print("✅ Insert complete.")
+    #     except  Exception as e :
+    #         print(f"❌ Error: {e}")
+    #         return {"error": str(e)}
     def insert_data(self, **kwargs):
-        """Insert a single object into the collection."""
+        """Insert a list of objects where each object = {'properties': {...}, 'uuid': ...}."""
         try:
+            # Validate lengths of remaining fields
             lengths = {len(v) for v in kwargs.values()}
             if len(lengths) != 1:
                 raise ValueError("All property lists must have the same length.")
-            data = [dict(zip(kwargs.keys(), vals)) for vals in zip(*kwargs.values())]
-            print(f"📥 Inserting {len(data)} items...")
-            response = self.collection.data.insert_many(data)
+            data_objects = []
+            for i, vals in enumerate(zip(*kwargs.values())):
+                # Build the properties dict from each row of values
+                properties = dict(zip(kwargs.keys(), vals))
+                # Create the object with the UUID
+                obj = wvc.data.DataObject(
+                    properties=properties,
+                    uuid=generate_uuid5(properties),  
+                )
+                data_objects.append(obj)
+            print(f"📥 Inserting {len(data_objects)} items...")
+            response = self.collection.data.insert_many(data_objects)
+
             if response.has_errors:
                 print("❌ Insert Errors:", response.errors)
             else:
                 print("✅ Insert complete.")
-        except  Exception as e :
+        except Exception as e:
             print(f"❌ Error: {e}")
             return {"error": str(e)}
+
+
             
 
 
@@ -51,45 +82,45 @@ class WeaviateUtils:
             print("Distance:", obj.metadata.distance)
             print("---")
 
-    # def run_query_hybrid(self, query_text, limit=5):
-    #     """Execute a near_text query and print results."""
-    #     print(f"\n🔍 Querying for: {query_text}\n")
+    def run_query_single_chunk_hybrid(self, query_text, limit=5):
+        """Execute a near_text query and print results."""
+        print(f"\n🔍 Querying for: {query_text}\n")
 
-    #     response = self.collection.query.hybrid(
-    #         query=query_text,
-    #         limit=limit,
-    #         alpha=0.5,
-    #         return_properties=["content", "source"],
-    #         return_metadata=MetadataQuery(distance=True,score=True,certainty=True),
-    #         fusion_type = HybridFusion.RELATIVE_SCORE,
-    #         auto_limit=2,
-    #     )
-    #     source_set = set()
+        response = self.collection.query.hybrid(
+            query=query_text,
+            limit=limit,
+            alpha=0.5,
+            return_properties=["content", "source"],
+            return_metadata=MetadataQuery(distance=True,score=True,certainty=True),
+            fusion_type = HybridFusion.RELATIVE_SCORE,
+            auto_limit=2,
+        )
+        source_set = set()
 
-    #     for i, obj in enumerate(response.objects, start=1):
-    #         print(f"Result #{i}:")
-    #         if obj.properties.get("source") in source_set:
-    #             print("Duplicate source found, skipping...")
-    #             continue
-    #         source_set.add(obj.properties.get("source"))
-    #         for prop in obj.properties:
-    #             print(f"{prop}:", obj.properties.get(prop))
-    #         print("Distance:", obj.metadata.score)
-    #         print("---")
-    #         # relative= self.collection.query.fetch_objects(return_properties=["content", "source"],filter=Filter.by_property("source").equal(obj.properties["source"]))
-    #         relative = self.collection.query.fetch_objects(
-    #             return_properties=["content"],
-    #             filters=Filter.by_property("source").equal(obj.properties["source"]),
-    #             limit=10,  # optional
-    #         )
-    #         print(" Related items ")
-    #         print("===-+++==="*20)
-    #         total_content= len(relative.objects)
-    #         print(f"Total related items: {total_content}")
-    #         for obj1 in relative.objects:
-    #             for prop1 in obj1.properties:
-    #                 print(f"{prop1}:", obj1.properties.get(prop1))
-    #         print("===+==="*20)
+        for i, obj in enumerate(response.objects, start=1):
+            print(f"Result #{i}:")
+            if obj.properties.get("source") in source_set:
+                print("Duplicate source found, skipping...")
+                continue
+            source_set.add(obj.properties.get("source"))
+            for prop in obj.properties:
+                print(f"{prop}:", obj.properties.get(prop))
+            print("Distance:", obj.metadata.score)
+            print("---")
+            # relative= self.collection.query.fetch_objects(return_properties=["content", "source"],filter=Filter.by_property("source").equal(obj.properties["source"]))
+            relative = self.collection.query.fetch_objects(
+                return_properties=["content"],
+                filters=Filter.by_property("source").equal(obj.properties["source"]),
+                limit=10,  # optional
+            )
+            print(" Related items ")
+            print("===-+++==="*20)
+            total_content= len(relative.objects)
+            print(f"Total related items: {total_content}")
+            for obj1 in relative.objects:
+                for prop1 in obj1.properties:
+                    print(f"{prop1}:", obj1.properties.get(prop1))
+            print("===+==="*20)
  
     def search_by_source(self, source_set=None, index_set=None, index_range=2, limit=5):
         """Search objects by 'source' and index range (single query)."""
@@ -233,16 +264,29 @@ class WeaviateUtils:
     #         limit -= 1
 
     def retrieve_by_field(self, field_list, limit=5, filters=None):
+        """ Retrieve chunks based """
         resp = self.collection.query.fetch_objects(
             return_properties=field_list,
             limit=limit,
             filters=filters,  # e.g., Filter.by_property("source").equal("my_source")
+            include_vector=True
         )
         for item in resp.objects:
             for field in field_list:
                 print(f"{field}:", json.dumps(item.properties.get(field), indent=2, ensure_ascii=False))
             print("---")
+        return resp.objects
+    
+    def delete_data_by_source_list(self, file_sources: List[str]):
+        """Delete objects by a list of 'source' properties."""
+        print(f"🗑️ Deleting objects with sources: {file_sources}")
+        for file_source in file_sources:
+            result = self.collection.data.delete_many(
+                where=Filter.by_property("source").equal(file_source)
+            )
+            print(f"Deleted {result.matches} objects for source '{file_source}', failed {result.failed}")
 
+    
     def print_collection_info(self):
         """Print collection metadata."""
         print(f"Collection Name: {self.collection.name}")

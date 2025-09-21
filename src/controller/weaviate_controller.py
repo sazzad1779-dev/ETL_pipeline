@@ -36,8 +36,8 @@ class WeaviateController:
             print("Connecting to local Weaviate instance...")
             client = weaviate.connect_to_local(headers=headers,auth_credentials=Auth.api_key(weaviate_api_key))
         else:
-            print(f"Connecting to Weaviate at {os.getenv('WEAVIATE_URL')}...")
-            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL"),http_port=8080,http_secure=False,grpc_host=os.getenv("WEAVIATE_URL"),grpc_port=50051, auth_credentials=Auth.api_key(weaviate_api_key), skip_init_checks=True,grpc_secure=False,)
+            print(f"Connecting to Weaviate at {os.getenv('WEAVIATE_URL_PROD')}...")
+            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL_PROD"),http_port=8080,http_secure=False,grpc_host=os.getenv("WEAVIATE_URL_PROD"),grpc_port=50051, auth_credentials=Auth.api_key(weaviate_api_key), skip_init_checks=True,grpc_secure=False,)
         
         if client.is_ready():
             print("Connected to Weaviate")
@@ -100,11 +100,18 @@ class WeaviateController:
     
     def retrieve_data_by_field(self, field_list:list, limit:int=5,fileters=None):
         """Retrieve data using a near_text query."""
-        self.weaviate_utils.retrieve_by_field(field_list, limit,fileters)
+        return self.weaviate_utils.retrieve_by_field(field_list, limit,fileters)
 
     def delete_data_by_source(self, file_source: str):
         """Delete data by source."""
         self.weaviate_utils.delete_by_source( file_source)
+
+    def update_by_fields(self,uuid):
+        if  uuid:
+            self.collection.data.replace(
+                uuid=uuid,
+                # properties=kwargs,    
+            )
 
     def show_collection_info(self):
         """Print collection metadata."""

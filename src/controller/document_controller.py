@@ -4,8 +4,8 @@ from src.controller.weaviate_controller import WeaviateController
 
 from src.schemas.weaviate import  DEFAULT_SCHEMA
 from src.utils.file_loader import FileLoader
-# from src.schemas.file_loader import DirectoryConfig
 import os
+
 
 class DocumentController:
     """Processes WordPress data and inserts it into Weaviate."""
@@ -36,8 +36,8 @@ class DocumentController:
         content,chunk_indexes, sources, image_urls_list, youtube_urls_list= self.processor.process()
         level = [self.level]* len(sources)
         origin = [self.origin]* len(sources)
-        print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {type(self.level)}")
-        print(f"Content length: {len(content)}", f"Sources length: {len(sources)}")
+        # print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {type(self.level)}")
+        print(f"Content length: {len(content)}", f"Sources length: {len(sources)}",f"origin length: {len(origin)}",f"Sources length: {len(level)}")
         self.weaviate_client.insert_data_from_lists(
             content=content,
             source=sources,
@@ -45,7 +45,7 @@ class DocumentController:
             youtube_urls=youtube_urls_list,
             level=level,
             origin=origin,
-            chunk_index=chunk_indexes
+            chunk_index=chunk_indexes,
         )
 
     def insert_into_weaviate(self):
@@ -57,7 +57,7 @@ class DocumentController:
         level = [self.level]* len(sources)
         origin = [self.origin]* len(sources)
         print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {self.level}")
-        print(f"Content length: {len(content)}", f"Sources length: {len(sources)}")
+        print(f"Content length: {len(content)}", f"Sources length: {len(sources)}",f"origin length: {len(origin)}",f"Sources length: {len(level)}")
         self.weaviate_client.insert_data_from_lists(
             content=content,
             source=sources,
@@ -65,24 +65,8 @@ class DocumentController:
             origin=origin,
             chunk_index=chunk_indexes
         )
-
-    # def insert_into_weaviate_prod_spec(self):
-    #     """Process, chunk, and insert data into Weaviate."""
-    #     print("start to processing....")
-    #     content, sources = self.processor.process_product_spec(
-    #         input_paths=self.file_loader.load_files()
-    #     )
-    #     level = [self.level]* len(sources)
-    #     origin = [self.origin]* len(sources)
-    #     print(f"Content: {content}", f"\n\nSources: {sources},\n\nConfidential Level: {self.level}")
-    #     print(f"Content length: {len(content)}", f"Sources length: {len(sources)}")
-    #     self.weaviate_client.insert_data_from_lists(
-    #         content=content,
-    #         source=sources,
-    #         level=level,
-    #         origin=origin
-    #     )
-    import os
+    
+        
 
     def insert_into_weaviate_prod_spec(self, batch_size=30, log_file="processed_files.txt", max_file_size_mb=10):
         """Process files in batches, skip files >10MB, insert into Weaviate, and log each batch."""
@@ -171,12 +155,21 @@ class DocumentController:
     def print_collection_info(self):
         """Print information about the Weaviate collection."""
         self.weaviate_client.print_collection_info()
-        
+    
+    def update_by_fields(self, uuid:str=None ):
+        self.weaviate_client.update_by_fields(uuid)
+
     def retrieve_data_by_field(self, field_list, limit=5,filters=None):
         """Retrieve data from Weaviate by specified fields."""
-        self.weaviate_client.retrieve_data_by_field(field_list, limit,filters)
+        return self.weaviate_client.retrieve_data_by_field(field_list, limit,filters)
+        
+    def delete_data_by_source(self, file_source: str=None):
+        """Delete data from Weaviate by specified fields."""
+        self.weaviate_client.delete_data_by_source(file_source)
+
     def query_data(self, query_text, limit=5):
         self.weaviate_client.query_data(query_text=query_text,limit=limit)
+
     def query_data_hybrid(self,query_text,limit=5,index_range=50):
         self.weaviate_client.query_data_hybrid(query_text=query_text,limit=limit,index_range=index_range)
         

@@ -7,7 +7,7 @@ class ProductsDataController:
 
     def __init__(self): 
         self.cleaner = ProductContentCleaner()
-        self.chunker = TextChunker(chunk_size=400, chunk_overlap=50)
+        self.chunker = TextChunker(chunk_size=600, chunk_overlap=0)
     def process(self):
         """Fetch, clean, and chunk WordPress product data."""
         rows = self.cleaner.fetch_products()

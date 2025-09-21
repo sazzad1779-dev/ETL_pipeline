@@ -11,5 +11,10 @@ processor.retrieve_data_by_field(
     filters=Filter.by_property("source").equal("https://www.sevensix.co.jp/products/superk-fianium"),
 )
 
+# from weaviate.util import generate_uuid5
+# data_object = {"content":processor.content,
+#                         "source":processor.source}
+
+# processor.update_by_fields(uuid="")
 print(" hybrid search\n"," *"*50)
 processor.query_data_hybrid("tell me about facial recognation ", limit=50,index_range=5)
