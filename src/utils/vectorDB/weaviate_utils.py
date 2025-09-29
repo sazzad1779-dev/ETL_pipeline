@@ -247,10 +247,16 @@ class WeaviateUtils:
     def delete_by_source(self, file_source: str):
         """Delete objects by 'source' property."""
         print(f"🗑️ Deleting objects with source: {file_source}")
-        result = self.collection.data.delete_many(
-            where=Filter.by_property("source").equal(file_source)
-        )
-        print(f"Deleted {result.matches} objects, failed {result.failed}")
+        if not file_source:
+            result = self.collection.data.delete_many(
+                where=Filter.by_property("source").like("*")
+            )
+            print(f"Deleted {result.matches} objects, failed {result.failed}")
+        else:
+            result = self.collection.data.delete_many(
+                where=Filter.by_property("source").equal(file_source)
+            )
+            print(f"Deleted {result.matches} objects, failed {result.failed}")
 
     # def retrieve_by_field(self, field_list, limit=5,filters=None):
     #     """Retrieve data using a near_text query."""

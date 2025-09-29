@@ -3,19 +3,29 @@ import json
 import time
 from datetime import datetime
 from typing import Dict, List, Any, Optional
-from src.controller.document_controller import DocumentController
+# from src.controller.document_controller import DocumentController
 from src.schemas.weaviate import PRODUCT_SCHEMA
 from dotenv import load_dotenv
-
-load_dotenv(override=True)
-
+import os
+from weaviate.classes.init import Auth
 class WeaviateInspector:
     """A comprehensive Weaviate collection inspector"""
     
-    def __init__(self, document_controller: DocumentController):
+    def __init__(self, host: str = None, secure: bool = False):
         """Initialize with a DocumentController instance"""
-        self.controller = document_controller
-        self.client = document_controller.weaviate_client.client
+        self.headers = {"X-OpenAI-Api-Key": os.getenv("OPENAI_API_KEY")}
+        self.host = host or os.getenv("DEV_HOST")
+        self.client = weaviate.connect_to_custom(
+            headers=self.headers,
+            http_host=self.host,
+            http_port=int(os.getenv("http_port", 8080)),
+            http_secure=secure,
+            grpc_host=self.host,
+            grpc_port=int(os.getenv("grpc_port", 50051)),
+            grpc_secure=secure,
+            auth_credentials=Auth.api_key(os.getenv("WEAVIATE_API_KEY", "jbc_admin")),
+            skip_init_checks=True,
+        )
         self.collections_info = {}
         self.health_info = {}
         
@@ -289,10 +299,10 @@ class WeaviateInspector:
             print(f"📊 Basic Information:")
             print(f"   Total Objects: {collection['total_objects']:,}")
             print(f"   Query Time: {collection['query_time']:.3f}s")
-            
+            print(f"   Properties ({len(collection['properties'])}):")
+
             # Properties information
             if collection['properties']:
-                print(f"\n📋 Properties ({len(collection['properties'])}):")
                 for prop_name, prop_info in collection['properties'].items():
                     print(f"   • {prop_name}: {prop_info['data_type']}")
                 
@@ -304,31 +314,18 @@ class WeaviateInspector:
             
             # Sample data
             if collection['sample_objects']:
-                print(f"\n🔍 Sample Data ({len(collection['sample_objects'])} objects):")
-                for i, sample in enumerate(collection['sample_objects'], 1):
+                for i, sample in enumerate(collection['sample_objects']):
                     print(f"\n   Sample {i} (UUID: {sample['uuid'][:8]}...):")
                     if sample['properties']:
                         print(f"     Properties:")
                         for key, value in sample['properties'].items():
-                            print(f"       {key}: {value}")
+                            if key=="content":
+                                print(f"       chunk size: {len(value)}")
                     if sample['vectors']:
                         print(f"     Vectors:")
                         for vector_name, dimensions in sample['vectors'].items():
                             print(f"       {vector_name}: {dimensions} dimensions")
-            
-            # Configuration
-            if collection['vectorizer_config'].get('type'):
-                print(f"\n🎯 Vectorizer: {collection['vectorizer_config']['type']}")
-                if collection['vectorizer_config']['details']:
-                    for key, value in collection['vectorizer_config']['details'].items():
-                        print(f"   {key}: {value}")
-            
-            if collection['index_config'].get('type'):
-                print(f"\n🗂️ Index: {collection['index_config']['type']}")
-                if collection['index_config']['details']:
-                    for key, value in collection['index_config']['details'].items():
-                        print(f"   {key}: {value}")
-            
+
             if collection['error']:
                 print(f"\n⚠️ Errors: {collection['error']}")
     
@@ -351,17 +348,6 @@ class WeaviateInspector:
                 collection = self.collections_info['collections'][name]
                 print(f"   {i}. {name} ({collection['total_objects']:,} objects)")
         
-        # Performance insights
-        print(f"\n💡 Quick Insights:")
-        if summary['total_objects'] > 100000:
-            print("   • Large dataset - consider query optimization")
-        elif summary['total_objects'] > 10000:
-            print("   • Medium dataset - monitor performance")
-        else:
-            print("   • Small dataset - good for development/testing")
-            
-        if summary['total_collections'] > 5:
-            print("   • Multiple collections - consider data organization")
     
     def get_collection_data(self, collection_name: str) -> Dict[str, Any]:
         """Get raw collection data for programmatic use"""
@@ -385,18 +371,25 @@ class WeaviateInspector:
                 print(f"⚠️ Warning during client cleanup: {e}")
 
 # Usage Example
-def weaviate_monitor():
+def weaviate_monitor(host_type: str = "dev"):
     """Main function demonstrating usage"""
     print("🔍 Weaviate Collection Inspector")
     print("=" * 50)
     
     try:
-        # Initialize DocumentController
-        processor = DocumentController(
-        )
+        host_type = host_type.lower()
+        if host_type == "dev":
+            host = os.getenv("DEV_HOST")
+        elif host_type == "prod":
+            host = os.getenv("PROD_HOST")
+        elif host_type == "local":
+            host = "localhost"
+        else:
+            raise ValueError(f"Invalid host type: {host_type}")
         
+
         # Create inspector
-        inspector = WeaviateInspector(processor)
+        inspector = WeaviateInspector(host)
         
         # Run health check
         inspector.check_health()
@@ -406,8 +399,8 @@ def weaviate_monitor():
         inspector.inspect_all_collections()
         
         # Print reports
-        inspector.print_summary()
         inspector.print_collection_report()
+        inspector.print_summary()
         
         # Example of programmatic usage
         all_collections = inspector.get_all_collection_names()
@@ -425,6 +418,3 @@ def weaviate_monitor():
     finally:
         if 'inspector' in locals():
             inspector.close()
-
-if __name__ == "__main__":
-    weaviate_monitor()
