@@ -8,7 +8,7 @@ def simple_test():
     load_dotenv()
     
     # Your database URL
-    db_url = os.getenv('PG_DB_URL', 'postgresql+psycopg2://postgres:2244@sevensix-dev-etl-nlb-weaviate-pg-1f2f21d06cebe441.elb.ap-northeast-1.amazonaws.com/sevensix_dev_1?client_encoding=utf8')
+    db_url = os.getenv('PG_DB_URL', 'localhost')
     
     # Parse connection parameters
     from urllib.parse import urlparse
