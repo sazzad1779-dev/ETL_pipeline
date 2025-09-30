@@ -1,0 +1,929 @@
+Product Title: SuperK EVO ERL-04（仮サンプル）
+Summary:ERL-04 のデータシート
+
+Product Title: SuperK MIR（仮サンプル）
+Summary:データシート：SuperK MIR (2017年 6月アップデート)
+
+Product Title: 広帯域 白色レーザー光源 入門モデル『SuperK COMPACT』 | NKT Photonics
+Summary:データシート：SuperK COMPACT
+
+Product Title: 波長可変超短パルスファイバレーザー『Lulu』 | セブンシックス
+Summary:波長可変超短パルスファイバレーザー Lulu　カタログ
+
+Product Title: 光学接触式温度モニター | セブンシックス
+Summary:光学接触式温度モニター　カタログ 
+Desciption: 特長 測定点に給電不要 引火性・爆発性の環境下に敷設可能 本体と測定点の距離が数km以上 多点測定が容易 雷・電磁ノイズの環境下に敷設可能 地中（固体）海中（液体）ともに測定可能 塩分や錆の環境下に敷設可能 長寿命・メンテナンスフリー 用途 ガスリアクタ／ガスタンク監視 パイプライン監視 防災／⽕災監視 倉庫 油井／地熱 ⽔温分布 製品詳細 測定温度範囲：光ファイバへのジャケットに応じて-200~+300℃ 測定距離：数10cmから数十km 温度分解能：Typ 0.5℃ ファイバ1本あたりのセンサー数：最大70箇所 Ch数：1ch~128ch 標準パッケージ外形寸法：430（W） x 450（D） x 88（H）
+
+Product Title: 光コネクタクリーナー | NTT-AT
+Summary:カタログ：光コネクタクリーナOPTIPOP・NEOCLEAN・NEOCLEAN シリーズ
+
+Product Title: 光ファイバカプラ (タップ) シングルモード 波長: 980 ~ 1550nm | Optizone
+Summary:データシート：980nm、1060nm、1310nm、1550nm 1×2、2×2 Single Mode Standard Coupler
+
+Product Title: 量子用途向け 波長変換型超低ノイズ・狭線幅・高出力ファイバレーザー『Koheras HARMONIK』  | NKT Photonics
+Summary:データシート：Koheras HARMONIK
+
+Product Title: 顔認証システム/3Dセンサ（VCSEL） | II-VI Incorporated
+Summary:データシート：顔認証システム/3Dセンサ VCSEL【HVS7000】
+
+Product Title: 低屈折率 1.308- 1.550 リコーティング用樹脂  | MY Polymers
+Summary:My polymers 全製品ラインナップ
+
+Product Title: 低屈折率 1.330- 1.430 光ファイバ接着剤 | MY Polymers
+Summary:My polymers 製品ラインナップ
+
+Product Title: シード用ファブリペローレーザー (CW / Pulse) PMファイバ 波長: 1050~1070nm | 3SP Technologies
+Summary:データシート：シード用ファブリペローレーザー (CW / Pulse) PMファイバ
+
+Product Title: ラマン励起用 シングルモード半導体レーザー: 波長 1420~1510nm | 3SP Technologies
+Summary:データシート：ラマン励起用 シングルモード半導体レーザー 
+Desciption: 特長 14ピンバタフライ型モジュール TEC、NTCサーミスタ、モニタリングPDを内蔵 TelcordiaGR-468-CORE認定 済 用途 FTTH用途向けのラマンアンプ ラマン分光の励起光源 仕様詳細 ■ 電気光学特性 * Tsubmount = 35°C, Tcase = -5 to 70°C, TFBG=25°CのBOLで規定
+
+Product Title: DFB レーザーチップオンサブマウント型 波長: 1529 nm~1570 nm | 3SP Technologies
+Summary:データシート：DFB レーザチップ サブマウント型 
+Desciption: 特長 出力電力：20mW、40mW、60mW C -Band(1529nm – 1570nm)、波長間隔：50GHz 低いビーム発散 Telcordia GR-468-CORE認定 済 用途 CWオペレーション&HF帯（2.5GHzまで） テレコムTDMおよびDWDM 計測機器 仕様詳細 ■ 電気光学特性 *すべてのパラメータは、サブマウント温度を25℃で指定されています。
+
+Product Title: 高性能光スペクトラムアナライザ: WaveAnalyzer ❘ II-VI Incorporated
+Summary:カタログ：Waveanalyzerシリーズ
+
+Product Title: 通信帯域 スペクトル・分散制御プロセッサ WaveShaper A / Bシリーズ | II-VI Incorporated
+Summary:カタログ：WaveShaper Aシリーズ
+
+Product Title: 光コムレーザーチップ | Innolume
+Summary:データシート：光コムレーザーチップ
+
+Product Title: 2.5Gbps ピンフォトダイオード チップ / チップオンサブマウント型 | 3SP Technologies
+Summary:データシート：ピンフォトダイオード 光通信用 2.5Gbps /LD出力モニタ用
+
+Product Title: 1μm 超短パルス ファイバレーザー用 時間・スペクトルプロセッサ : WaveShaper 『1000A/SP』 | II-VI Incorporated
+Summary:カタログ：WaveShaper『1000A/SP』
+
+Product Title: 400GbE/100GbE QSFP 光トランシーバ | II-VI Incorporated
+Summary:スペックシート：400G QSFP-DD Active Optical Cable
+
+Product Title: 5G Wirelessマーケット向け光トランシーバ 波長: 850 ~ 1331nm | II-VI Incorporated
+Summary:カタログ：25G CWDM SFP+ トランシーバ
+
+Product Title: 超広帯域フォトディテクタ | II-VI Incorporated
+Summary:カタログ：超広帯域フォトディテクタ
+
+Product Title: Flexgrid 波長選択型 光スイッチ (WSS)周波数レンジ：4.8THz～10THz (C+L band) | II-VI Incorporated
+Summary:カタログ：Flexgrid 波長選択型 光スイッチ (WSS) Dual WSS
+
+Product Title: 広帯域 白色レーザー光源 最上位モデル『SuperK FIANIUM』 | NKT Photonics
+Summary:データシート：SuperK FIANIUM
+
+Product Title: 産業用 広帯域 白色レーザー光源『SuperK EVO 』 | NKT Photonics
+Summary:データシート：SuperK EVO (低出力) シリーズ
+
+Product Title: OCT用 広帯域 白色レーザー光源 最上位モデル『SuerK FIANIUM OCT』 | NKT Photonics
+Summary:データシート：SuperK FIANIUM OCT
+
+Product Title: 白色レーザー光源用 高機能波長選択フィルタ | NKT Photonics
+Summary:データシート：SuperK SPLIT
+
+Product Title: 超短パルスレーザー用光増幅モジュール『aeroGAIN-BASE』 | NKT Photonics
+Summary:『aeroGAIN-BASE-1.1』データシート
+
+Product Title: 超短パルスレーザー用光増幅モジュール『aeroGAIN-ROD』 | NKT Photonics
+Summary:データシート：『aeroGAIN-ROD』
+
+Product Title: Yb添加ダブルクラッドフォトニック結晶ファイバ | NKT Photonics
+Summary:データシート：DC-135/14-PM-Yb
+
+Product Title: ラージモードエリアフォトニック結晶ファイバ　波長: 400 ~ 1700nm SMF | NKT Photonics
+Summary:データシート：LMAファイバ (SMF) 
+Desciption: 特長 シングルモード伝送 高出力＆高パルスエネルギー対応 低非線形性 5~25umコア径と幅広い製品ラインナップ 仕様詳細
+
+Product Title: 『aeroGUIDE』ラージモードエリアフォトニック結晶ファイバ (SM, PM) | NKT Photonics
+Summary:データシート：aeroGUIDE
+
+Product Title: シングルモードフィルタカプラ 波長: 1060~1550nm | Optizone
+Summary:データシート：1064nm、1310nm、1550nm 1×2、2×2 SM Filter Coupler 
+Desciption: 特長 低挿入損失 用途 研究開発 CATV Network 仕様詳細 波長 1060nm、1310nm、1550nm、その他も対応可 ポート数 1×2、2×2 カップリング比率 5：95、50：50、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、 その他も対応可
+
+Product Title: 偏波保持フィルタカプラ 波長: 1064 ~ 2000nm | Optizone
+Summary:データシート：1064nm 1×2 Polarization Maintaining Filter Coupler  
+Desciption: 特長 高い消光比 低挿入損失 高リターンロス 用途 ファイバーレーザ EDFA、ラマン分光 センサー 仕様詳細 波長 1064nm、1310nm、1550nm、2000nm、その他も対応可 ポート数 1×2、2×2 ハンドリングパワー 0.5W、1W コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他組も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準0.8m、1m、その他も対応可 ＊ハイパワー対応の製品も取り扱い御座います
+
+Product Title: 小型モジュール型 超低ノイズ 狭線幅ファイバレーザー『Koheras BASIK 』 | NKT Photonics
+Summary:データシート：Koheras BASIK
+
+Product Title: OEM型 超低ノイズ 狭線幅 ファイバーレーザー『Koheras BASIK MIKRO』 | NKT Photonics
+Summary:データシート：Koheras BASIK MIKRO
+
+Product Title: ベンチトップ型 超低ノイズ狭線幅 ファイバレーザー『Koheras ADJUSTIK』  | NKT Photonics
+Summary:データシート：Koheras ADJUSTIK
+
+Product Title: ベンチトップ型 超低ノイズ 狭線幅 高出力ファイバレーザー『Koheras BOOSTIK HP』 | NKT Photonics
+Summary:データシート：Koheras BOOSTIK HP
+
+Product Title: 超低ノイズ 狭線幅ファイバレーザー ラインナップ『Koheras』シリーズ | NKT Photonics
+Summary:アプリケーションノート：Koherasレーザの位相ノイズについて
+
+Product Title: シングルモードアイソレータ 波長: 1064~2000nm | Optizone
+Summary:データシート：1064nm Polarization Insensitive Isolator 
+Desciption: 特長 低挿入損失 高アイソレーション 低偏波依存性損失 用途 光ファイバ増幅器 ファイバレーザ 仕様詳細 波長 1064nm、1310nm、1480nm、1550nm、2000nm、その他も対応可 ステージ シングルステージ、デュアルステージ コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可 パッケージタイプ 小型サイズ 標準サイズ
+
+Product Title: 偏波保持アイソレータ 波長: 1064~2000nm | Optizone
+Summary:データシート：1064nm Polarization Maintaining Isolator 
+Desciption: 特長 低挿入損失 高アイソレーション 低偏波依存性損失 用途 光ファイバ増幅器 ファイバレーザ ファイバセンサ 仕様詳細 波長 1064nm、1310nm、1480nm、1550nm、2000nm、その他も対応可 ステージ シングルステージ、デュアルステージ 光軸アライメント Fast Axis Blocked、Both Axis Working コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: マルチモードアイソレータ 波長: 1310~1550nm | Optizone
+Summary:データシート：1310nm、1550nm Multimode Polarization Insensitive Isolator 
+Desciption: 特長 低挿入損失 用途 ファイバレーザ 仕様詳細 波長 1310nm、1550nm、その他波長対応可 コアサイズ 50um、62.5um コネクタタイプ FC/UPC、SC/UPC、LC/UPC、ST/UPC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 偏波保持フューズドカプラ 波長: 980~2000nm | Optizone
+Summary:データシート：980nm、1030nm、1064nm、1310nm、1550nm、1940nm、2000nm 1×2、2×2 PM Single Mode Standard Coupler
+
+Product Title: 狭線幅レーザー『Koheras』用 光増幅モジュール『Koheras Boostik』 | NKT Photonics
+Summary:『Koheras BOOSTIK 』データシート
+
+Product Title: 広帯域シングルモードアイソレータ 波長: 850~1064nm | Optizone
+Summary:データシート：850nm Broadband Polarization Insensitive Isolator 
+Desciption: 特長 低挿入損失 高アイソレーション 用途 光ファイバ増幅器 ファイバレーザ 仕様詳細 波長 850m、1064nm、その他も対応可 入力パワー 300mW、500mW、1W、5W、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可 パッケージタイプ Type C40 Type C8
+
+Product Title: CD/PMDアナライザ『FTB-5500B/FTB-5800』 | EXFO
+Summary:スペックシート：CD/PMDアナライザ【FTB-5500/5800】 
+Desciption: 特長 12,000kmの長距離伝送路用から、シングルエンドで120kmまでの測定可能なメッシュ型ネットワーク用など、様々なラインアップがございます。 用途 FTB-5800&5500Bは、光源と測定機の組み合わせで両端に作業者が必要ですがアンプを含む長距離測定に 対応しております。FTB-5700はシングルエンドからの測定が可能なため、現場での作業が非常に効率的です。 また、EXFO社の特徴的なPMDアナライザで、FTB-5600というPMDの分布を測定するアナライザもございます。 これによりどの区間でのPMD値が悪化しているかを診断することができます。 仕様詳細
+
+Product Title: クロックデータリカバリ(CDR) 『CD-4000』 | EXFO
+Summary:スペックシート：クロックデータリカバリ(CDR) 『CD-4000』
+
+Product Title: シングルモードサーキュレータ 波長: 850~1610nm | Optizone
+Summary:データシート：1064nm Broadband Polarization Insensitive Isolator
+
+Product Title: ビットエラーレートテスター(BERT) 『BA-4000』 | EXFO
+Summary:スペックシート：ビットエラーレートテスター(BERT) – 『BA-4000』
+
+Product Title: 偏波保持光サーキュレータ 波長: 1064 ~ 2000nm | Optizone
+Summary:データシート：Mini Size Single Mode Broadband Coupler
+
+Product Title: マルチモードフューズドカプラ 波長: 915~975nm | Optizone
+Summary:データシート：915nm、975nm 1×2、2×2 High Power Muti-Mode Standard Coupler 
+Desciption: 特長 低過剰損失 用途 ファイバレーザ 仕様詳細 波長 915nm、975nm、その他も対応可 ポート数 1×2、2×2 カップリング比率 1：99、2：98、3：97、5：95、10：90、20：80、30：70、 40：60、50：50、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: シングルモードフューズドカプラ 波長: 980~2000nm | Optizone
+Summary:データシート：980nm、1060nm 1×2、2×2 Single Mode Standard Coupler
+
+Product Title: シングルモードパッチコード 波長: 980 ~ 1550nm | Optizone
+Summary:データシート：980nm、1064nm、1310nm、1480nm、1550nm Patchcord 
+Desciption: 特長 低損失 高リターンロス 用途 研究開発 仕様詳細 波長 980nm、1064nm、1310nm、1480nm、1550nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、FERRULE、None ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 偏光ビームコンバイナ/スプリッタ 波長: 1064 ~ 2000nm | Optizone
+Summary:データシート：1064nm 1x2 Polarization Beam Combiner/Splitter 
+Desciption: 特長 低挿入損失 高消光比 高リターンロス 用途 EDFA&ラマン分光 ファイバレーザ 仕様詳細 波長 1064nm、1310nm、1480nm、1550nm、2000nm、その他も対応可 ポート数 1×2、2×2 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 偏波保持パッチコード 波長: 980 ~ 1550nm | Optizone
+Summary:データシート：980nm、1060nm、1310nm、1480nm、1550nm Polarization Maintaining Fiber Patchcord 
+Desciption: 特長 低損失 高リターンロス 用途 研究開発 ファイバレーザ 仕様詳細 波長 980nm、1064nm、1310nm、1480nm、1550nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、FERRULE UPC、LC/PC、 FERRULE APC、MU/PC、E2000/APC、MPO/APC（SM8core）None ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 高出力シングルモードアイソレータ 波長: 850~2000nm | Optizone
+Summary:データシート：850nm High Power Polarization Insensitive Isolator
+
+Product Title: 光トランシーバテスター 『MA-4000』 | EXFO
+Summary:スペックシート：光トランシーバテスター『MA-4000』
+
+Product Title: 超高速サンプリング・オシロスコープ 『EA-4000』 | EXFO
+Summary:スペックシート：超高速サンプリング・オシロスコープ『EA-4000』
+
+Product Title: 高出力偏波保持アイソレータ 波長: 850~2000nm | Optizone
+Summary:データシート：850nm High Power Polarization Maintaining Isolator
+
+Product Title: MPOケーブルチェッカー | EXFO
+Summary:データシート：MPOケーブルチェッカー
+
+Product Title: 光ファイバチェッカー『OX-1』 | EXFO
+Summary:データシート：光ファイバチェッカー『OX-1』
+
+Product Title: インラインポラライザ 波長: 850~2000nm | Optizone
+Summary:データシート：850nm In-line Polarizer 
+Desciption: 特長 低損失 高リターンロス 用途 研究開発 ファイバレーザ センサ 仕様詳細 波長 850nm、1064nm、1310nm、1480nm、1550nm、2000nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、LC/PC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: スクリュー型 VOA 波長: 1060~2000nm | Optizone
+Summary:データシート：1064nm、1310nm、1550nm Mini Type Manual Variable Optical Attenuator 
+Desciption: 特長 低挿入損失 高リターンロス 用途 ファイバーレーザ 研究用途 仕様詳細 波長 1060nm、1310nm、1550nm、1590nm、2000nm、その他も対応可 入力パワー 300mW コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umファイバ、900umルーズチューブ、2mmケーブル、3mmケーブル、その他も対応可 ファイバ長 標準0.8m、1m、その他も対応可 パッケージタイプ 標準タイプ 2x2タイプ
+
+Product Title: 光ファイバ心線対照器 | EXFO
+Summary:データシート：光ファイバ芯線対照器
+
+Product Title: CWDM/DWDMネットワーク用スペクトラムアナライザ 『FTBx-5235』 | EXFO
+Summary:スペックシート：CWDM/DWDMネットワーク用光スペクトラム・アナライザ
+
+Product Title: 光コンポーネント・テスタ『CTP10』 | EXFO
+Summary:スペックシート：光コンポーネントテスタ『CTP10』
+
+Product Title: 波長帯域幅可変 光フィルタ『XTA-50/XTM-50』 | EXFO
+Summary:スペックシート：マニュアル操作タイプ【XTM-50】
+
+Product Title: イーサネットテスター『FTBx-88460』 | EXFO
+Summary:スペックシート：イーサネットテスター『FTBx-88460』
+
+Product Title: MUX/DEMUX(光合分波器) 波長: 1529.55 ~ 1560.61nm | 3Coptics
+Summary:データシート：MUX/DEMUX(光合分波器)
+
+Product Title: 一芯双方向光トランシーバ  25G Bidi SFP28 40km | 3Coptics
+Summary:データシート：一芯双方向光トランシーバ【25Gb/s BiDi 40km 1270nm/1310nm】
+
+Product Title: 光トランシーバ 40G QSFP+ PSM4 LR | 3Coptics
+Summary:データシート：光トランシーバ【40Gb/s QSFP+ LR4 パラレルシングルモード光トランシーバ】 
+Desciption: 特長 4パラレルレーン設計 チャネルあたり最大11.2Gb/sのデータレート 最大44.0Gのアグリゲートバンド幅 QSFP+ MSA対応 シングルモードファイバ（SMF）で最大10kmの伝送が可能 シングルモードファイバ（SMF）で最大10km伝送 最大消費電力3.5W 単一の+3.3V電源 ケースの動作温度 0～70℃ RoHS-6対応 用途 40Gイーサネット Infiniband QDR、DDR、SDR データセンターおよびエンタープライズネットワーク 仕様詳細 ■ 端子配列と詳細 ■ 端子詳細
+
+Product Title: 光トランシーバ 10G Copper SFP+(10Gbase-T) | 3Coptics
+Summary:データシート：光トランシーバ【10G Copper SFP+(10Gbase-T)】
+
+Product Title: シングルモード光コリメータ 波長: 850~1064nm | Optizone
+Summary:データシート：1310nm 1550nm Collimator 
+Desciption: 特徴 低挿入損失 高リターンロス 用途 ファイバーセンサ 研究用途 仕様詳細 波長 850nm、980nm、1064nm、1310nm、1480nm、1550nm、その他も対応可 入力パワー 300mW、500mW、3W、5W、10W コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、900umタイトバッファファイバ、3mmルーズケーブル、その他も対応可 ファイバ長 1.5m、1.75m、その他も対応可
+
+Product Title: 偏波保持光コリメータ 波長: 1064~1550nm | Optizone
+Summary:データシート：1310nm 1550nm Polarization Maintaining Fiber Collimator 
+Desciption: 特徴 低挿入損失 高リターンロス 用途 ファイバーセンサ 研究用途 仕様詳細 波長 1064nm、1310nm、1550nm、その他も対応可 入力パワー 300mW、500mW、3W、5W、10W コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、 3mmルーズケーブル、その他も対応可 ファイバ長 1.2m、1.5m、その他も対応可
+
+Product Title: マルチモード光コリメータ 波長: 850~1550nm | Optizone
+Summary:データシート：850nm、980nm、1064nm、1310nm、1480nm、1550nm Multimode Fiber Collimator 
+Desciption: 特徴 低挿入損失 高リターンロス 用途 ファイバーセンサ 研究用途 仕様詳細 波長 850nm、980nm、1064nm、1310nm、1480nm、1550nm、その他も対応可 入力パワー 500mW コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、 その他も対応可 ファイバ長 1.75mその他も対応可
+
+Product Title: 高出力ファイバレーザエンジン | ITF Technologies　
+Summary:高出力ファイバレーザエンジン【1-2kW OLE】カタログ
+
+Product Title: LIDAR 光源 | ITF Technologies　
+Summary:LIDAR 光源 1550 nm『Kala』カタログ
+
+Product Title: ワイヤレス光コネクタ端面観察器『EasyGetWifi』| NTT-AT
+Summary:カタログ：ワイヤレス光コネクタ端面観察器【EasyGetWifi】
+
+Product Title: 光スイッチ ROMEシリーズ  | NTT-AT
+Summary:カタログ：『ROME500』
+
+Product Title: 分岐比可変カプラ：手動 / 自動 設定型 波長: 633 ~ 1550nm | KS Photonics
+Summary:手動型 分岐比可変カプラ：データシート
+
+Product Title: 全ファイバ型 偏波コントローラ 単一パドル型 / 3パドル型 波長: 1260 ~ 1625 nm | KS Photonics
+Summary:データシート：シングルパドル偏波コントローラ　SPPC
+
+Product Title: ファイバ型音響光学波長可変フィルタ AOTF | KS Photonics
+Summary:ファイバ型音響光学波長可変フィルタ AOTF　カタログ
+
+Product Title: 多モード研究用 長周期グレーティング TLPG 波長: 1540 ~ 1626nm | KS Photonics
+Summary:多モード研究用 長周期グレーティング TLPG カタログ 
+Desciption: 特長 多くのモードに対応 波長に依存しない 調整可能なカップリング率（0-100%) ごくわずかな損失と後方反射 幅広いビートレングスに対応 用途 モード分割マルチプレックス光通信 ファイバーセンサー 波長フィルタ モーダルインターフェロメトリ 一般的な実験器具 光学教育キット 仕様詳細 調整可能なビート長の範囲 (μm) 300-900 スケールあたりのチューニング長(nm/div.) 200 https://youtu.be/DeBKIdp7QEU
+
+Product Title: 通信帯 モード分割マルチプレクサ/デマルチプレクサ 波長: 1515 ~ 1590nm | KS Photonics
+Summary:モード分割マルチプレクサ/デマルチプレクサ MDDM データシート
+
+Product Title: ベンチトップ型 狭線幅波長可変レーザー | ID Photonics
+Summary:データシート：CoBrite DXシリーズ
+
+Product Title: 光マルチフォーマットトランスミッタ | ID Photonics
+Summary:データシート：光マルチフォーマットトランスミッター
+
+Product Title: 広帯域WDMフィルタ 波長: 1500 ～ 1620nm | DiCon
+Summary:広帯域WDMフィルタ　データシート 
+Desciption: 特長 広い波長域での高アイソレーション 低挿入損失 高アイソレーション 堅牢で環境に優しいパッケージ Telcordia GR-1209およびGR-1221のテストに合格 用途 データセンター 光アクセス 基幹系インフラ 通信 DWDMおよびCWDM伝送システム 仕様詳細 対応波長(nm) 1500 ～ 1620 耐久光入力(mW) 300 ファイバタイプ SMF
+
+Product Title: CWDMフィルタ 波長: 1431 ~ 1611 nm | DiCon
+Summary:Dicon CWDMフィルタ【CW2】データシート
+
+Product Title: WDMフィルタ型カプラ 波長: 1431 ~ 1611nm | DiCon
+Summary:WDMフィルタ 100GHz【FW1-N】 データシート
+
+Product Title: MEMS型プログラマブル マルチモードVOA 波長: 850 ~ 1610 nm | DiCon
+Summary:データシート：プログラマブル マルチモード VOA【GPA-1S-N(SM/MM)】 
+Desciption: 特長 マルチモードファイバ用 30dB 減衰範囲 0.01dB分解能 用途 試験・計測 精密なパワーコントロール OSNR測定 仕様詳細 対応波長(nm) 850 ～ 1610 チャネル数 1 ～ 8 耐久光入力(mW) 300 ～ 500 減衰量(dB) 0 ～ 40 ファイバタイプ MMF / SMF
+
+Product Title: MEMS型 ラックマウント シングルモードVOA 波長: 1290 ~ 1610 nm | DiCon
+Summary:データシート：MEMS ラックマウント シングルモード光減衰器【MTR】　 
+Desciption: 特長 高い品質と信頼性 優れた光学性能 ライフタイム > 10億サイクル 実績のあるDiCon MEMSミラー技術 簡単に使えるラックマウントハウジング イーサネットまたはRS-232インターフェース 用途 試験・計測 研究・開発 光源の精密なパワー調整 OSNR測定 仕様詳細 対応波長(nm) 1290 ～ 1610 VOA数 -8 耐久光入力(mW) 200 ～ 500 減衰量(dB) -40 ファイバタイプ SMF / PMF 応答速度(ms) 20 ■ 光学特性 ■ 電気特性
+
+Product Title: 手動型 C-band帯 チューナブル光フィルタ | DiCon
+Summary:手動型 C-band帯 チューナブル光フィルタ　データシート 
+Desciption: 特長 マニュアルチューニング Cバンド（1535～1565nm）対応 フラットトップの通過帯域 優れたチューニング分解能 (0.05 nm) 用途 広帯域光源の中心波長の調整 実験室用の試験・計測システム ノイズ対策 波長選択 仕様詳細 対応波長(nm) 1535 ～ 1565 チューニング分解能(nm) 0.05 ファイバタイプ SMF
+
+Product Title: MEMS チューナブル光フィルタ(100GHz / 50GHz チャネル間隔) | DiCon
+Summary:MEMS チューナブル光フィルタ (100GHz / 50GHz チャネル間隔)　データシート 
+Desciption: 特長 優れたMEMS耐久性、熱安定性、再現性 優れた光学性能 コンパクトな筐体 ガウシアン形状のパスバンド 100GHzのチャネル間隔に最適化されたパスバンド カスタマイズされたパスバンドとチューニングレンジが可能 I2CおよびRS232の制御インターフェースを装備 用途 光チャネル・パフォーマンス・モニタリング ROADM 雑音抑制 信号追跡 仕様詳細 チューニング速度(ms) 30 耐久光入力(mW) 500 チューニング分解能(pm) 10 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型 100GHz間隔 ネットワーク用チューナブル光フィルタ | DiCon
+Summary:MEMS型 100GHz間隔 ネットワーク用チューナブル光フィルタ　データシート 
+Desciption: 特長 コンパクトデザイン λ 設定精度：±50pm 証明されたMEMSの耐久性と信頼性 速いチューニングスピード 温度上昇なし 用途 ROADMネットワーク 光チャネルモニタリング ノイズ対策 FTTx 仕様詳細 チューニング速度(ms) 30 耐久光入力(mW) 500 チューニング分解能(pm) 10 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: GP750 プログラマブル チューナブルフィルタ | DiCon
+Summary:GP750 プログラマブル チューナブルフィルタ　データシート 
+Desciption: 特長 50または100GHzのチャンネル間隔 高速チューニング 熱的安定性 ± 50pm l CまたはLバンド内の設定精度 用途 光チャネル・パフォーマンス・モニタリング ROADM 雑音抑制 信号追跡 仕様詳細 対応波長(nm) 1529 ～ 1610 フィルタ数 4 耐久光入力(mW) 500 チューニング速度(ms) 30 ファイバタイプ SMF
+
+Product Title: 多チャンネルTAP-PD |  DiCon
+Summary:データシート：多チャンネルTAP-PD　 
+Desciption: 特長 インライン・パワー・モニタリング 最大8チャンネル 標準および高感度光検出器 コーニング社製SMF-28ファイバを使用したタップ／ディテクタは、プロテクションスイッチ、ラインカード、ファイバアンプ、OADMなどのパワーモニタリング用に設計されています。偏波保持ファイバを使用したタップ/ディテクタは、PMファイバのピグテールを使用する信号またはポンプ・レーザ光源のパワー・モニタリング用にも設計されています。 用途 データセンター 光アクセス 基幹系インフラ 通信 仕様詳細 対応波長(nm) 1290 ～ 1610 タップ比(%) 10 ファイバタイプ SMF
+
+Product Title: EDFA用 TAP-PD |  DiCon
+Summary:データシート：EDFA用 TAP-PD　 
+Desciption: 特長 ウルトラフラットで広帯域なスペクトル特性 タップおよびパワーモニタ機能を内蔵 コーニング社製SMF-28または偏波保持ファイバ 用途 プロテクションスイッチやラインカード、ファイバーアンプなどの電源監視 PMファイバーのピグテールを使用した信号またはポンプ・レーザー・ソースのパワー・モニタリング シグナルレーザやポンプレーザのパワーモニタ 仕様詳細 対応波長(nm) 1410 ～ 1610 タップ比(%) 10 ファイバタイプ SMF / PMF
+
+Product Title: MEMS型 可視光用 光スイッチ 波長: 500 ~ 800nm |  DiCon
+Summary:MEMS型 可視光用 光スイッチ　データシート 
+Desciption: 特長 証明されたMEMSの耐久性と信頼性 ライフタイム > 10億回のスイッチサイクル コンパクトサイズ 用途 バイオメディカル機器 拡散光トモグラフィー ソース/ターゲットセレクタ 仕様詳細 対応波長(nm) 500 ～ 800 ポート数 1x2, 1x4 耐久光入力(mW) 500 挿入損失(dB) 1.8 スイッチング速度(ms) 20 ■ 光学特性 ■ 電気特性
+
+Product Title: ステッピングモーター型 光スイッチ 波長: 850 ～ 1610nm |  DiCon
+Summary:ステッピングモーター型 光スイッチ　データシート 
+Desciption: 特長 低クロストーク ラージコアのファイバータイプを用意 ラックマウントで最大1x120まで対応可能 用途 試験・計測 セキュア・コミュニケーション ファイバーセンシング 仕様詳細 対応波長(nm) 850 ～ 1610 ポート数 2x32, 1x50 耐久光入力(mW) 300 挿入損失(dB) 1 スイッチング速度(ms) 300 ファイバタイプ MMF / SMF / PMF ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型 可視光用 光スイッチ 波長: 500 ～ 800nm |  DiCon
+Summary:MEMS型 可視光用 光スイッチ　データシート 
+Desciption: 特長 証明されたMEMSの耐久性と信頼性 ライフタイム > 10億回のスイッチサイクル コンパクトなフォームファクター 用途 バイオメディカル機器 拡散光トモグラフィー ソース/ターゲットセレクター 仕様詳細 対応波長(nm) 500 ～ 800 ポート数 1x2, 1x4, 1x8, 1x16 耐久光入力(mW) 500 挿入損失(dB) 3.6 スイッチング速度(ms) 30 ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型ブロッキング光スイッチ 波長: 850 ～ 1310nm |  DiCon　
+Summary:MEMS型ブロッキング光スイッチ　データシート 
+Desciption: 特徴 実績のあるMEMS技術 ライフタイム > 10億回のスイッチサイクル バイオメディカル用途に最適化 用途 バイオメディカル研究やOEM利用 拡散光トモグラフィー オキシメトリ ソースまたはターゲットの選択 仕様詳細 対応波長(nm) 850 ～ 1310 ポート数 2x8, 4x8, 5x8, 7x8 耐久光入力(mW) 500 挿入損失(dB) 4 スイッチング速度(ms) 40 ファイバタイプ MMF ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型 光スイッチ 波長: 1290 ～ 1610nm |  DiCon　
+Summary:MEMS型 光スイッチ　データシート 
+Desciption: 特長 高い信頼性 最大で1x128まで対応 用途 ファイバーのモニタリング ファイバーセンシング 仕様詳細 対応波長(nm) 1290 ～ 1610 ポート数 1x2, 1x4, 1x8, 1x12, 1x96 - 1x128, 2x2 耐久光入力(mW) 500 挿入損失(dB) 1 ～ 2 スイッチング速度(ms) 10 ～ 30 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型 マルチキャスト用 光スイッチ 波長: 1290 ~ 1610nm |  DiCon　
+Summary:MEMS Dual Nx16 Multicast Optical Switch with VOAデータシート 
+Desciption: 特長 < 20 ms スイッチタイム コンパクトなフォームファクター 優れた熱安定性 実証済みのMEMS耐久性と信頼性 用途 基幹系インフラ 仕様詳細 対応波長(nm) 1290 ～ 1610 ポート数 4x4, 8x16 耐久光入力(mW) 200 ～ 500 挿入損失(dB) 8 スイッチング速度(ms) 20 ～ 100 ファイバタイプ SMF
+
+Product Title: MEMS型 3Dマトリクス光スイッチ 波長: 1290 ～ 1610nm |  DiCon　
+Summary:MEMS型 3Dマトリクス光スイッチ　データシート 
+Desciption: 特長 16x16までのあらゆるMxNサイズに対応 実績のあるDiCon MEMS技術 簡単に使えるラックマウントハウジング イーサネットまたはRS232インターフェース 用途 データセンター 光アクセス 基幹系インフラ 通信 ラックマウント型の3Dマトリックスオプティカルスイッチ 仕様詳細 対応波長(nm) 1290 ～ 1610 耐久光入力(mW) 500 挿入損失(dB) 2 スイッチング速度(ms) 40 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: プリズム型 光スイッチ 波長: 780 ～ 1625nm | DiCon　
+Summary:プリズム型 光スイッチ　データシート
+
+Product Title: プログラマブル 光スイッチモジュール 波長: 1290 ～ 1610nm | DiCon
+Summary:プログラマブル 光スイッチモジュール　データシート 
+Desciption: 特長 精密な再現性 高速スイッチングタイム MEMSの耐久性と信頼性 用途 データセンター 光アクセス 基幹系インフラ 通信 仕様詳細 対応波長(nm) 1290 ～ 1610 ポート数 1x2, 1x4, 1x8, 1x12, 1x16 耐久光入力(mW) 500 挿入損失(dB) 2 スイッチング速度(ms) 30 ファイバタイプ SMF ■ 光学特性
+
+Product Title: プログラマブル 光スイッチモジュール 波長: 850 ～ 1610nm | DiCon
+Summary:プログラマブル 光スイッチモジュール　データシート 
+Desciption: 特長 精密な再現性 高速スイッチングタイム MEMSの耐久性と信頼性 マトリックス型光スイッチは、研究開発や生産ラインでリソースを共有可能 用途 データセンター 光アクセス 基幹系インフラ 通信 仕様詳細 対応波長(nm) 850 ～ 1610 ポート数 1x2, 1x4, 1x8, 1x12, 1x16, 4x4, 8x8 耐久光入力(mW) 500 挿入損失(dB) 1 ～ 2 スイッチング速度(ms) 15 ～ 40 ファイバタイプ MMF / SMF ■ 光学特性
+
+Product Title: MEMS型 3チャンネル フレックスポート光スイッチ 波長: 1290 ～ 1610nm| DiCon
+Summary:MEMS型 3チャンネル フレックスポート光スイッチ　データシート 
+Desciption: 特長 実績のあるMEMSの耐久性と信頼性 コンパクトなフォームファクター 高速スイッチングタイム TTLパラレルまたはI2Cシリアル制御インターフェース GR-1221規格に準拠 用途 ファイバーセンシング バイオ・医療機器 光通信 映像配信 仕様詳細 対応波長(nm) 1290 ～ 1610 耐久光入力(mW) 500 挿入損失(dB) 1 スイッチング速度(ms) 30 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型 ON/OFF用 光スイッチ 波長: 1290 ～ 1610nm | DiCon
+Summary:MEMS型 ON/OFF用 光スイッチ　データシート 
+Desciption: 特長 実績のあるMEMSの耐久性と信頼性 コンパクトなフォームファクター 高速スイッチングタイム 電圧の直接制御 GR-1221規格に準拠 用途 ファイバーセンシング バイオ・医療機器 光通信 映像配信 仕様詳細 対応波長(nm) 1290 ～ 1610 ポート数 1x1 耐久光入力(mW) 500 挿入損失(dB) 1 スイッチング速度(ms) 5 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: MEMS型 光スイッチモジュール 波長: 1290 ~ 1610nm | DiCon
+Summary:MEMS型 光スイッチモジュール　データシート 
+Desciption: 特長 信頼性の高い光学性能 優れた耐久性 コンパクトなフォームファクター 低消費電力 用途 光通信 光ファイバーセンシング バイオ・医療機器 ファイバー上のRF分布 仕様詳細 対応波長(nm) 1290 ～ 1610 ポート数 1x2, 1x4, 1x8, 1x12, 1x16, 1x24, 1x25, 1x48 耐久光入力(mW) 500 挿入損失(dB) 1 ～ 2 スイッチング速度(ms) 10 ～ 30 ファイバタイプ SMF ■ 光学特性 ■ 電気特性
+
+Product Title: ゲインフラッテニングフィルタ GFF | ITF Technologies
+Summary:ゲインフラッテニングフィルタ(GFF) データシート
+
+Product Title: FBGセンサー アレイ 波長: 1530 ~ 1575 nm | ITF Technologies
+Summary:FBGセンサー アレイ 波長: 1530 ~ 1575 nm【FOSS3DXBNHｘｘ】データシート
+
+Product Title: FBGセンサー シングル 波長: 1530 ~ 1575 nm | ITF Technologies
+Summary:FBGセンサー シングル 波長: 1530 ~ 1575 nm【FOSS3DXBNH】データシート
+
+Product Title: ハイパワーコンバイナ 波長: 1040 ~ 2020nm | ITF Technologies
+Summary:(6+1)x1, (18+1)x1 and (24+1)x1 ハイパワー&シグナル コンバイナ
+
+Product Title: ハイパワーポンプコンバイナ 波長: 800 ~ 1000nm | ITF Technologies
+Summary:3x1、4x1、7x1、19x1、31x1 ハイパワーポンプコンバイナ　データシート 
+Desciption: 特長 高い電力伝送効率 波長依存性 カスタム仕様にも対応 ROHS対応 用途 ファイバーレーザー レーザーダイオードの組み合わせ kW級ファイバーレーザー 産業用・研究用 仕様詳細 パッケージ寸法ハイパワー：60.0 x 12.0 x 6.5 mm 動作波長：800 - 1000 nm 代表的なパワーハンドリングを提示 カスタムデザインや試作品も可能
+
+Product Title: ポンプ/ シグナルコンバイナ 波長: 1040 ~ 2020nm | ITF Technologies
+Summary:(2+1)x1、(1+1)x1 ポンプ＆シグナルコンバイナ　データシート
+
+Product Title: ハイパワーポンプ / シグナルコンバイナ 波長: 1040 ~ 1570nm | ITF Technologies
+Summary:(6+1)x1 ハイパワーポンプ & シグナルコンバイナ　データシート 
+Desciption: 特長 高い電力伝送効率 モーダルコンテンツの保存 波長依存性なし カスタム仕様にも対応 ROHS対応 用途 ファイバーレーザー ファイバーレーザーステップアンプ ファイバーレーザパワーアンプ 産業用・研究用 仕様詳細 パッケージ寸法　ハイパワー：60.0 x 12.0 x 6.5 mm 基本モード伝送に最適化された信号 代表的な基本モード損失は0.5dB以下 ポートごとの最大ポンプ挿入損失 0.5 dB (代表値) 光学的リターンロス > 35dB以上 PM部品のPER値 >20dB以上 典型的なパワーハンドリング カスタムデザインや試作品も可能
+
+Product Title: ファイバーレーザー / アンプ 用 コンポーネント 波長：800~1080nm | ITF Technologies
+Summary:データシート：ファイバーレーザ ＆ アンプ 用モードフィールドアダプター、クラッディングモードストリッパー、エンドキャップ
+
+Product Title: マルチコアファイバ ファンナウト 波長: 1500 ~ 1650nm | iX Blue
+Summary:マルチコアファイバ ファンナウト　カタログ 
+Desciption: 特長 4～12コアのカスタム対応可能 形状検知 FBG転写用感光性コア 活性炭や希土類を添加したマルチコアファイバも可能 用途 空間分割多重光ファイバ通信 形状検知 温度・歪みセンサー 仕様詳細
+
+Product Title: 1.5um帯 10GHz/20GHz/40GHz 高消光比 強度変調器 波長: 1530 ~ 1625nm　帯域幅: 最大 40GHz　 | iX Blue
+Summary:データシート：1.5 um帯 10GHz/20GHz/30GHz 高消光比 強度変調器
+
+Product Title: 2um帯 1GHz / 10GHz 強度変調器 波長: 1900 ~ 2200nm　帯域幅: 最大 12GHz | iX Blue
+Summary:データシート：2um帯 1GHz / 10GHz 強度変調器　 
+Desciption: 特長 低挿入損失 低Vp 2µm専用設計 ■ オプション 20GHzバージョン ハーメチックシール 用途 LIDAR ガスセンシング 中赤外波長発生 分光器 シードソース 研究開発 仕様詳細 対応波長(nm) 1900 ～ 2200 耐光出力(mW) 100 変調帯域(GHz) 1 消光比(dB) 20 挿入損失(dB) 0 ～ 4
+
+Product Title: 1.5um帯 10GHz/20GHz/40GHz 強度変調器　波長: 1530 ~ 1625nm　帯域幅: 最大 40GHz | iX Blue
+Summary:データシート：1.5 um帯 10GHz/20GHz/40GHz 強度変調器 　 
+Desciption: 特長 高い帯域幅 Xカットによる高い安定性 低い駆動電圧 低挿入損失 ■ オプション 2000 nm、1300 nm、1060 nm、850 nm 高消光比バージョン 用途 汎用強度変調 試験・計測 デジタル通信
+
+Product Title: 1.3um帯 10GHz/20GHz/30GHz 強度変調器　波長: 1270 ~ 1330nm　帯域幅: 最大 30GHz | iX Blue
+Summary:データシート：1.3 um帯 10GHz/20GHz/30GHz 強度変調器　 
+Desciption: 特長 安定性の高いXカット 低駆動電圧 低挿入損失 Oバンドに特化した導波管・ファイバー ■ オプション 1060nm、850nmのバンドバージョン アナログバージョン 用途 最大NRZ-56 Gb/s - PAM-4-32 Gbaud 汎用強度変調 試験・計測 仕様詳細
+
+Product Title: 800nm帯 10GHz/20GHz 強度変調器 波長: 780 ~ 850nm | iX Blue
+Summary:データシート：800nm帯 10GHz/20GHz 強度変調器　 
+Desciption: 特長 高いバンド幅 Xカットによる高い安定性 高い光パワーハンドリング 低い駆動電圧 低挿入損失 ■ オプション 30dB以上の高い消光比 低挿入損失 950nm帯変調器バージョン 用途
+
+Product Title: 1.5um帯 150MHz~33GHz 位相変調器　波長: 1530 ~ 1625nm　帯域幅: 最大 33GHz | iX Blue
+Summary:データシート：1.5um帯 150MHz~33GHz 位相変調器　 
+Desciption: 特長 低くて広い電気光学的帯域幅 C&Lバンド 低挿入損失 低Vπ ■ オプション 低残留強度変調 低挿入損失 高い入力電力性能 用途 サイドバンド生成 インターフェロメトリック・センシング 周波数シフト・ブロードニング 量子鍵配信 ハイデータレート通信 レーザー合成 パウンド・ドレバー・ホール・ロッキング（PDH） 仕様詳細
+
+Product Title: 1um帯 20GHz 強度変調器 波長: 950 ~ 1150nm　帯域幅: 最大 20GHz | iX Blue
+Summary:データシート：1um帯 20GHz 強度変調器　 
+Desciption: 特長 高い光出力：25dBm 高バンド幅バージョン > 20 GHz 高い安定性 低Vπ 低挿入損失 ■ オプション 20GHzバージョン 高PER 低挿入損失 低残差振幅変調 用途 干渉計を用いたセンサー スペクトル幅の拡大 周波数シフティング レーザー合成 パウンド・ドレバー・ホール・ロッキング（PDH） 仕様詳細
+
+Product Title: 800nm帯 5GHz/10GHz/20GHz 位相変調器　波長: 780 ~ 890nm　帯域幅: 最大 20GHz | iX Blue　
+Summary:データシート：800nm帯 5GHz/10GHz/20GHz 位相変調器　 
+Desciption: 特長 高い光パワーハンドリング 高いバンド幅（> 18 GHz） 高い安定性 低Vπ 低い挿入損失 ■ オプション ハーメチックシール 20GHzバージョン 895nm、915nm、935nmバージョン 用途 干渉計を用いたセンサー 量子光学 周波数シフト パウンド・ドレバー・ホールロッキング(PDH) 仕様詳細
+
+Product Title: 2um帯 100MHz/10GHz 位相変調器　波長: 1900 ~ 2200nm　帯域: 最大 12GHz | iX Blue　
+Summary:データシート：2um帯 100MHz/10GHz 位相変調器　 
+Desciption: 特長 低挿入損失 低Vπ 2 µmに特化した設計 ■ オプション 低挿入損失 低残差振幅変調 用途 ライダー ガスセンシング スペクトルブロードニング 分光法 シードソース 研究開発 仕様詳細
+
+Product Title: 1.5um帯 28 Gbaud-PAM4 変調器ボックス　波長: 1270 ~ 1330nm | iX Blue　
+Summary:データシート：MOD BOX PAM4【ModBox-Oband-28Gband-PAM4】
+
+Product Title: 1.5um帯 12.5 / 28Gbps DPSK変調器ボックス　波長: 1530 ~ 1565nm (Cバンド) 　 | iX Blue　
+Summary:データシート：ModBox-CBand-12.5Gbs-DPSK  
+Desciption: 特長 フルCバンドリファレンストランスミッター 最大10GHzまでのアナログ変調 信頼性・再現性の高い測定 高いアイダイアグラム安定性 用途 伝送系試験 部品特性評価 生産試験 R&Dラボラトリー 仕様詳細 ■ ModBox-CBand-12.5Gb/s-DPSK 特性ハイライト ■ ModBox-CBand-28Gb/s-DPSK 特性ハイライト
+
+Product Title: MPO光パワーメータ＆光源 | PPI
+Summary:データシート：MPO光パワーメータ＆光源【PPI-MPO】
+
+Product Title: 400G/100G 光パワーメータ ❘ PPI Inc.
+Summary:カタログ：NSK-LCOPM (LR4/ER4/CWDM4/FR4用)　 
+Desciption: 特長 通常の光パワーメータでは測定の難しい400GbE/100GbE規格の波長毎・レーン毎の光パワー測定が可能 通常の光パワーメータとしても使用可能(850/1310/1550nm) ※NSK-LCOPM バッテリ駆動7時間(USB充電式) ハンディタイプ小型軽量 USB接続でPCへデータ転送(データファイル形式csv) 用途 光通信用信号光のレベル測定 仕様詳細 NSK-LCOPMの仕様、ディスプレイ表示例 PPI-MPO-12の仕様、ディスプレイ表示例
+
+Product Title: 電動型 C-band帯 チューナブル光フィルタ | DiCon
+Summary:電動型 C-band帯 チューナブル光フィルタ　データシート 
+Desciption: 特長 狭帯域 優れた同調分解能 幅広い同調範囲 極めて低い挿入損失 モーターの直接制御または絶対的な波長設定 用途 データセンター 光アクセス 基幹系インフラ 通信 密集したWDM伝送システムの受信側で異なる波長チャネルを動的に選択するために使用されます。 その他の用途としては、実験室での試験・計測システムにおける非干渉性広帯域光源（白色光源やLEDなど）の中心波長の調整などがあります。 仕様詳細 対応波長(nm) 1535 ～ 1565 チューニング速度(ms) 1400 透過幅(nm) 1 チューニング分解能(nm) 0.05 ファイバタイプ SMF
+
+Product Title: ゲインスイッチ方式 ピコ秒レーザー『PILAS DX』 | NKT Photonics
+Summary:データシート：PILAS DX
+
+Product Title: 最大70uJ フェムト秒レーザー『ORIGAMI XP(-S)』 | NKT Photonics
+Summary:データシート：ORIGAMI XP-S (1030 nmのみ と 1030 & 515 nm)
+
+Product Title: 40W出力ピコ秒ファイバーレーザー『aeroPULSE PS』 | NKT Photonics
+Summary:データシート：aeroPULSE PS
+
+Product Title: 50W出力 フェムト秒ファイバレーザー『aeroPULSE FS50』 | NKT Photonics
+Summary:データシート：aeroPULSE FS50
+
+Product Title: 光電界センサー | Agiltron
+Summary:光電界センサー『EOFS』データシート
+
+Product Title: 紫外線硬化樹脂用 固体UV光源 | Agiltron
+Summary:4ヘッド UV光源『SUVA-03』データシート
+
+Product Title: 高速偏波スクランブラ | Agiltron
+Summary:データシート：高速偏波スクランブラ『NOPS-1N』
+
+Product Title: 光サーキュレータ 波長: 波長: 850 ~ 1060nm | Agiltron
+Summary:850nm / 980nm / 1060nm, 20 W対応 【OCST】光サーキュレータ データシート
+
+Product Title: 光サーキュレータ 波長: 1310 / 1550nm | Agiltron
+Summary:1310 nm/C, L, C+L バンド, 5W対応 光サーキュレータ光サーキュレータ 【OCHP】データシート
+
+Product Title: ソリッドステート型 ハイパワーVOA 波長: 780 ~ 1650nm | Agiltron
+Summary:データシート：可変光減衰器 - High Power VOAs 【NVOA / NHOA】
+
+Product Title: 波長可変フィルタ | Agiltron
+Summary:波長可変フィルタ　データシート
+
+Product Title: OCT向け 超小型ファイバープローブ 波長: 600 ~ 1800nm | Agiltron
+Summary:OCT向け 超小型ファイバープローブ【OCTC】
+
+Product Title: 透過型インラインパワーモニター 波長: 300 ~ 2000nm | Agiltron
+Summary:データシート：透過型インラインパワーモニター【ILPM】
+
+Product Title: 広帯域 / 高分解能 可変光遅延器 | Agiltron
+Summary:広帯域 / 高分解能 可変光遅延器　データシート
+
+Product Title: 光コネクタ端面観察器 ❘ フジクラ
+Summary:カタログ 
+Desciption: 特長 ディスプレイ一体型のスタンドアローンタイプ 手のひらサイズで小型軽量(183×47×37mm / 240g) オートフォーカス機能、自動合否判定機能 オプションの専用チップでMPO多心コネクタのマニュアル観察可能 バッテリー駆動8時間 USB接続でPCへテストレポート転送 用途 光コネクタの端面汚れ等の検査 仕様詳細
+
+Product Title: 全自動光コネクタ端面観察器『FIP-500』 ❘ EXFO
+Summary:スペックシート：『FIP-500』 端面観察器 
+Desciption: 特長 端面検査の全工程を自動化（検出、調光、フォーカス、センタリング、撮影、合否判定、データ保存） 単芯(LC、SC、FC他)、多芯(MPO)含めたあらゆる光コネクタに対応 ディスプレイ一体型のスタンドアローンタイプ バッテリー駆動11時間 Bluetooth、USBでスマホ、PCへデータ転送 用途 光コネクタの端面汚れ等の検査 仕様詳細
+
+Product Title: フリースペース MEMS型 VOA 波長: 350 ～ 2050nm  | Agiltron
+Summary:データシート：フリースペース MEMS アッテネータ【FSVOA】
+
+Product Title: 光パワーメータ 『PX-1』 ❘ EXFO
+Summary:スペックシート：光パワーメータ『PX-1』 
+Desciption: 特長 最大45波長(850nm/1310nm/1550nm/CWDM/PON他)の測定が可能 手のひらサイズで小型軽量(133 x 78 x 30 mm / 225g) バッテリ駆動8時間(USB充電式) USB及びBluetooth接続でPC・スマホへデータ転送 IP54防塵・防水規格対応 自動波長認識、スイッチング機能搭載 用途 光パワーの測定(850nm/1310nm/1550nm/CWDM/PON他) 仕様詳細 解説・関連動画▼ https://www.youtube.com/watch?v=uLH-egqPTCo&t
+
+Product Title: 偏波保持フィルタカプラモジュール 波長: 1064 ~ 1550nm　ポート数: 1×4 / 1×8 | Optizone
+Summary:データシート：1064nm 1×4、1×8 Polarization Maintaining Filter Coupler Module 
+Desciption: 特長 低過剰損失 低波長依存損失 低均一性 用途 レーザ 増幅機能 センサ 仕様詳細 波長 1064nm、1310nm、1550nm ポート数 1×4、1×8 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: MEMS型 通信帯域シングルモード VOA 波長: 1260 ~ 1600nm ❘ Agiltron
+Summary:データシート：MEMS 通信帯域シングルモード VOA【TMOA】
+
+Product Title: 結晶タイプ ハイパワー用 光スイッチ 波長: 1295 ~1580nm | Agiltron
+Summary:結晶タイプ ハイパワー用 光スイッチ　データシート
+
+Product Title: 結晶タイプ 3-Stage 光スイッチ 波長: 1295 ~ 1580nm ❘ Agiltron
+Summary:結晶タイプ 3-Stage 光スイッチ　データシート
+
+Product Title: 結晶タイプ光スイッチ 波長: 1295 ~ 1580nm ❘ Agiltron
+Summary:結晶タイプ CrystaLatch Bidirectional Switch【CLSW, CLPM, CLHP, CLBD, CLPH, CLHB, CLPB, CPHB】データシート
+
+Product Title: ナノ秒応答 MEMS型 光スイッチ 波長: 780 ~ 1650nm　 ❘ Agiltron
+Summary:ナノ秒応答 MEMS型 光スイッチ　データシート
+
+Product Title: MEMS型 ノンラッチ光スイッチ波長: 1260 ~ 1610nm ❘ Agiltron
+Summary:MEMS型 ノンラッチ光スイッチ　データシート
+
+Product Title: LD/TEC/EA/PD コントローラ ❘ セルシステム
+Summary:高精度 LDコントローラ『LCD-7400C』データシート
+
+Product Title: 小型オールインワン LDコントローラ ❘ セルシステム
+Summary:データシート：小型オールインワン LDコントローラ『LCD-7100』
+
+Product Title: ソフトリジットケーブル ❘ ワカ製作所
+Summary:データシート：『ソフトリジットケーブル』 
+Desciption: 特長 高周波特性 セミリジットケーブル(SP-22)と同等の挿入損失、並びにVSWR、曲げなどに対する高い位相安定度を達成。 フレキシブル性 柔軟性と同時に形状安定性を備えています。 (柔軟性：R40mmでの360度屈曲試験、500回以上) 軽量 SMA/P両端ケーブルアッセンブリ1ｍで42グラム。 短納期対応 基本納期：約3週間以内 経済性 ケーブル、コネクタ共にワカ製作所の内製です。 用途 高周波計測用 （フェーズドアレイアンテナ、航空宇宙機器等、各種計測） 高速情報通信機器間の接続用 （光通信、光デバイス機器等にも最適） 仕様詳細
+
+Product Title: ハンディフォーミングケーブル ❘ ワカ製作所
+Summary:データシート：『ハンディフォーミングケーブル』 
+Desciption: 特長 高周波特性 セミリジットケーブル(SP-22), (SP-36)と同等の挿入損失、並びに周辺温度変化に対する高い位相安定度を有しています。 柔軟性 手軽にフォーミングが行え、形状を維持することが出来ます。曲げに対する力は、従来のセミリジットケーブルの約半分です。 曲げ加工図不要 お客様で曲げていただくことが出来るため、図面作製や多品種のご発注の手間が少なくなります。 短納期対応 基本納期：約3週間以内 経済性 ケーブル、コネクタ共にワカ製作所の内製です。 用途 各種通信機器・計測機器向け、内部及び外部配線用 （通信基地局、半導体テストセット他） 仕様詳細
+
+Product Title: 多心 光ファイバ融着接続機 ❘ フジクラ
+Summary:多心光ファイバ融着接続機『90Rシリーズ』カタログ 
+Desciption: 特長 ファイバ間隔にあわせてV溝交換 メンテナンス性の向上 汎用ファイバホルダ 単心集合工具 ピッチ変換ホルダ 用途 多心光ファイバの融着接続 仕様詳細 ■ 製品ラインナップ 90R4 90R12 90R16 外観 融着接続可能な 光ファイバ心数 ～4心 ～12心 ～1６心
+
+Product Title: 光ファイバクリーバ ❘ フジクラ
+Summary:大口径光ファイバカッタ 『CT105+/106+/104+』カタログ
+
+Product Title: ハンディOTDRシリーズ『OFL280/FLX380』❘ フジクラ
+Summary:ハンディOTDRシリーズ『OFL280/FLX380』カタログ 
+Desciption: 特長 ハンディタイプなボディに多様な機能を搭載した超小型多機能なOTDRです 用途 長距離光ファイバ線路測定、故障探査 PON前後のOTDR測定の他 パワーメータ機能 心線対照光源 仕様詳細 対応ファイバ SMF, MMF 対応芯数 1 ～ 12 対応クラッド径(um) 125 対応波長(nm) 1310 ～ 1650 ファイバタイプ SMF
+
+Product Title: 狭線幅 固定波長半導体レーザ ❘ 光伸光学
+Summary:狭線幅 固定波長半導体レーザ『FLS』 カタログ
+
+Product Title: 波長可変光源 標準モデル ❘ 光伸光学
+Summary:波長可変光源『KLS-201A シリーズ』カタログ
+
+Product Title: 偏波分割多重エミュレータ ❘ Kylia
+Summary:偏波分割多重エミュレータ　データシート
+
+Product Title: 光ビットレート倍増器 ❘ Kylia
+Summary:光ビットレート倍増器　データシート
+
+Product Title: QAMエミュレータ ❘ Kylia
+Summary:QAMエミュレータ　データシート 
+Desciption: 特長 KyliaのQAM16やQAM64を使えば、QPSK信号からQAM信号をエミュレートすることができます 位相調整素子により、異なるアーム間の遅延をビット時間の倍数に調整することで、干渉パターンを最適化することができます 用途 研究&開発/教育用キット 仕様詳細 パラメータ 最小値 中央値 最大値 単位 備考 最大光入力パワー(OpIn) 300 mW 保存温度範囲(STR) -10.0 80 ℃ 湿度(RH) 5 85 ％ 非凝縮性 ファイバー曲げ半径 20 mm 最大入力電圧(Vmax) 4 V 動作波長 1530 1570 nm 動作温度範囲 0 70 ℃ 動作同調電圧 -4 4 V
+
+Product Title: 光遅延干渉計 ❘ Kylia
+Summary:光遅延干渉計　データシート 
+Desciption: 特長 PMファイバー対応可能 用途 センシング / デバイス評価 仕様詳細 パラメータ 最小値 中央値 最大値 単位 備考 最大光入力パワー (OpIn) 300 mW 保存温度範囲(STR) MINT WT-MINT -40 -10 80 40 ℃ 湿度 (RH) 5 85 ％ 非凝縮性 ファイバー曲げ半径 20 mm 最大入力電圧(Vmax) U option L option 100 4 V 動作波長 (OWR) 1520 1570 nm 動作温度範囲(OTR) MINT WT-MINT 0 10 70 35 ℃
+
+Product Title: 90°光ハイブリッド ❘ Kylia
+Summary:90°光ハイブリッド　データシート
+
+Product Title: 可変光遅延器 ❘ Kylia
+Summary:可変光遅延器　データシート 
+Desciption: 特長 ■　3つのVODL製品群を提供可能です 100psの光遅延レンジ。本製品はマニュアル版のみ 300psまたは600psの遅延時間レンジ。手動式（マイクロメータ）です。ヘッド）またはパイロット式（電動アクチュエータ） 3ns、6ns、9ns、12nsの光学遅延時間レンジ。この製品は電動アクチュエーター付きでのみ利用可能 用途 研究&開発/教育用キット 仕様詳細 パラメータ 最小値 中央値 最大値 単位 備考 最大光入力パワー (OpIn) 300 mW 保存温度範囲(STR) -10 40 ℃ 湿度 (RH) 5 85 % 非凝縮性 動作波長 (OWR) 1520 1625 nm 動作温度範囲(OTR) 10 35 ℃
+
+Product Title: チューナブル波長合分波モジュール(Mux/Demux) 波長: 1460 ~1675nm ❘ Kylia
+Summary:チューナブル波長合分波モジュール (Mux/Demux) 　 データシート
+
+Product Title: 光瞬断発生装置 ❘ トリマティス
+Summary:データシート：光瞬断発生装置
+
+Product Title: 超短パルス1ns LDドライバ ❘ トリマティス
+Summary:カタログ：超短パルス1ns LDドライバ『LDD-PU-200』 
+Desciption: 特長 LD直接駆動方式で1nsの電流パルス幅を達成 高変換効率、小型、低コストのピコ秒レーザ光源を実現 用途 ファイバーレーザ用シード光源 各種分析/計測機器 3Dセンシング LIDAR センシング / デバイス評価 仕様詳細
+
+Product Title: 短パルス駆動 LDドライバ ❘ トリマティス
+Summary:短パルス駆動 LDドライバ『LDD-PU-xxx』2ns～50ns カタログ 
+Desciption: 特長 繰り返し周波数: 5k～1MHz 対応LD: CANパッケージ(様々な帯域、ピンアサインに対応) 基板サイズ: 60×60mm ※対象製品には半導体レーザは含まれません。 用途 LiDARパルス光源 各種分析計測機器 仕様詳細 ■ オーダーインフォメーション
+
+Product Title: 【ディスコンのため20231124非公開】高速可変光減衰器 波長: 1530 ~ 1570nm ❘ トリマティス
+Summary:カタログ：高速可変光減衰器『TMZ1000』 
+Desciption: 特長 高速応答 (< 200ns) 広帯域波長対応 低消費電力 AC100Vでの駆動が可能 ※1,550nm帯以外の波長帯にも対応が可能ですのでお問い合わせください。 サイズ：W165 D220 H50 mm (突起部分は除く) 用途 信号レベル調整 光学系の安定化 ソース Qスイッチ 仕様詳細
+
+Product Title: サージフリー光ファイバ増幅器 ❘ トリマティス
+Summary:サージフリー光ファイバ増幅器　データシート 
+Desciption: 特長 プラグ挿抜時、電源投入時の光サージを完全に抑圧 過渡的な利得変動が±0.5dB以下 ALC(Automatic Level Control)機能　(option) 利得、出力レベル等カスタマイズ可能 用途 パッシブ光ネットワーク 光に関する研究開発 通信 OPS & OBS技術 仕様詳細
+
+Product Title: 高速通信向けの半導体光アンプ ❘ Aeon
+Summary:高速通信向けの半導体光アンプ　データシート
+
+Product Title: Swept Source向け半導体光アンプ ❘ Aeon
+Summary:Swept Source向け光半導体アンプ　カタログ
+
+Product Title: CLバンド帯 半導体光アンプ ❘ Aeon
+Summary:CLバンド帯 半導体光アンプ   カタログ
+
+Product Title: Oバンド帯 半導体光アンプ ❘ Aeon
+Summary:Oバンド帯 半導体光アンプ　カタログ
+
+Product Title: フェムト秒・ピコ秒パルスレーザ測定器 ❘ Amonics
+Summary: カタログ：フェムト秒・ピコ秒パルスレーザ測定器『AOWA』 
+Desciption: 特長 入力パルス 出力情報 ポータブル ユーザーフレンドリーなコンピュータインターフェイス 簡単なプラグアンドプレイ測定 メカニカルアライメント不要 低コスト メンテナンスフリー 高い信頼性と耐久性 用途 通信 レーザー物理 研究開発 パルス特性評価 仕様詳細 波長 1300 nm to 1750 nm パルス幅 Min. 0.1 ps to 20 ps 時間分解能 Max. 30 fs 平均電力感度 Min. -20 dBm ピークパワー感度 37 dBm コネクタ FC/APC, FC/UPC, SC/APC, SC/UPC
+
+Product Title: 高出力レーザーヘッド ❘ LaserMech
+Summary:データシート：高出力レーザーヘッド『FiberCut 2D』
+
+Product Title: メカニカルモードストリッパー 波長: 1520 ~ 1640 nm ❘ Phoenix Photonics
+Summary:メカニカルモードストリッパー『MMS-01』データシート 
+Desciption: 特長 高損失のLP11、低損失のLP01 コンパクトな設計 ハイモードアイソレーション 低損失 用途 高音質化前のLP01フィルタリング オーダーモード変換 モード分割 マルチプレックス/デマルチプレックス 少数モードファイバ部品試験 少数モードファイバ用センサ 仕様詳細 パラメータ 内容 波長 1520 - 1640 nm 過剰損失 1 (LP01) ＜0.2 dB リターンロス 1 ＞60 dB 動作環境温度範囲 -5 to 70 ℃ 保存温度 -40 to +85 ℃ 1．損失額にはコネクターは含まれません。
+
+Product Title: フューモードファイバLP11モードストリッパ 波長: 1520 ~ 1580nm  ❘ Phoenix Photonics
+Summary:フューモードファイバLP11モードストリッパ データシート 
+Desciption: 特長 高損失のLP11、低損失のLP01 コンパクトな設計 カスタムファイバーデザイン 高いモードアイソレーション 低損失 用途 LP01→LP11モード変換 およびLP11→LP01変換 モード分割 マルチプレックス/デマルチプレックス デュアルモードファイバ部品試験 デュアルモードファイバセンサ 仕様詳細 パラメータ 内容 波長 1520 - 1580 nm 過剰損失 1 (LP01) <1 dB リターンロス 1 >60 dB 動作環境温度範囲 -5 to 70 ℃ 保存温度 -40 to +85 ℃ 1．損失額にはコネクターは含まれません。
+
+Product Title: ファイバモードコンバータ 波長: 1520 ~ 1620 nm ❘ Phoenix Photonics
+Summary:ファイバモードコンバータ『FLPG』　データシート
+
+Product Title: 調整機能付きモード変換器 波長: 1520 ~ 1620nm ❘ Phoenix
+Summary:調整機能付きモード変換器『MLPG/LPG1』 データシート
+
+Product Title: フォトニックランタン マルチプレクサ/デマルチプレクサ 波長: 1500 ~ 1620nm / 1520 ~ 1570nm ❘ Phoenix Photonics
+Summary:フォトニックランタン マルチプレクサ/デマルチプレクサ　データシート
+
+Product Title: フューモード用光増幅器 ❘ Phoenix Photonics
+Summary:フューモード用光増幅器　データシート
+
+Product Title: シングルパルス用光増幅器 ❘ RAM Photonics
+Summary:シングルパルスファイバ増幅器　データシート
+
+Product Title: チューナブルピコ秒光源 ❘ RAM Photonics
+Summary:チューナブルピコ秒光源『Cavitylessシリーズ』データシート
+
+Product Title: ピコ秒ファイバレーザー 全PMファイバ構成 ❘ Southern Photonics
+Summary:ピコ秒ファイバレーザー『FLS100』
+
+Product Title: FBG方式 波長分散エミュレータ ❘ TeraXion
+Summary:FBG方式 波長分散エミュレータ　データシート
+
+Product Title: 狭線幅レーザー光源 レーザー線幅測定システム ❘ SYCATUS
+Summary:狭線幅レーザ光源 レーザ線幅測定システム　データシート 
+Desciption: 特長 デジタルコヒーレント光通信等に用いられる狭線幅レーザ光源について、下限50kHzまでの狭い線幅を容易かつ確実に測定 干渉計には自己遅延型ヘテロダイン方式を採用 A0010A RIN測定システムのAdd‐Onとしても提供可能 用途 データセンター 光アクセス 光ファイバセンシング 基幹系インフラ 通信 仕様詳細 波長 1520 ～ 1620 nm 測定線幅 40kHz 入力光パワーレンジ -20 dBm to +7 dBm 干渉計の周波数シフト 100 MHz
+
+Product Title: 超高精度 光周波数雑音/線幅アナライザ『A0040A』 ❘ SYCATUS
+Summary:超高精度 光周波数雑音/線幅アナライザ『A0040A』 カタログ
+
+Product Title: 広帯域RIN測定システム『A0010A』 ❘ SYCATUS
+Summary:広帯域RIN測定システム『A0010A』カタログ
+
+Product Title: バンドパスフィルタ 波長: 1064 ~ 1565nm | Optizone
+Summary:データシート：1064nm Bandpass Filter 
+Desciption: 特長 高分離 低挿入損失 ハイリターンロス 用途 レーザ 増幅機能 仕様詳細 波長 1064nm、1528nm～1565nm、その他も対応可 バンド幅 5nm、37nm、その他も対応可 ストップバンド幅 22nm、53nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: ファイバーミラー 波長: 1064 ~ 2000nm | Optizone
+Summary:データシート：1064nm Optical Fiber Mirror 
+Desciption: 特長 低挿入損失 用途 レーザ ファイバーセンサ 仕様詳細 波長 1064nm、1310nm、1480nm、1530nm、1550nm、2000nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: ※PDFファイルアップロード用※
+Summary:安全対策特注品 
+Desciption:
+
+Product Title: 高出力偏波保持バンドパスフィルタ/アイソレータハイブリッド 波長: 1030 ~ 1064nm | Optizone
+Summary:データシート：1030nm、1064nm High Power PM Band Pass Filter Isolator
+
+Product Title: ハイパワーアッセンブリ 波長: 808nm | Optizone
+Summary:データシート：808nm High Power Assemblies 
+Desciption: 特長 高品質ラージコアファイバ 低カップリングロス 高精度アセンブリアクセサリ 用途 エンドポンプレーザ UVレーザポンプ 医療用レーザおよび機器 仕様詳細 波長 808nm、その他も対応可 コネクタタイプ HP SMA905、その他も対応可 入力パワー 120W、その他も対応可 ファイバタイプ 400/480 NA0.22、その他も対応可 ファイバ被膜長 3.5m 2.8mmケーブル、その他も対応可
+
+Product Title: マルチモードポンプLDプロテクタ 波長: 915 / 980nm | Optizone
+Summary:データシート：915nm、980nm Multimode Pump Laser Protector 
+Desciption: 特長 レーザ保護 用途 ファイバレーザ 仕様詳細 波長 915nm、980nm、その他も対応可 入力パワー 6W、10W、その他も対応可 NA 0.15、0.22、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、3mmケーブル、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 偏波保持ファイバーフォーカサー 波長: 1064nm | Optizone
+Summary:データシート：1064nm Polarization Maintaining Fiber Focuser 
+Desciption: 特長 高消光比 低挿入損失 高リターンロス 用途 超短パルスレーザ ファイバレーザ 仕様詳細 波長 1064nm、その他も対応可 集光径 9.0um、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可 パルスパワー 0.5kW、その他も対応可
+
+Product Title: 偏波保持アイソレータコンバイナ/スプリッタ 波長：1064 ~ 1550nm | Optizone
+Summary:データシート：1064nm Isolator Polarization Beam Combiner/Splitter
+
+Product Title: マルチモードポンプコンバイナ 波長: 790 ~ 1000nm | Optizone
+Summary:データシート：MMPC 7X1 790-1000nm 
+Desciption: 特長 高ポンプ効率 高信号光伝達効率 高変更消光比 用途 ハイパワーファイバーレーザ ハイパワーアンプ 仕様詳細 ポンプ波長 790 ~ 1000 nm ポンプ数 7x1、19x1 Pumps インプットファイバタイプ 105/125, NA0.15、105/125, NA0.22、その他も対応可 アウトプットファイバタイプ 0/125, NA0.46、200/220, NA0.22、200/240, NA0.46、 0/400, NA0.46、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: シングルモードワイドバンドモノリシックカプラ 波長: 1310 / 1550nm | Optizone
+Summary:データシート：1310nm、1550nm Single Mode Wideband Monolithic Couplers 
+Desciption: 特長 低挿入損失 高消光比 用途 光ネットワーク 仕様詳細 波長 1310nm、1550nm ポート数 1×3、1×4 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: シングルモードツリーカプラ 波長: 1310 ~ 1550nm | Optizone
+Summary:データシート：1310nm、1550nm Single Mode Standard Tree Coupler 
+Desciption: 特長 低挿入損失 高消光比 用途 光ネットワーク 仕様詳細 波長 1310nm、1550nm ポート数 1×4、1×8、1×16、1×32、2×4、2×8、2×16、2×32 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 偏波無依存タップアイソレータ 波長: 1310 ~ 1550nm | Optizone
+Summary:データシート：1310nm、1480nm、1550nm Polarization Insensitive Tap Isolator 
+Desciption: 特長 低挿入損失 低偏波依存性損失 用途 ファイバレーザ アンプ 仕様詳細 波長 1310nm、1480nm、1550nm ステージ シングル、デュアル コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可 パッケージタイプ 小型タイプ 標準サイズ
+
+Product Title: 偏波保持タップアイソレータ 波長: 1064 ~ 1590nm | Optizone
+Summary:データシート：1310nm、1480nm、1550nm、1590nm Polarization Maintaining Tap Isolator
+
+Product Title: フリースペースアイソレータ 波長: 915 ~ 2000 nm | Optizone
+Summary:データシート：1064nm Free Space Isolator 
+Desciption: 特長 低挿入損失 ハイパワーハンドリング 用途 半導体レーザ 個体レーザ 仕様詳細 波長 915nm、980nm、1064nm、1310nm、1550nm、2000nm、その他も対応可 ステージ Single Stage、Dual Stage 光路 Forward、Backward パッケージサイズ dia2.8x3.7mm、その他対応可能 ハンドリングパワー 20W、50W、80W、100w、その他対応可能 有効開口 4.7mm、5.0mm、その他対応可能 波長範囲 λ±10nm、λ±40nm
+
+Product Title: ポータブル高分解能光スペクトラムアナライザ: WaveAnalyzer 『200A』 | II-VI Incorporated
+Summary:カタログ：WaveAnalyzerシリーズ
+
+Product Title: ポラライザー/フォーカサーハイブリッド 波長: 1064nm | Optizone
+Summary:データシート：1064nm Polarizer / Fiber Focuser Hybrid  
+Desciption: 特長 高消光比 低挿入損失 高リターンロス 用途 超短パルスレーザ ファイバセンサ 光増幅器 仕様詳細 波長 1064nm、その他も対応可 集光径 9.0um、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可 パルスパワー 0.5kW、その他も対応可
+
+Product Title: マルチモードWDMフィルタ型カプラ 波長：1310nm Pass / 850 ~ 1550nm Reflect | Optizone
+Summary:データシート：Multimode Filter Wavelength Division Multiplexer
+
+Product Title: 偏波無依存アイソレータコア 波長: 1064 ~ 1550nm| Optizone
+Summary:データシート：Polarization Insensitive Isolator Core  
+Desciption: 特長 高アイソレーション 低挿入損失 用途 光増幅器 ファイバレーザ 仕様詳細 波長 1064nm、1310nm、1480nm、1550nm、その他も対応可 入力パワー 300mW、10W、その他も対応可 ステージ シングルステージ、デュアルステージ 光路 Forward、Backward
+
+Product Title: インラインファラデーローテータ 波長: 1310 ~ 1550nm | Optizone
+Summary:データシート：In-line Faraday Rotator 
+Desciption: 特長 高リターンロス 高消光比 低挿入損失 用途 ファイバセンサ 光増幅器 ファイバレーザ 仕様詳細 波長 1310nm、1480nm、1550nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、400umベアファイバ、900umルーズチューブ、その他も対応可 ファイバタイプ PM Panda Fiber、SMF-28e Fiber ファイバ長 標準1m、その他も対応可 パッケージタイプ 標準タイプ 小型サイズ
+
+Product Title: 偏波保持WDMフィルタ型カプラ 波長: 980 ~ 2000nm Pass / 980 ~ 1570nm Reflect | Optizone
+Summary:データシート：9806nm-9803nm Polarization Maintaining Filter Wavelength Division Multiplexer
+
+Product Title: ファラデーミラー 波長: 1064 ~ 1550nm | Optizone
+Summary:データシート：1064nm Faraday Mirror  
+Desciption: 特長 高リターンロス 高消光比 低挿入損失 用途 ファイバセンサ 光増幅器 ファイバレーザ 仕様詳細 波長 1064nm、1310nm、1480nm、1550nm、その他も対応可 コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、400umベアファイバ、900umルーズチューブ、3mmケーブル、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: 高出力偏波無依存空間出力型アイソレータ 波長: 1064nm | Optizone
+Summary:データシート：1064nm 5W、10W、20W High Power Collimated Beam Output Isolator
+
+Product Title: 高出力偏波保持空間出力型アイソレータ 波長: 1064nm | Optizone
+Summary:データシート：1064nm 5W、10W、20W High Power PM Collimated Beam Output Isolator  
+Desciption: 特長 高アイソレーション 高消光比 低挿入損失 用途 光ファイバ増幅器 ファイバレーザ 仕様詳細 波長 1064nm、その他も対応可 入力パワー 5W、10W、20W、その他も対応可 ビーム径 5mm、6mm、7mm、その他も対応可 ファイバ被膜 900umルーズチューブ、3mmルーズチューブ、3mmアーマードケーブル、6mmアーマードケーブル、その他も対応可 ファイバ長 標準1m、その他も対応可
+
+Product Title: シングルモードWDMフィルタ型カプラ 波長: 980 ~ 9806nm | Optizone
+Summary:データシート：980&1550nm Single Mode Wavelength Division Multiplexers
+
+Product Title: クラッドポンプストリッパー 波長：900 ~ 1100nm | Optizone
+Summary:データシート：900~1100nm Cladding Power Stripper Mode Field Transfer (Indirect water cooling)
+
+Product Title: 高出力レーザー用 光ファイバケーブル | Optizone
+Summary:データシート：Type Q1 Fiber Optical Cable
+
+Product Title: アイソレータ/フィルタWDMハイブリッド 波長: 1530 ~ 1580nm | Optizone
+Summary:データシート：1530-1580nm Isolator/Filter Wavelength Division Multiplexer Hybrid 
+Desciption: 特長 低挿入損失 用途 ファイバレーザ ファイバセンサ 光増幅器 仕様詳細 波長 1530-1580nm、1530-1565nm、1950-2050nm ステージ シングル、デュアル コネクタタイプ FC/UPC、FC/APC、SC/UPC、SC/APC、None、その他も対応可 ファイバ被膜 250umベアファイバ、900umルーズチューブ、その他も対応可 ファイバ長 標準1m、その他も対応可 パッケージ 標準タイプ 小型タイプ
+
+Product Title: 偏波保持アイソレータ/WDMハイブリッド 波長: 波長: 1530 ~ 1580nm / 1530 ~ 1565nm | Optizone
+Summary:データシート：1530-1580nm PM Isolator Wavelength Division Multiplexer Hybrid
+
+Product Title: WDMフィルタ 波長: 1525 ~ 1620nm | DiCon
+Summary:WDMフィルタ 100GHz【FW1-N】 データシート
+
+Product Title: CWDMフィルタ型カプラ 波長: 1431 ~ 1611nm | DiCon
+Summary:Dicon CWDMフィルタ【CW2】データシート
+
+Product Title: ラマン励起用 シングルモード半導体レーザー 波長 1420~1510nm | 3SP Technologies
+Summary:データシート：ラマン励起用 シングルモード半導体レーザー 
+Desciption: 特長 14ピンバタフライ型モジュール TEC、NTCサーミスタ、モニタリングPDを内蔵 TelcordiaGR-468-CORE認定 済 用途 FTTH用途向けのラマンアンプ ラマン分光の励起光源 仕様詳細 ■ 電気光学特性 * Tsubmount = 35°C, Tcase = -5 to 70°C, TFBG=25°CのBOLで規定
+
+Product Title: Er添加ダブルクラッドマルチコアファイバ 波長: 1500 ~ 1650nm | iX Blue
+Summary:カタログ：ダブルクラッド・マルチコアファイバ(増幅器用)  
+Desciption: 特長 4～12コアのカスタム対応可能 形状検知 FBG転写用感光性コア ご要望に応じて、能動的に希土類を添加したマルチコアファイバを提供します 用途 空間分割多重光ファイバ通信 0形状感知 温度・歪みセンサ 仕様詳細
+
+Product Title: 中空コア フォトニックバンドギャップファイバ（0.8um帯、1um帯、1.5um帯）| NKT Photonics
+Summary:データシート：中空コア フォトニックバンドギャップファイバ 
+Desciption: 特長 ガス充填が可能 低曲げ損失 端面での低フレネル反射 高パルスエネルギー＆高パルスエネルギー対応 用途 高出力＆高パルスエネルギー伝送 パルス整形と圧縮 ガス分光 非線形光学 ファイバージャイロスコープ センサー 狭線幅レーザー伝送 仕様
+
+Product Title: 高非線形フォトニック結晶ファイバ 波長：0.8um帯 / 1um帯 | NKT Photonics
+Summary:データシート：NL-PM-750 / SC-5.0-1040 / SC-5.0-1040-PM
+
+Product Title: ラージモードエリアフォトニック結晶ファイバ 　波長: 400 ~ 1700nm PMF | NKT Photonics
+Summary:データシート：LMAファイバ (SMF) 
+Desciption: 特長 シングルモード伝送 高出力＆高パルスエネルギー対応 低非線形性 5~25umコア径と幅広い製品ラインナップ 仕様詳細 ◆ PMF ◆ PM-1550
+
+Product Title: 光周波数コム発生器 - Frush | セブンシックス　
+Summary:概要カタログ：光周波数コム Frush
+
+Product Title: 特注除振台耐バー（独立脚タイプ用）
+Summary:特注除振台耐バー（独立脚タイプ用） 
+Desciption: 特長 お手持ちの除振脚にフランジが無い場合、メーカー純正品ではフランジ付きの脚に交換する必要がありますが、 本製品ではそのまま取り付け可能な為、同等性能の製品をトータルコストを半額以下に収めることが可能です 打ち合わせ後に製作する為、色々なサイズの除振台への取り付けが可能 除振台上の実験設備はそのままの状態で、取り付け作業が可能 移設等の場合にも組み立て式の為、簡単に取り外す事ができる 取り付け作業は簡単で、工具さえ有ればお客様でも取り付け作業が可能 耐バー取り付け後も、除振台の下に荷物等を置く事も可能 用途 地震対策 仕様 素材：スチール+ブラック粉体塗装 ご提案例パンフレット
+
+Product Title: 特注密閉ＢＯＸ（窒素ガス封入タイプ）
+Summary:特注密閉ＢＯＸ（窒素ガス封入タイプ） 
+Desciption: 特長 お客様のご希望サイズを製作する事が可能 ボックス内部にブレッドボードを固定する加工も可能 ボックス内部に挿入するケーブル類の個数・位置は任意に設定可能 ケーブルアタッチメントは３本のビスで簡単に取り外しできる為、別のケーブル類への交換も可能 ケーブル類を考慮して頂ければ、窒素パージしたまま別の部屋へ移動する事も可能 ケーブル類を挿入する穴を加工しなければ、製品を窒素パージしたまま移動できるボックスとしても使用可能 窒素ガス0.01MPaにてボックス内部を100%にパージして、約18時間その状態が保持されます 用途 研究補助 仕様 ◆素材 上部：アクリル ボディ：ステンレス ベース：アルミニウム 使用気体：窒素ガス ご提案例パンフレット
+
+Product Title: アナログ光伝送システム ❘ ワカ製作所
+Summary:光伝送システム(O/Eコンバータ)_カタログ
+
+Product Title: 超広帯域波長可変レーザー光源『SuperK CHROMATUNE』 | NKT Photonics
+Summary:データシート：SuperK CHROMATUNE
+
+Product Title: C+L-band 高分解能光スペクトラム・アナライザ 『WaveAnalyzer 400A』 | II-VI Incorporated
+Summary:データシート：WaveAnalyzer-400A
+
+Product Title: 波長可変レーザー『T200S』 | EXFO
+Summary:データシート：EXFO『T200S』
+
+Product Title: 波長可変レーザー『T500S』 | EXFO
+Summary:スペックシート：EXFO『T500S』
+
+Product Title: 800GbEネットワークテスター 『FTBx-8880x』シリーズ | EXFO
+Summary:スペックシート：exfoFTBx-8880xシリーズ
+
+Product Title: 小型多ポート400GbEネットワークテスター『FTBx-8848x』シリーズ | EXFO
+Summary:スペックシート：『FTBx-8848x』シリーズ
+
+Product Title: 超短パルスファイバレーザー『iQoM』 | セブンシックス
+Summary:データシート (日本語)
+
+Product Title: PIC(光集積回路)テストソリューション | EXFO
+Summary:カタログ＜英語版＞：EXFO-PIC-Test-Solutions_EN
+
+Product Title: ハンディ型 光コネクタ研磨機 | NTT-AT
+Summary:カタログ：ハンディ型コネクタクリーナ
+
+Product Title: Tm添加ダブルクラッドフォトニック結晶ファイバ | NKT Photonics
+Summary:データシート：DC-250/50-PM-Tm
+
+Product Title: ポンプシグナルコンバイナ 信号波長: 790 ~ 2000nm | Optizone
+Summary:データシート： (6+1)×1 MultiMode Pump Signal Combiner
+
+Product Title: ファイバレーザーモジュール | Optizone
+Summary:データシート: 1064nm Picosecond Fiber Laser Module 
+Desciption: 特長 長寿命（＞20000 hours） 独自のSESAMマルチポイント自動切り替え技術 回析限界のビーム品質 用途 フェムト秒レーザーの種子光源 材料分析 科学研究 仕様詳細 波長 1064nm、その他も対応可 パルス幅 10ps、その他も対応可 繰り返し周波数 30MHz、その他も対応可 平均出力 50mW、その他も対応可 メンテナンスフリー 10000h or 20000h 出力偏波状態 直線偏光 ファイバ長 0.3m、その他も対応可 ファイバ被膜 900umルーズチューブ、3mmケーブル、その他も対応可 コネクタタイプ FC/UPC、 FC/APC、 SC/UPC、 SC/APC
+
+Product Title: ゴルフヘッド検査装置『Spector』 | セブンシックス
+Summary:紹介資料：3次元形状検査装置シリーズ『Spector』
+
+Product Title: 低屈折率（1.308 ~ 1.550）光ファイバ接着剤 | MY Polymers
+Summary:My polymers 全製品ラインナップ
+
+Product Title: ピエゾアクチュエータ式マトリックス光スイッチ 波長: 1260 ~ 1675nm　ポート数: 最大 576x576 | Huber
+Summary:データシート：Polatis_576_Prelim
+
+Product Title: マルチコアファイバカプラ | KS Photonics
+Summary:カタログ：マルチコアファイバカプラ
+
+Product Title: マルチチャンネル光スペクトルシンセサイザWaveMakerシリーズ | Coherent
+Summary:データシート：WaveMaker 500A/4000A
+
+Product Title: 薄膜LN 110GHz光強度変調器 | HyperLight
+Summary:カタログ：薄膜LN 110GHz光強度変調器
+
+Product Title: コヒーレントレシーバ『CORX』 |  ID Photonics
+Summary:データシート：コヒーレントレシーバ『CORX』
+
+Product Title: テスト製品
+Summary:【公開資料】製品パンフレット 
+Desciption:
+
+Product Title: アナログ光リンクモジュール (AO wave) | Finisar
+Summary:製品カタログ：アナログ光リンクモジュール
+
+Product Title: アナログ光トランスミッタ(EML) ❘ Finisar
+Summary:データシート：35 GHzアナログ光トランスミッタ
+
+Product Title: 【宇宙グレード】位相変調器 ❘ exail
+Summary:データシート：位相変調器【EM-NIR-MPX-LN-0.1】
+
+Product Title: 【宇宙グレード】高消光比強度変調器 ❘ exail
+Summary:データシート：高消光比強度変調器【EM-MXER-LN-10】
+
+Product Title: 【宇宙向け】低雑音光増幅器 ❘ exail
+Summary:データシート：低雑音光増幅器【IXS-LNOA-C-X-RAD】
+
+Product Title: OPAL-MD：フォトニック集積回路 (PIC) 向け自動プローブステーション​│EXFO
+Summary:データシート：フォトニック集積回路 (PIC) 向け自動プローブステーション​【OPAL-MD】
+
+Product Title: OPAL-EC：フォトニック集積回路 (PIC) 向けエッジカップリング自動プローブステーション│EXFO
+Summary:データシート：フォトニック集積回路 (PIC) 向けエッジカップリング自動プローブステーション【OPAL-EC】
+
+Product Title: OPAL-SD：フォトニック集積回路 (PIC) 向けシングルダイ自動プローブステーション│EXFO
+Summary:データシート：フォトニック集積回路 (PIC) 向けシングルダイ自動プローブステーション【OPAL-SD】 (EN)
+
+Product Title: 量子用超低損失 マトリックス光スイッチ 波長: 1260 ~ 1675nm　ポート数: 16x16 | Huber
+Summary:データシート：Polatis_Quantum_Switch
+
+Product Title: 薄膜LN 65GHz光強度変調器 | HyperLight
+Summary:カタログ：薄膜LN 65GHz光強度変調器
+
+Product Title: 薄膜LN 40GHz Ultra-low Vπ光強度変調器 | HyperLight
+Summary:カタログ：薄膜LN 40GHz Ultra-low Vπ光強度変調器
+
+Product Title: 薄膜LN 110GHz IQ 光変調器 | HyperLight
+Summary:カタログ：薄膜LN 110GHz IQ 光変調器 
+Desciption: 特長 Single-polarization IQ modulator > 125 GHz bandwidth Support 240 Gbaud singnaling 1.0mm RF Connector(W), PM fibers C-band support　※O-band 2025年4Qリリース予定 用途 240 Gbaud testing 110 GHz single sideband modulation 解説・関連動画▼ 100GHz Bandwidth/薄膜LN集積回路の性能限界を押し上げる│Vol.102 https://www.youtube.com/watch?v=LjIdHWLVNrU
+
+Product Title: 薄膜LN 40GHz Ultra-low Vπ光位相変調器 | HyperLight
+Summary:カタログ：薄膜LN 40GHz Ultra-low Vπ光位相変調器
+
+Product Title: 薄膜LN 110GHz 光位相変調器 | HyperLight
+Summary:カタログ：薄膜LN 110GHz 光位相変調器 
+Desciption: 特長 > 110 GHz bandwidth Low Vπ 1.0mm RF connector(W) Low Vπ model and Regular Vπ model support C/L-band support 用途 Optical Computing Quantum communication Microwave photonics EO comb generation 解説・関連動画▼ 100GHz Bandwidth/薄膜LN集積回路の性能限界を押し上げる│Vol.102 https://www.youtube.com/watch?v=LjIdHWLVNrU
+
+Product Title: 薄膜LN 65GHz IQ光変調器 | HyperLight
+Summary:カタログ：薄膜LN 65GHz IQ光変調器
+
+Product Title: 超高波長精度 光スペクトラムアナライザ『WaveAnalyzer 1500B』 ❘ Coherent
+Summary:カタログ：WaveAnalyzerシリーズ
+
+Product Title: 超狭線幅DFBレーザーモジュール ❘ TeraXion
+Summary:データシート：DFBレーザーモジュール（LXM-U1550.12-040-M1-I1-N0）
+
+Product Title: 800G ZR/ZR+ QSFP-DD DCO 光トランシーバ ❘ Coherent
+Summary:カタログ：800G ZR/ZR+ QSFP-DD DCO 光トランシーバ 
+Desciption: 特長 独自のInP+SOA技術採用 集積化/シンプル構成 C-band/L-band 対応 High Tx Power 0 dBm 対応 QSFP-DD/OSFP対応 低消費電力 <28W@OIF800ZR, <31W@OpenZR+ 様々な変調フォーマットをサポート 用途 Data Center Interconnect, Telecom network, Mobile Network
+

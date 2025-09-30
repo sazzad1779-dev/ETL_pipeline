@@ -21,7 +21,6 @@ class PostgresController:
         print("✅ Tables created successfully!")
 
     def get_session(self):
-        print("db url:", PG_DB_URL)
         """Get a new session."""
         return self.SessionLocal()
     

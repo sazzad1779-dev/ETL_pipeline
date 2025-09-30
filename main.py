@@ -6,10 +6,6 @@ from src.controller.structured_data_controller import StructuredDataController
 from dotenv import load_dotenv
 load_dotenv(override=True)
 import os
-PG_DB_URL = os.environ.get(
-    "PG_DB_URL",None
-)
-print("PG_DB_URL: ",PG_DB_URL)
 
 class Main:
     def __init__(self):

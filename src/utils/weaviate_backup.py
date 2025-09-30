@@ -4,6 +4,15 @@ from datetime import datetime
 import weaviate
 from weaviate.classes.init import Auth
 from weaviate.classes.backup import BackupLocation, BackupStorage
+import logging
+
+# ------------------ LOGGING ------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
 
 class WeaviateBackupRestore:
     def __init__(self, host: str = None, secure: bool = False):
@@ -24,6 +33,7 @@ class WeaviateBackupRestore:
 
     def close(self):
         self.client.close()
+        logger.info("Closed Weaviate connection to %s", self.host)
 
     def delete_classes(self, class_names: list[str]):
         """Delete specified classes if they exist"""
@@ -31,9 +41,11 @@ class WeaviateBackupRestore:
             try:
                 if self.client.collections.exists(class_name):
                     self.client.collections.delete(class_name)
-                    print(f"Deleted class: {class_name}")
+                    logger.info("Deleted class: %s", class_name)
+                else:
+                    logger.info("Class not found (skipped): %s", class_name)
             except Exception as e:
-                print(f"Warning: Could not delete class {class_name}: {e}")
+                logger.warning("Could not delete class %s: %s", class_name, e)
 
     def delete_all_classes(self):
         """Delete all classes from the Weaviate instance"""
@@ -41,9 +53,9 @@ class WeaviateBackupRestore:
             collections = self.client.collections.list_all()
             for collection_name in collections:
                 self.client.collections.delete(collection_name)
-                print(f"Deleted class: {collection_name}")
+                logger.info("Deleted class: %s", collection_name)
         except Exception as e:
-            print(f"Warning: Could not delete all classes: {e}")
+            logger.warning("Could not delete all classes: %s", e)
 
     def create_backup(self, s3_path: str, wait: bool = True):
         backup_id = f"weaviate_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -52,7 +64,7 @@ class WeaviateBackupRestore:
             path=s3_path,
             region=os.getenv("S3_REGION")
         )
-        print(f"Starting backup in {self.host} with ID: {backup_id}")
+        logger.info("Starting backup in %s with ID: %s", self.host, backup_id)
         self.client.backup.create(
             backend=BackupStorage.S3,
             backup_id=backup_id,
@@ -62,13 +74,18 @@ class WeaviateBackupRestore:
             self._wait_for_status("create", backup_id, backup_location)
         return backup_location, backup_id
 
-    def restore_backup(self, backup_id: str, backup_location: BackupLocation, 
-                      wait: bool = True, delete_existing: bool = True):
+    def restore_backup(
+        self,
+        backup_id: str,
+        backup_location: BackupLocation,
+        wait: bool = True,
+        delete_existing: bool = True
+    ):
         if delete_existing:
-            print(f"Deleting existing classes in {self.host}...")
+            logger.info("Deleting existing classes in %s...", self.host)
             self.delete_all_classes()
-        
-        print(f"Starting restore in {self.host} with ID: {backup_id}")
+
+        logger.info("Starting restore in %s with ID: %s", self.host, backup_id)
         self.client.backup.restore(
             backend=BackupStorage.S3,
             backup_id=backup_id,
@@ -78,7 +95,13 @@ class WeaviateBackupRestore:
         if wait:
             self._wait_for_status("restore", backup_id, backup_location)
 
-    def _wait_for_status(self, action: str, backup_id: str, backup_location: BackupLocation, interval: int = 5):
+    def _wait_for_status(
+        self,
+        action: str,
+        backup_id: str,
+        backup_location: BackupLocation,
+        interval: int = 5
+    ):
         status_func = {
             "create": self.client.backup.get_create_status,
             "restore": self.client.backup.get_restore_status
@@ -92,12 +115,12 @@ class WeaviateBackupRestore:
                 backup_id=backup_id,
                 backup_location=backup_location
             )
-            print(f"{action.capitalize()} status: {status.status}")
+            logger.info("%s status: %s", action.capitalize(), status.status)
             if status.status in ("SUCCESS", "FAILED"):
                 break
             time.sleep(interval)
 
         if status.status != "SUCCESS":
+            logger.error("%s failed: %s", action.capitalize(), status.error)
             raise Exception(f"{action.capitalize()} failed: {status.error}")
-        print(f"{action.capitalize()} completed successfully in {self.host}.")
-
+        logger.info("%s completed successfully in %s.", action.capitalize(), self.host)

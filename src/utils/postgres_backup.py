@@ -1,103 +1,120 @@
 import os
-import time
+import subprocess
+import boto3
+import gzip
+import tempfile
+import logging
 from datetime import datetime
-import weaviate
-from weaviate.classes.init import Auth
-from weaviate.classes.backup import BackupLocation, BackupStorage
 
-class WeaviateBackupRestore:
-    def __init__(self, host: str = None, secure: bool = False):
-        self.headers = {"X-OpenAI-Api-Key": os.getenv("OPENAI_API_KEY")}
-        self.host = host or os.getenv("WEAVIATE_API_KEY")
+# ------------------ LOGGING ------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
 
-        self.client = weaviate.connect_to_custom(
-            headers=self.headers,
-            http_host=self.host,
-            http_port=int(os.getenv("http_port", 8080)),
-            http_secure=secure,
-            grpc_host=self.host,
-            grpc_port=int(os.getenv("grpc_port", 50051)),
-            grpc_secure=secure,
-            auth_credentials=Auth.api_key(os.getenv("WEAVIATE_API_KEY", "jbc_admin")),
-            skip_init_checks=True,
-        )
 
-    def close(self):
-        self.client.close()
 
-    def delete_classes(self, class_names: list[str]):
-        """Delete specified classes if they exist"""
-        for class_name in class_names:
-            try:
-                if self.client.collections.exists(class_name):
-                    self.client.collections.delete(class_name)
-                    print(f"Deleted class: {class_name}")
-            except Exception as e:
-                print(f"Warning: Could not delete class {class_name}: {e}")
+class PostgresManager:
+    def __init__(self, host_url: str):
+        self.db_config = self.parse_pg_url(host_url)
+        self.env = os.environ.copy()
+        self.env["PGPASSWORD"] = self.db_config["password"]
+        self.s3_bucket = os.getenv("S3_BUCKET")
+        self.s3_region = os.getenv("S3_REGION")
 
-    def delete_all_classes(self):
-        """Delete all classes from the Weaviate instance"""
-        try:
-            collections = self.client.collections.list_all()
-            for collection_name in collections:
-                self.client.collections.delete(collection_name)
-                print(f"Deleted class: {collection_name}")
-        except Exception as e:
-            print(f"Warning: Could not delete all classes: {e}")
 
-    def create_backup(self, s3_path: str, wait: bool = True):
-        backup_id = f"weaviate_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        backup_location = BackupLocation.S3(
-            bucket=os.getenv("S3_BUCKET"),
-            path=s3_path,
-            region=os.getenv("S3_REGION")
-        )
-        print(f"Starting backup in {self.host} with ID: {backup_id}")
-        self.client.backup.create(
-            backend=BackupStorage.S3,
-            backup_id=backup_id,
-            backup_location=backup_location
-        )
-        if wait:
-            self._wait_for_status("create", backup_id, backup_location)
-        return backup_location, backup_id
+    @staticmethod
+    def parse_pg_url(host_url: str):
+        return {
+            "host": host_url,
+            "port": int(os.getenv("POSTGRES_PORT", 5432)),
+            "database": os.getenv("POSTGRES_DB"),
+            "user": os.getenv("POSTGRES_USER"),
+            "password": os.getenv("POSTGRES_PASSWORD"),
+        }
 
-    def restore_backup(self, backup_id: str, backup_location: BackupLocation, 
-                      wait: bool = True, delete_existing: bool = True):
-        if delete_existing:
-            print(f"Deleting existing classes in {self.host}...")
-            self.delete_all_classes()
-        
-        print(f"Starting restore in {self.host} with ID: {backup_id}")
-        self.client.backup.restore(
-            backend=BackupStorage.S3,
-            backup_id=backup_id,
-            backup_location=backup_location,
-            wait_for_completion=True
-        )
-        if wait:
-            self._wait_for_status("restore", backup_id, backup_location)
+    def test_connection(self, name: str) -> bool:
+        cmd = [
+            "psql",
+            "--host", self.db_config["host"],
+            "--port", str(self.db_config["port"]),
+            "--username", self.db_config["user"],
+            "--dbname", self.db_config["database"],
+            "--command", "SELECT version();",
+        ]
+        res = subprocess.run(cmd, env=self.env, capture_output=True, text=True)
+        if res.returncode == 0:
+            logger.info(f"✅ Connection OK to {name} ({self.db_config['host']}): {res.stdout.strip()}")
+            return True
+        logger.error(f"❌ Connection failed to {name} ({self.db_config['host']}): {res.stderr.strip()}")
+        return False
 
-    def _wait_for_status(self, action: str, backup_id: str, backup_location: BackupLocation, interval: int = 5):
-        status_func = {
-            "create": self.client.backup.get_create_status,
-            "restore": self.client.backup.get_restore_status
-        }.get(action)
-        if not status_func:
-            raise ValueError("Invalid action for status check")
+    def backup_to_s3(self, s3_path: str) -> str:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_name = f"{self.db_config['database']}_backup_{timestamp}.sql.gz"
+        s3_key = f"{s3_path.rstrip('/')}/{backup_name}"
+        s3_client = boto3.client("s3", region_name=self.s3_region)
 
-        while True:
-            status = status_func(
-                backend=BackupStorage.S3,
-                backup_id=backup_id,
-                backup_location=backup_location
-            )
-            print(f"{action.capitalize()} status: {status.status}")
-            if status.status in ("SUCCESS", "FAILED"):
-                break
-            time.sleep(interval)
+        with tempfile.TemporaryDirectory() as tmp:
+            local_path = os.path.join(tmp, backup_name)
+            cmd = [
+                "pg_dump",
+                "--host", self.db_config["host"],
+                "--port", str(self.db_config["port"]),
+                "--username", self.db_config["user"],
+                "--dbname", self.db_config["database"],
+                "--no-password",
+                "--clean", "--if-exists",
+                "--no-owner", "--no-privileges",
+                "--format=plain",
+                "--encoding=UTF8",
+                "--quote-all-identifiers",
+            ]
 
-        if status.status != "SUCCESS":
-            raise Exception(f"{action.capitalize()} failed: {status.error}")
-        print(f"{action.capitalize()} completed successfully in {self.host}.")
+            logger.info(f"Backing up {self.db_config['host']} → {backup_name}")
+            proc = subprocess.run(cmd, env=self.env, capture_output=True, text=True)
+            if proc.returncode != 0:
+                raise RuntimeError(f"pg_dump failed: {proc.stderr}")
 
+            # Compress output
+            with gzip.open(local_path, "wt") as gz:
+                gz.write(proc.stdout)
+
+            s3_client.upload_file(local_path, self.s3_bucket, s3_key,
+                                  ExtraArgs={"ServerSideEncryption": "AES256"})
+            logger.info(f"✅ Backup uploaded to s3://{self.s3_bucket}/{s3_key}")
+        return s3_key
+
+    def restore_from_s3(self, s3_key: str):
+        s3_client = boto3.client("s3", region_name=self.s3_region)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            local_gz = os.path.join(tmp, "downloaded.sql.gz")
+            local_sql = os.path.join(tmp, "restore.sql")
+
+            logger.info(f"Downloading backup from S3: s3://{self.s3_bucket}/{s3_key}")
+            s3_client.download_file(self.s3_bucket, s3_key, local_gz)
+
+            logger.info("Decompressing backup...")
+            with gzip.open(local_gz, "rt") as gz, open(local_sql, "w") as sql:
+                sql.write(gz.read())
+
+            cmd = [
+                "psql",
+                "--host", self.db_config["host"],
+                "--port", str(self.db_config["port"]),
+                "--username", self.db_config["user"],
+                "--dbname", self.db_config["database"],
+                "--no-password",
+                "--single-transaction",
+                "--set", "ON_ERROR_STOP=1",
+                "--file", local_sql,
+            ]
+
+            logger.info(f"Restoring backup into {self.db_config['host']} ...")
+            proc = subprocess.run(cmd, env=self.env, capture_output=True, text=True)
+            if proc.returncode == 0:
+                logger.info("✅ Restore completed successfully")
+            else:
+                raise RuntimeError(f"Restore failed: {proc.stderr}")

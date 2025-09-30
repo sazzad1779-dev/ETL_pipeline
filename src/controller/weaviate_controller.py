@@ -32,13 +32,15 @@ class WeaviateController:
             headers["X-JinaAI-Api-Key"] = os.getenv("JINAAI_API_KEY")
         elif self.embedding_provider == "openai":
             headers["X-OpenAI-Api-Key"] = os.getenv("OPENAI_API_KEY")
-        if os.getenv("WEAVIATE_URL")=="localhost":
+        if os.getenv("HOST_TYPE")=="local":
             print("Connecting to local Weaviate instance...")
             client = weaviate.connect_to_local(headers=headers,auth_credentials=Auth.api_key(weaviate_api_key))
-        else:
-            print(f"Connecting to Weaviate at {os.getenv('WEAVIATE_URL_PROD')}...")
-            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("WEAVIATE_URL_PROD"),http_port=8080,http_secure=False,grpc_host=os.getenv("WEAVIATE_URL_PROD"),grpc_port=50051, auth_credentials=Auth.api_key(weaviate_api_key), skip_init_checks=True,grpc_secure=False,)
-        
+        elif os.getenv("HOST_TYPE")=="prod":
+            print(f"Connecting to Weaviate at {os.getenv('PROD_HOST')}...")
+            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("PROD_HOST"),http_port=8080,http_secure=False,grpc_host=os.getenv("PROD_HOST"),grpc_port=50051, auth_credentials=Auth.api_key(weaviate_api_key), skip_init_checks=True,grpc_secure=False,)
+        elif os.getenv("HOST_TYPE")=="dev":
+            print(f"Connecting to Weaviate at {os.getenv('DEV_HOST')}...")
+            client = weaviate.connect_to_custom(headers=headers, http_host=os.getenv("DEV_HOST"),http_port=8080,http_secure=False,grpc_host=os.getenv("DEV_HOST"),grpc_port=50051, auth_credentials=Auth.api_key(weaviate_api_key), skip_init_checks=True,grpc_secure=False,)
         if client.is_ready():
             print("Connected to Weaviate")
         else:
