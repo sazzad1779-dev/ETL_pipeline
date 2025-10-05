@@ -41,7 +41,7 @@ class StructToProcess:
                 df["source"]=file_path
                 df["level"]=self.level 
                 df["origin"]=self.origin
-                print(f"[pandas] Loaded '{file_path}' → table '{table_name}' using encoding '{encoding}'")
+                # print(f"[pandas] Loaded '{file_path}' → table '{table_name}' using encoding '{encoding}'")
                 return {table_name: df}
             except UnicodeDecodeError as e:
                 print(f" Encoding '{encoding}' failed for {file_path}: {e}")

@@ -36,7 +36,7 @@ SCHEMA_MAP = {
 class StructuredRunner:
     def __init__(self):
         self.psql = PostgresController()
-        self.psql.delete_all_collections(confirm=True)
+        self.psql.delete_all_collections(confirm=False)
     # --------------------------------------------
     # Database Connection Checks
     # --------------------------------------------
@@ -64,21 +64,8 @@ class StructuredRunner:
     def check_weaviate_connection(self) -> bool:
         try:
             # Try local or remote based on env
-            weaviate_url = os.getenv("WEAVIATE_URL", "http://localhost:8080")
-            print(f"Connecting to Weaviate instance at {weaviate_url} ...")
-
-            from weaviate import connect_to_local, connect_to_weaviate_cloud
-            from weaviate.classes.init import Auth
-
-            if "localhost" in weaviate_url or "127.0.0.1" in weaviate_url:
-                client = connect_to_local()
-            else:
-                api_key = os.getenv("WEAVIATE_API_KEY")
-                client = connect_to_weaviate_cloud(
-                    cluster_url=weaviate_url,
-                    auth_credentials=Auth.api_key(api_key),
-                )
-
+            weaviate_connection =DocumentController()
+            client = weaviate_connection.weaviate_client.client
             if client.is_ready():
                 print("✅ Weaviate connection verified.")
                 client.close()

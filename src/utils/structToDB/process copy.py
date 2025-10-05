@@ -91,7 +91,7 @@ class StructToProcess:
                 chunk = self._rename_duplicate_columns(chunk)
                 mode = "append" if i > 0 else "replace"
                 self._insert_into_sql(chunk, table_name, mode=mode)
-            print(f"[dask] Loaded '{file_path}' → table '{table_name}'")
+            # print(f"[dask] Loaded '{file_path}' → table '{table_name}'")
         except Exception as e:
             print(f"❌ Failed to load {file_path} with Dask: {e}")
 
@@ -123,7 +123,7 @@ class StructToProcess:
                 full_table_name = f"{table_name}_{sheet_name}".lower()
                 self._insert_into_sql(df, full_table_name)
 
-                print(f"[xlsx] Loaded sheet '{sheet_name}' from '{file_path}' → table '{full_table_name}'")
+                # print(f"[xlsx] Loaded sheet '{sheet_name}' from '{file_path}' → table '{full_table_name}'")
 
         except Exception as e:
             print(f"❌ Failed to load Excel file {file_path}: {e}")

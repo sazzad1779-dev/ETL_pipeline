@@ -1,28 +1,88 @@
 from src.controller.docling_controller import DoclingController
 from src.controller.product_controller import ProductsDataController
 from src.controller.weaviate_controller import WeaviateController
-
-from src.schemas.weaviate import  DEFAULT_SCHEMA
+from src.schemas.weaviate import DEFAULT_SCHEMA
 from src.utils.file_loader import FileLoader
 import os
 
 
 class DocumentController:
-    """Processes WordPress data and inserts it into Weaviate."""
-    def __init__(self,dir_path:list=[],collection_name:str="default",level:str = "1",origin:str="s3_bucket", embedding:str="openai",properties=DEFAULT_SCHEMA,collection_delete:bool=False,product:bool=False,allowed_extensions:list=[".pdf", ".docx", ".txt"]):
+    """Processes document data and inserts it into Weaviate."""
+    
+    def __init__(
+        self,
+        dir_path: list = [],
+        collection_name: str = "DemoCollection",
+        level: str = "1",
+        origin: str = "s3_bucket",
+        embedding: str = "openai",
+        properties=DEFAULT_SCHEMA,
+        collection_delete: bool = False,
+        product: bool = False,
+        allowed_extensions: list = [".pdf", ".docx", ".txt"],
+    ):
+        # Initialize Weaviate controller
         self.weaviate_client = WeaviateController(
             collection_name=collection_name,
             embedding_provider=embedding,
             properties=properties,
             collection_delete=collection_delete
         )
+
         self.level = level
         self.origin = origin
+        self.product = product
         self.processor = None
 
-        self.product=product
-        self.process_document()
+        # --- Perform Weaviate Health Check ---
+        if not self._check_weaviate_health():
+            print("❌ Weaviate health check failed. Aborting document processing.")
+            self.weaviate_client = None
+            return
+
+        # Initialize file loader only if Weaviate is healthy
         self.file_loader = FileLoader(directory_paths=dir_path, allowed_extensions=allowed_extensions)
+        self.process_document()
+
+
+    # ---------------------------------------------------------------------
+    # Health Check Method
+    # ---------------------------------------------------------------------
+    def _check_weaviate_health(self) -> bool:
+        """Check if Weaviate is available and responsive."""
+        try:
+            client = self.weaviate_client.client
+            if client is None:
+                print("❌ Weaviate client not initialized.")
+                return False
+
+            # Try to ping the cluster info endpoint
+            meta = client.get_meta()
+            if meta and "version" in meta:
+                print(f"✅ Weaviate is healthy. Version: {meta['version']}")
+                return True
+            else:
+                print("⚠️ Weaviate responded but no version info found.")
+                return False
+
+        except Exception as e:
+            print(f"❌ Weaviate health check failed: {e}")
+            return False
+
+
+    # ---------------------------------------------------------------------
+    # Your existing logic
+    # ---------------------------------------------------------------------
+    def process_document(self):
+        """Run the document extraction and ingestion process."""
+        # You can skip processing if health check failed
+        if not self.weaviate_client:
+            print("⚠️ Skipping document processing due to failed Weaviate connection.")
+            return
+
+        print("📄 Processing documents ...")
+        # your existing doc processing logic
+
         
     def process_document(self):
         if self.product:
