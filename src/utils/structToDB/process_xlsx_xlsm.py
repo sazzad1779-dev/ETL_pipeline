@@ -78,7 +78,7 @@ class ExcelDataExtractor:
     
     def adjust_fields_by_dimension(self, ws):
         extra_fields = []
-        print(ws.max_row)
+    
         if ws.max_row==71:
             self.fields+=[
                 # Business Information
@@ -115,7 +115,7 @@ class ExcelDataExtractor:
         try:
             wb = openpyxl.load_workbook(file_path, data_only=True)
             ws = wb.active
-            print(f"Processing: {Path(file_path).name} ({ws.title}, {ws.max_row}x{ws.max_column})")
+            # print(f"Processing: {Path(file_path).name} ({ws.title}, {ws.max_row}x{ws.max_column})")
             self.adjust_fields_by_dimension(ws)
             extracted, stats = {}, {"found": 0, "not_found": 0}
 
@@ -182,7 +182,7 @@ class ExcelDataExtractor:
 
         print(f"🔄 Processing {len(files)} files...")
         for i, file in enumerate(files, 1):
-            print(f"\n[{i}/{len(files)}] {Path(file).name}")
+            # print(f"\n[{i}/{len(files)}] {Path(file).name}")
             result = self.extract_from_file(file)
             
             if result and "data" in result:

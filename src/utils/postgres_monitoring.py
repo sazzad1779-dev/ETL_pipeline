@@ -495,11 +495,12 @@ class PostgreSQLMonitor:
                 print(f"⚠️ Warning during connection cleanup: {e}")
 
 
-def monitor_public_tables(host_type: str = "dev"):
+def monitor_public_tables():
     """Main monitoring function for public tables (excluding alembic_version)"""
     
     monitor = None
-    
+    host_type=os.getenv("HOST_TYPE")
+    print("HOST_TYPE: ", host_type)
     try:
         host_type = host_type.lower()
         if host_type == "dev":

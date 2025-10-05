@@ -371,11 +371,12 @@ class WeaviateInspector:
                 print(f"⚠️ Warning during client cleanup: {e}")
 
 # Usage Example
-def weaviate_monitor(host_type: str = "dev"):
+def weaviate_monitor():
     """Main function demonstrating usage"""
     print("🔍 Weaviate Collection Inspector")
     print("=" * 50)
-    
+    host_type=os.getenv("HOST_TYPE")
+    print("HOST_TYPE: ", host_type)
     try:
         host_type = host_type.lower()
         if host_type == "dev":
