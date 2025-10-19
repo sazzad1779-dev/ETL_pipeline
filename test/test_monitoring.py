@@ -8,5 +8,5 @@ def weaviate_monitoring():
 def postgres_monitoring():
     monitor_public_tables() #prod #local
 
-postgres_monitoring()
+# postgres_monitoring()
 weaviate_monitoring()
