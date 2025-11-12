@@ -118,3 +118,7 @@ class WeaviateController:
     def show_collection_info(self):
         """Print collection metadata."""
         self.weaviate_utils.print_collection_info(self.collection)
+
+    def client_close(self):
+        self.client.close()
+    

@@ -280,7 +280,7 @@ class WeaviateUtils:
         for item in resp.objects:
             for field in field_list:
                 print(f"{field}:", json.dumps(item.properties.get(field), indent=2, ensure_ascii=False))
-            print("---")
+            print("--"*50)
         return resp.objects
     
     def delete_data_by_source_list(self, file_sources: List[str]):
