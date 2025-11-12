@@ -18,23 +18,6 @@ class Source(BaseModel):
 class WeaviateUtils:
     def __init__(self, collection):
         self.collection = collection
-
-    # def insert_data(self, **kwargs):
-    #     """Insert a single object into the collection."""
-    #     try:
-    #         lengths = {len(v) for v in kwargs.values()}
-    #         if len(lengths) != 1:
-    #             raise ValueError("All property lists must have the same length.")
-    #         data = [dict(zip(kwargs.keys(), vals)) for vals in zip(*kwargs.values())]
-    #         print(f"📥 Inserting {len(data)} items...")
-    #         response = self.collection.data.insert_many(data)
-    #         if response.has_errors:
-    #             print("❌ Insert Errors:", response.errors)
-    #         else:
-    #             print("✅ Insert complete.")
-    #     except  Exception as e :
-    #         print(f"❌ Error: {e}")
-    #         return {"error": str(e)}
     def insert_data(self, **kwargs):
         """Insert a list of objects where each object = {'properties': {...}, 'uuid': ...}."""
         try:
@@ -62,11 +45,6 @@ class WeaviateUtils:
         except Exception as e:
             print(f"❌ Error: {e}")
             return {"error": str(e)}
-
-
-            
-
-
     def run_query(self, query_text, limit=5):
         """Execute a near_text query and print results."""
         print(f"\n🔍 Querying for: {query_text}\n")

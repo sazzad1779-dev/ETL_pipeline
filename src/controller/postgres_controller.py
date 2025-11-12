@@ -4,6 +4,8 @@ from src.config.postgres_config import PG_DB_URL, Base
 from src.utils.relationalDB.postgres_utils import DBUtils
 from pandas import DataFrame
 from typing import Union
+import pandas as pd
+import hashlib
 from sqlalchemy import select, text
 class PostgresController:
     def __init__(self):
@@ -39,15 +41,43 @@ class PostgresController:
             except Exception as e:
                 print(f"Error fetching {model_schema}: {e}")
                 raise
-    def insert_data(self, data: Union[dict, object], model_schema):
-        """Insert data into the specified table."""
-        return self.utils.insert_data(data, model_schema)
     
-    def insert_df(self,df:DataFrame,table_name:str,index:bool=False):
+    # def insert_df(self,df:DataFrame,table_name:str,index:bool=False):
+    #     try:
+    #         df.to_sql(table_name, self.engine, if_exists="append", index=index)
+    #     except Exception as e:
+    #         print(f"❌ Error in df insertion : {e}")
+
+    def insert_df(self, df: DataFrame, table_name: str, index: bool = False):
         try:
-            df.to_sql(table_name, self.engine, if_exists="append", index=index)
+            # 1️⃣ Compute hash for each row
+            def hash_row(row):
+                row_str = "|".join([str(v) for v in row.values])
+                return hashlib.md5(row_str.encode()).hexdigest()
+
+            df["_content_hash"] = df.apply(hash_row, axis=1)
+
+            # 2️⃣ Ensure the column exists in table
+            with self.engine.begin() as conn:
+                conn.execute(text(f"""
+                    ALTER TABLE {table_name} 
+                    ADD COLUMN IF NOT EXISTS _content_hash TEXT UNIQUE;
+                """))
+
+            # 3️⃣ Remove already existing rows based on _content_hash
+            existing_hashes = pd.read_sql(f"SELECT _content_hash FROM {table_name}", self.engine)
+            df = df[~df["_content_hash"].isin(existing_hashes["_content_hash"])]
+
+            # 4️⃣ Insert remaining data
+            if not df.empty:
+                df.to_sql(table_name, self.engine, if_exists="append", index=index)
+                print(f"✅ Inserted {len(df)} new rows into {table_name}.")
+            else:
+                print(f"⚠️ No new data to insert into {table_name}.")
         except Exception as e:
-            print(f"❌ Error in df insertion : {e}")
+            print(f"❌ Error in df insertion: {e}")
+
+
     def delete_all_collections(self, confirm: bool = False):
             """
             Delete (truncate) all tables in the current PostgreSQL database.
@@ -64,7 +94,7 @@ class PostgresController:
                     tables = inspector.get_table_names()
 
                     if not tables:
-                        print("ℹ️ No tables found in the database.")
+                        print("!No tables found in the database.")
                         return
 
                     # Disable FK constraints for truncation
@@ -76,7 +106,7 @@ class PostgresController:
 
                     connection.execute(text("SET session_replication_role = 'origin';"))
                     transaction.commit()
-                    print("✅ All tables truncated successfully!")
+                    print("[\/] All tables truncated successfully!")
 
                 except Exception as e:
                     transaction.rollback()

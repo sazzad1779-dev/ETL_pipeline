@@ -2,7 +2,6 @@ from src.schemas.models_person import Person
 from src.schemas.models_organization import Organization
 from typing import Union,Optional,List
 from sqlalchemy import inspect
-
 class DBUtils:
     def __init__(self,engine,  session_local):
         self.SessionLocal = session_local
