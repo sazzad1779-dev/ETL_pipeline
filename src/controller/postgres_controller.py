@@ -50,6 +50,7 @@ class PostgresController:
 
     def insert_df(self, df: DataFrame, table_name: str, index: bool = False):
         try:
+            print(f"Starting insertion into {table_name} with {len(df)} rows.")
             # 1️⃣ Compute hash for each row
             def hash_row(row):
                 row_str = "|".join([str(v) for v in row.values])

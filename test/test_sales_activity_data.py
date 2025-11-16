@@ -1,5 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv(override=True)
+from src.utils.logger import init_logger
+log = init_logger("daily_etl")
 from src.controller.postgres_controller import PostgresController
 from src.utils.structToDB.process_xlsx_xlsm import ExcelDataExtractor
 

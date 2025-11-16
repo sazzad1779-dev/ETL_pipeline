@@ -8,6 +8,8 @@ from src.schemas.weaviate import PRODUCT_SCHEMA
 from dotenv import load_dotenv
 import os
 from weaviate.classes.init import Auth
+from src.utils.logger  import etl_logger as logger
+
 class WeaviateInspector:
     """A comprehensive Weaviate collection inspector"""
     
@@ -39,10 +41,9 @@ class WeaviateInspector:
             print(f"\n{char * 5} {title} {char * (length - len(title) - 12)}")
         else:
             print(char * length)
-    
     def check_health(self) -> Dict[str, Any]:
         """Check Weaviate instance health and return status info"""
-        print(f"[{self.format_timestamp()}] Checking Weaviate health...")
+        logger.info("Checking Weaviate health...")
         
         health_info = {
             'ready': False,
@@ -65,6 +66,7 @@ class WeaviateInspector:
                 if 'modules' in meta:
                     health_info['modules'] = list(meta['modules'].keys())
             except Exception as e:
+                logger.warning(f"Meta info error: {e}")
                 health_info['error'] = f"Meta info error: {e}"
             
             # Try to get cluster information
@@ -74,9 +76,11 @@ class WeaviateInspector:
                 elif hasattr(self.client.cluster, 'get_nodes'):
                     health_info['cluster_info'] = self.client.cluster.get_nodes()
             except Exception:
+                logger.warning("Cluster info not available or error occurred.")
                 health_info['cluster_info'] = "Single node deployment"
                 
         except Exception as e:
+            logger.error(f"Weaviate health check error: {e}")
             health_info['error'] = str(e)
         
         self.health_info = health_info
@@ -140,6 +144,7 @@ class WeaviateInspector:
                         collection_info['sample_objects'].append(sample_data)
                         
                 except Exception as e:
+                    logger.warning(f"Sample data error: {e}")
                     collection_info['error'] = f"Sample data error: {e}"
             
             # Get collection configuration
@@ -194,17 +199,17 @@ class WeaviateInspector:
                                 collection_info['index_config']['details'][attr] = value
                         
             except Exception as e:
+                logger.warning(f"Config error: {e}")
                 collection_info['error'] = f"Config error: {e}"
                 
         except Exception as e:
+            logger.error(f"Collection access error: {e}")
             collection_info['error'] = f"Collection access error: {e}"
         
         return collection_info
     
     def inspect_all_collections(self) -> Dict[str, Any]:
         """Inspect all collections and return comprehensive information"""
-        print(f"[{self.format_timestamp()}] Starting comprehensive collection inspection...")
-        
         inspection_result = {
             'timestamp': self.format_timestamp(),
             'collections': {},
@@ -229,7 +234,6 @@ class WeaviateInspector:
             
             # Inspect each collection
             for collection_name in all_collections.keys():
-                print(f"  Inspecting collection: {collection_name}")
                 collection_info = self.get_collection_info(collection_name)
                 inspection_result['collections'][collection_name] = collection_info
                 inspection_result['summary']['total_objects'] += collection_info['total_objects']
@@ -238,6 +242,7 @@ class WeaviateInspector:
             return inspection_result
             
         except Exception as e:
+            logger.error(f"Weaviate inspection error: {e}")
             inspection_result['error'] = str(e)
             return inspection_result
     
@@ -246,18 +251,18 @@ class WeaviateInspector:
         if not self.health_info:
             self.check_health()
             
-        self.print_separator("WEAVIATE HEALTH REPORT", "=")
+        logger.info("Weaviate Health Information:")
         
         health = self.health_info
-        print(f"✅ Ready: {health['ready']}")
-        print(f"✅ Live: {health['live']}")
-        print(f"✅ Version: {health['version']}")
+        logger.info(f"Version: {health['version']}")
+        logger.info(f"Ready: {health['ready']}, Live: {health['live']}")
+
         
         if health['cluster_info']:
             if isinstance(health['cluster_info'], str):
-                print(f"✅ Cluster: {health['cluster_info']}")
+                logger.info(f"Cluster: {health['cluster_info']}")
             else:
-                print(f"✅ Cluster Nodes: {len(health['cluster_info'])}")
+                logger.info(f"Cluster Nodes: {len(health['cluster_info'])}")
         
         if health['modules']:
             # Categorize modules
@@ -266,87 +271,77 @@ class WeaviateInspector:
             generative_modules = [m for m in health['modules'] if 'generative' in m]
             other_modules = [m for m in health['modules'] if m not in text_modules + multi_modules + generative_modules]
             
-            print(f"✅ Modules ({len(health['modules'])} total):")
+            logger.info(f"Modules ({len(health['modules'])} total):")
             if text_modules:
-                print(f"   📝 Text Vectorizers: {len(text_modules)}")
+                logger.info(f"   📝 Text Vectorizers: {len(text_modules)}")
             if multi_modules:
-                print(f"   🔄 Multi Vectorizers: {len(multi_modules)}")
+                logger.info(f"   🔄 Multi Vectorizers: {len(multi_modules)}")
             if generative_modules:
-                print(f"   🤖 Generative: {len(generative_modules)}")
+                logger.info(f"   🤖 Generative: {len(generative_modules)}")
             if other_modules:
-                print(f"   🔧 Other: {len(other_modules)}")
+                logger.info(f"   🔧 Other: {len(other_modules)}")
         
         if health['error']:
-            print(f"⚠️ Errors: {health['error']}")
+            logger.error(f"Errors: {health['error']}")
     
     def print_collection_report(self, collection_name: str = None):
         """Print detailed collection report"""
         if not self.collections_info:
-            print("⚠️ No collection data available. Run inspect_all_collections() first.")
+            logger.info("No collection data available. Run inspect_all_collections() first.")
             return
         
         collections_to_show = [collection_name] if collection_name else list(self.collections_info['collections'].keys())
         
         for name in collections_to_show:
             if name not in self.collections_info['collections']:
-                print(f"❌ Collection '{name}' not found")
+                logger.warning(f"Collection '{name}' not found")
                 continue
                 
             collection = self.collections_info['collections'][name]
-            
-            self.print_separator(f"COLLECTION: {name}", "*")
-            
-            print(f"📊 Basic Information:")
-            print(f"   Total Objects: {collection['total_objects']:,}")
-            print(f"   Query Time: {collection['query_time']:.3f}s")
-            print(f"   Properties ({len(collection['properties'])}):")
-
+            collection_details = "\n"
+            collection_details += f"Collection '{name}': {collection['total_objects']} objects, \nQueried in {collection['query_time']:.3f}s\n Properties:\n" 
             # Properties information
             if collection['properties']:
                 for prop_name, prop_info in collection['properties'].items():
-                    print(f"   • {prop_name}: {prop_info['data_type']}")
+                    collection_details +=f"\n • {prop_name}: {prop_info['data_type']}"
                 
                 # Property type distribution
                 if collection['property_types']:
-                    print(f"\n📈 Type Distribution:")
+                    collection_details +=f"\n Property Types Distribution:"
                     for prop_type, props in collection['property_types'].items():
-                        print(f"   {prop_type}: {len(props)} properties")
+                        collection_details +=f"\n   {prop_type}: {len(props)} properties"
             
             # Sample data
             if collection['sample_objects']:
                 for i, sample in enumerate(collection['sample_objects']):
-                    print(f"\n   Sample {i} (UUID: {sample['uuid'][:8]}...):")
+                    collection_details +=f"\n Sample Object {i+1} (UUID: {sample['uuid']}):"
                     if sample['properties']:
-                        print(f"     Properties:")
+                        collection_details +=f"\n     Properties:"
                         for key, value in sample['properties'].items():
                             if key=="content":
-                                print(f"       chunk size: {len(value)}")
+                                collection_details +=f"\n       {key}: {value[:100]}..."
                     if sample['vectors']:
-                        print(f"     Vectors:")
+                        collection_details +=f"\n     Vectors:"
                         for vector_name, dimensions in sample['vectors'].items():
-                            print(f"       {vector_name}: {dimensions} dimensions")
-
+                            collection_details +=f"\n       {vector_name}: {dimensions} dimensions"
+            logger.info(collection_details )
             if collection['error']:
-                print(f"\n⚠️ Errors: {collection['error']}")
+                logger.error(f" Errors: {collection['error']}")
     
     def print_summary(self):
         """Print overall summary"""
         if not self.collections_info:
-            print("⚠️ No collection data available.")
+            logger.info("No collection data available. ")
             return
             
-        self.print_separator("INSPECTION SUMMARY", "=")
-        
+        logger.info("Weaviate Collections Summary:")
         summary = self.collections_info['summary']
-        print(f"🗂️ Total Collections: {summary['total_collections']}")
-        print(f"📄 Total Objects: {summary['total_objects']:,}")
-        print(f"⏰ Inspection Time: {self.collections_info['timestamp']}")
-        
+        logger.info(f" \nTotal Collections: {summary['total_collections']}\n Total Objects: {summary['total_objects']:,}\nInspection Time: {self.collections_info['timestamp']}")
+
         if summary['collection_names']:
-            print(f"\n📋 Collections Found:")
             for i, name in enumerate(summary['collection_names'], 1):
                 collection = self.collections_info['collections'][name]
-                print(f"   {i}. {name} ({collection['total_objects']:,} objects)")
+                logger.info(f"   {i}. {name} ({collection['total_objects']:,} objects)")
         
     
     def get_collection_data(self, collection_name: str) -> Dict[str, Any]:
@@ -366,17 +361,13 @@ class WeaviateInspector:
         if self.client:
             try:
                 self.client.close()
-                print(f"✅ [{self.format_timestamp()}] Weaviate client connection closed.")
             except Exception as e:
-                print(f"⚠️ Warning during client cleanup: {e}")
+                logger.error(f"Error closing Weaviate client: {e}")
 
 # Usage Example
 def weaviate_monitor():
     """Main function demonstrating usage"""
-    print("🔍 Weaviate Collection Inspector")
-    print("=" * 50)
     host_type=os.getenv("HOST_TYPE")
-    print("HOST_TYPE: ", host_type)
     try:
         host_type = host_type.lower()
         if host_type == "dev":
@@ -386,6 +377,7 @@ def weaviate_monitor():
         elif host_type == "local":
             host = "localhost"
         else:
+            logger.error(f"Invalid host type: {host_type}")
             raise ValueError(f"Invalid host type: {host_type}")
         
 
@@ -405,11 +397,11 @@ def weaviate_monitor():
         
         # Example of programmatic usage
         all_collections = inspector.get_all_collection_names()
-        print(f"\nProgrammatic access - Collections: {all_collections}")
+
         
-        for collection_name in all_collections:
-            data = inspector.get_collection_data(collection_name)
-            print(f"{collection_name}: {data['total_objects']} objects")
+        # for collection_name in all_collections:
+        #     data = inspector.get_collection_data(collection_name)
+            # print(f"Collection '{collection_name}' data keys: {list(data.keys())}")
         
     except Exception as e:
         print(f"❌ Error: {e}")
