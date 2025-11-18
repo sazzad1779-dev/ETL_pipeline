@@ -8,7 +8,7 @@ from src.schemas.weaviate import PRODUCT_SCHEMA
 from dotenv import load_dotenv
 import os
 from weaviate.classes.init import Auth
-from src.utils.logger  import etl_logger as logger
+from src.utils.logger_config  import  logger
 
 class WeaviateInspector:
     """A comprehensive Weaviate collection inspector"""
@@ -35,12 +35,6 @@ class WeaviateInspector:
         """Return formatted timestamp for logging"""
         return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
-    def print_separator(self, title: str = "", char: str = "-", length: int = 60):
-        """Print a formatted separator line"""
-        if title:
-            print(f"\n{char * 5} {title} {char * (length - len(title) - 12)}")
-        else:
-            print(char * length)
     def check_health(self) -> Dict[str, Any]:
         """Check Weaviate instance health and return status info"""
         logger.info("Checking Weaviate health...")
@@ -273,14 +267,13 @@ class WeaviateInspector:
             
             logger.info(f"Modules ({len(health['modules'])} total):")
             if text_modules:
-                logger.info(f"   📝 Text Vectorizers: {len(text_modules)}")
+                logger.info(f" Text Vectorizers: {len(text_modules)}")
             if multi_modules:
-                logger.info(f"   🔄 Multi Vectorizers: {len(multi_modules)}")
-            if generative_modules:
-                logger.info(f"   🤖 Generative: {len(generative_modules)}")
-            if other_modules:
-                logger.info(f"   🔧 Other: {len(other_modules)}")
-        
+                logger.info(f" Multi Vectorizers: {len(multi_modules)}")
+        if generative_modules:
+                logger.info(f" Generative: {len(generative_modules)}")
+        if other_modules:
+                logger.info(f" Other: {len(other_modules)}")
         if health['error']:
             logger.error(f"Errors: {health['error']}")
     
@@ -350,11 +343,7 @@ class WeaviateInspector:
             return {}
         return self.collections_info['collections'][collection_name]
     
-    def get_all_collection_names(self) -> List[str]:
-        """Get list of all collection names"""
-        if not self.collections_info:
-            return []
-        return self.collections_info['summary']['collection_names']
+
     
     def close(self):
         """Close the Weaviate client connection"""
@@ -395,16 +384,8 @@ def weaviate_monitor():
         inspector.print_collection_report()
         inspector.print_summary()
         
-        # Example of programmatic usage
-        all_collections = inspector.get_all_collection_names()
-
-        
-        # for collection_name in all_collections:
-        #     data = inspector.get_collection_data(collection_name)
-            # print(f"Collection '{collection_name}' data keys: {list(data.keys())}")
-        
     except Exception as e:
-        print(f"❌ Error: {e}")
+        logger.error(f"Weaviate monitoring error: {e}")
         import traceback
         traceback.print_exc()
     

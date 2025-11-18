@@ -2,11 +2,11 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import time
 from datetime import datetime
-from typing import Dict, List, Any, Optional
+from typing import Dict,  Any
 from dotenv import load_dotenv
 import os
 from urllib.parse import urlparse
-
+from src.utils.logger_config  import  logger
 class PostgreSQLMonitor:
     """A comprehensive PostgreSQL monitor for public schema (excluding alembic_version)"""
     
@@ -46,39 +46,29 @@ class PostgreSQLMonitor:
                 }
             
         except Exception as e:
-            raise ValueError(f"Invalid database URL format: {e}")
+            logger.error(f"Error parsing database URL: {e}")
     
     def format_timestamp(self) -> str:
         """Return formatted timestamp for logging"""
         return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
-    def print_separator(self, title: str = "", char: str = "-", length: int = 60):
-        """Print a formatted separator line"""
-        if title:
-            print(f"\n{char * 5} {title} {char * (length - len(title) - 12)}")
-        else:
-            print(char * length)
+
     
     def connect(self) -> bool:
         """Establish connection to PostgreSQL"""
         try:
-            print(f"[{self.format_timestamp()}] Connecting to PostgreSQL...")
-            print(f"   Host: {self.connection_params['host']}")
-            print(f"   Database: {self.connection_params['database']}")
-            print(f"   User: {self.connection_params['user']}")
+            logger.debug("Establishing PostgreSQL connection...,")
+            logger.debug(f" Host: {self.connection_params['host']}, Database: {self.connection_params['database']}, User: {self.connection_params['user']}")
             
             self.connection = psycopg2.connect(**self.connection_params)
             # Set autocommit mode immediately after connection
             self.connection.autocommit = True
-            print(f"✅ [{self.format_timestamp()}] Successfully connected to PostgreSQL")
             return True
         except Exception as e:
-            print(f"❌ Connection failed: {e}")
+            logger.error(f"Connection failed: {e}")
             return False
     
     def check_health(self) -> Dict[str, Any]:
         """Check PostgreSQL health and return status info"""
-        print(f"[{self.format_timestamp()}] Checking PostgreSQL health...")
         
         health_info = {
             'connected': False,
@@ -227,7 +217,7 @@ class PostgreSQLMonitor:
                             'index_size_bytes': size_info['index_size_bytes']
                         })
                 except Exception as size_error:
-                    print(f"   ⚠️  Size calculation failed for {table_name}: {size_error}")
+                    logger.warning(f"Size calculation failed for {table_name}: {size_error}")
                 
                 # Get column information
                 cursor.execute("""
@@ -326,7 +316,7 @@ class PostgreSQLMonitor:
                             table_info['sample_data'].append(sample_data)
                             
                     except Exception as e:
-                        print(f"   ⚠️  Sample data error for {table_name}: {e}")
+                        logger.warning(f"Sample data retrieval failed for {table_name}: {e}")
                 
                 # Get table statistics
                 cursor.execute("""
@@ -354,13 +344,13 @@ class PostgreSQLMonitor:
                 
         except Exception as e:
             # No need to rollback since we're in autocommit mode
+
             table_info['error'] = str(e)
         
         return table_info
     
     def inspect_public_tables(self) -> Dict[str, Any]:
         """Inspect all tables in public schema except alembic_version"""
-        print(f"[{self.format_timestamp()}] Starting public schema inspection (excluding alembic_version)...")
         
         inspection_result = {
             'timestamp': self.format_timestamp(),
@@ -404,7 +394,6 @@ class PostgreSQLMonitor:
                 
                 # Inspect each table
                 for table_name in table_names:
-                    print(f"  Inspecting table: {table_name}")
                     table_info = self.get_table_info(table_name)
                     inspection_result['tables'][table_name] = table_info
                     inspection_result['summary']['total_rows'] += table_info.get('row_count', 0)
@@ -421,68 +410,41 @@ class PostgreSQLMonitor:
         """Print formatted health report"""
         if not self.health_info:
             self.check_health()
-        
-        self.print_separator("POSTGRESQL HEALTH REPORT", "=")
-        
         health = self.health_info
-        print(f"✅ Connected: {health['connected']}")
-        print(f"✅ Version: {health['version']}")
-        print(f"✅ Uptime: {health['uptime']}")
-        print(f"✅ Role: {health['replica_status']}")
-        print(f"📊 Connections: {health['active_connections']}/{health['max_connections']}")
-        print(f"💾 Database Size: {health['database_size']}")
-        print(f"🎯 Cache Hit Ratio: {health['cache_hit_ratio']:.1f}%")
-        print(f"📇 Index Hit Ratio: {health['index_hit_ratio']:.1f}%")
-        
-    
+        logger.info(f"PostgreSQL Health Report: Connected={health['connected']}, Version={health['version']}, Uptime={health['uptime']}, Role={health['replica_status']}, Active Connections={health['active_connections']}/{health['max_connections']}, Database Size={health['database_size']}, Cache Hit Ratio={health['cache_hit_ratio']:.1f}%, Index Hit Ratio={health['index_hit_ratio']:.1f}%")
         
         if health['error']:
-            print(f"❌ Errors: {health['error']}")
+            logger.error(f" Errors: {health['error']}")
     
     def print_table_reports(self):
         """Print detailed reports for all tables"""
         if not self.database_info:
-            print("⚠️ No database data available. Run inspect_public_tables() first.")
+            logger.warning("No database info available. Run inspect_public_tables() first.")
             return
         
         for table_name, table_info in self.database_info['tables'].items():
-            self.print_separator(f"TABLE: public.{table_name}", "*")
-            
-            print(f"📊 Basic Information:")
-            print(f"   Total Rows: {table_info.get('row_count', 0):,}")
-            print(f"   Total Columns: {len(table_info.get('columns', {}))}")
-            print(f"   Table Size: {table_info.get('table_size', '0 bytes')}")
-            print(f"   Index Size: {table_info.get('index_size', '0 bytes')}")
-            print(f"   Total Size: {table_info.get('total_size', '0 bytes')}")
-            print(f"   Query Time: {table_info.get('query_time', 0):.3f}s")
-
+            logger.info(f"PostgreSQL Table Report - {table_name}: {table_info.get('row_count', 0):,} rows, {len(table_info.get('columns', {}))} columns,  Size: {table_info.get('total_size', '0 bytes')}, Query Time: {table_info.get('query_time', 0):.3f}s")
             
             if table_info.get('error'):
-                print(f"\n⚠️ Errors: {table_info['error']}")
-    
+                logger.error(f"Errors: {table_info['error']}")
+
     def print_summary(self):
         """Print overall summary"""
         if not self.database_info:
-            print("⚠️ No database data available.")
+            logger.warning("No database info available. ")
             return
-        
-        self.print_separator("INSPECTION SUMMARY", "=")
         
         summary = self.database_info['summary']
         total_size_mb = summary['total_size_bytes'] / (1024 * 1024) if summary['total_size_bytes'] > 0 else 0
-        
-        print(f"📄 Total Tables: {summary['total_tables']}")
-        print(f"📊 Total Rows: {summary['total_rows']:,}")
-        print(f"💾 Total Size: {total_size_mb:.2f} MB")
-        print(f"⏰ Inspection Time: {self.database_info['timestamp']}")
+        logger.info(f"PostgreSQL Inspection Summary: {summary['total_tables']} tables, {summary['total_rows']:,} rows, {total_size_mb:.2f} MB total size., Time: {self.database_info['timestamp']}")
         
         if summary['table_names']:
-            print(f"\n📋 Tables Found:")
+            logger.info(" Tables Found:")
             for table_name in summary['table_names']:
                 table_info = self.database_info['tables'][table_name]
                 row_count = table_info.get('row_count', 0)
                 table_size = table_info.get('table_size', '0 bytes')
-                print(f"   • {table_name}: {row_count:,} rows ({table_size})")
+                logger.info(f"   • {table_name}: {row_count:,} rows ({table_size})")
 
     
     def close(self):
@@ -490,9 +452,9 @@ class PostgreSQLMonitor:
         if self.connection:
             try:
                 self.connection.close()
-                print(f"✅ [{self.format_timestamp()}] PostgreSQL connection closed.")
+                logger.debug(f"PostgreSQL connection closed.")
             except Exception as e:
-                print(f"⚠️ Warning during connection cleanup: {e}")
+                logger.warning(f"Warning during connection cleanup: {e}")
 
 
 def monitor_public_tables():
@@ -500,7 +462,6 @@ def monitor_public_tables():
     
     monitor = None
     host_type=os.getenv("HOST_TYPE")
-    print("HOST_TYPE: ", host_type)
     try:
         host_type = host_type.lower()
         if host_type == "dev":
@@ -510,6 +471,7 @@ def monitor_public_tables():
         elif host_type == "local":
             host = "localhost"
         else:
+            logger.error(f"Invalid host type: {host_type}")
             raise ValueError(f"Invalid host type: {host_type}")
         # Create monitor
         monitor = PostgreSQLMonitor(host=host)
@@ -517,7 +479,7 @@ def monitor_public_tables():
         # Run health check
         health = monitor.check_health()
         if not health.get('connected'):
-            print(f"❌ Health check failed: {health.get('error', 'Unknown error')}")
+            logger.error(f"Health check failed: {health.get('error', 'Unknown error')}")
             return
         
         monitor.print_health_report()
@@ -526,18 +488,16 @@ def monitor_public_tables():
         result = monitor.inspect_public_tables()
         
         if result.get('error'):
-            print(f"❌ Inspection failed: {result['error']}")
+            logger.error(f"Inspection failed: {result['error']}")
             return
         
         # Print reports
         monitor.print_table_reports()
         monitor.print_summary()
-        
-        
-        print("\n🎉 Monitoring completed successfully!")
+        logger.info("PostgreSQL monitoring completed successfully.")
         
     except Exception as e:
-        print(f"❌ Monitoring failed: {e}")
+        logger.error(f"Monitoring failed: {e}")
         import traceback
         traceback.print_exc()
     
