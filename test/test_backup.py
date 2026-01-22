@@ -32,11 +32,13 @@ def weaviate_backup_restore():
     PROD_PATH = os.path.join(os.getenv("S3_WEAVIATE_PATH"), "prod")
 
     # 1 Backup DEV
-    dev_backup = WeaviateBackupRestore(DEV_HOST)
-    backup_location, backup_id = dev_backup.create_backup(DEV_PATH)
+    dev_backup = WeaviateBackupRestore(LOCAL_HOST)
+    backup_location, backup_id = dev_backup.create_backup(LOCAL_HOST)
     dev_backup.close()
 
+    print("backup_location:", backup_location, "backup_id:", backup_id)
     # 2 Restore to PROD (with automatic class deletion)
-    prod_restore = WeaviateBackupRestore(LOCAL_HOST)
+    prod_restore = WeaviateBackupRestore(DEV_HOST)
     prod_restore.restore_backup(backup_id, backup_location, delete_existing=True)
     prod_restore.close()
+weaviate_backup_restore()

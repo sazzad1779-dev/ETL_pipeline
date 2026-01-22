@@ -39,8 +39,8 @@ services:
 
       ## s3 backup configuration
       BACKUP_S3_ENDPOINT: s3.amazonaws.com
-      BACKUP_S3_BUCKET: vectordb.backup
-      BACKUP_S3_PATH: weaviate/prod
+      BACKUP_S3_BUCKET: sevensix-weaviate #vectordb.backup
+      BACKUP_S3_PATH: dev
       BACKUP_S3_REGION: ap-northeast-1
       # AWS credentials from .env
       AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
