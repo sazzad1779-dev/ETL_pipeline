@@ -45,6 +45,56 @@ class WeaviateUtils:
         except Exception as e:
             print(f"❌ Error: {e}")
             return {"error": str(e)}
+    def insert_data_new(self, content, source, level, origin, chunk_index):
+        """
+        Insert data into Weaviate using separate lists:
+            content : List[str]  -> chunks of text
+            source  : List[str]  -> corresponding source URLs
+            kwargs  : other aligned lists, e.g., level, origin, chunk_index
+
+        All lists must have the same length.
+        """
+        try:
+            # ✅ Validate lengths
+            all_lists = [content, source, level, origin, chunk_index]
+            lengths = {len(lst) for lst in all_lists}
+            if len(lengths) != 1:
+                raise ValueError(f"All input lists must have the same length, found lengths={lengths}")
+
+            data_objects = []
+
+            # Build each object row by row
+            for i in range(len(content)):
+                # Basic properties: content + source
+                properties = {
+                    "content": content[i],
+                    "source": source[i],
+                    "level": level[i],
+                    "origin": origin[i],
+                    "chunk_index": chunk_index[i],
+                }
+
+                
+
+                # Create the DataObject
+                obj = wvc.data.DataObject(
+                    properties=properties,
+                    uuid=generate_uuid5(properties)  # your existing UUID function
+                )
+                data_objects.append(obj)
+
+            print(f"📥 Inserting {len(data_objects)} items...")
+            response = self.collection.data.insert_many(data_objects)
+
+            if response.has_errors:
+                print("❌ Insert Errors:", response.errors)
+            else:
+                print("✅ Insert complete.")
+
+        except Exception as e:
+            print(f"❌ Error: {e}")
+            return {"error": str(e)}
+
     def run_query(self, query_text, limit=5):
         """Execute a near_text query and print results."""
         print(f"\n🔍 Querying for: {query_text}\n")

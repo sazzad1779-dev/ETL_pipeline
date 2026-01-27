@@ -93,6 +93,9 @@ class WeaviateController:
 
     def insert_data_from_lists(self, **kwargs):
         self.weaviate_utils.insert_data(**kwargs )
+    def insert_data_from_lists_new(self,  content, source, **kwargs):
+        self.weaviate_utils.insert_data_new(content=content, source=source, **kwargs )
+        
     # --- Methods calling utils ---
     def query_data(self, query_text, limit=5):
         self.weaviate_utils.run_query(query_text, limit)
