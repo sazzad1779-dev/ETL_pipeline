@@ -115,8 +115,8 @@ chunks, sources = csv_to_chunks_and_sources(csv_path)
 print(chunks[:2])  # Print first 2 chunks for verification
 print(sources[:2])  # Print first 2 sources for verification
 
-weaviate_client.insert_data_from_lists(
-            content=chunks,
-            source=sources,
-        )
-print("successfully inserted!")
+# weaviate_client.insert_data_from_lists(
+#             content=chunks,
+#             source=sources,
+#         )
+# print("successfully inserted!")
